@@ -1,20 +1,23 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'com.google.firebase.crashlytics'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 31
     defaultConfig {
-        applicationId "com.ngt.red"
         minSdkVersion 21
-        targetSdkVersion 29
-        versionCode 1902
-        versionName "1.902"
+        targetSdkVersion 31
+        versionCode 1910
+        versionName "1.910"
+        applicationId "com.ngt.red"
     }
     buildTypes {
         release {
+            manifestPlaceholders = [crashlyticsEnabled: true]
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            manifestPlaceholders = [crashlyticsEnabled: true]
         }
     }
     flavorDimensions "version"
@@ -76,7 +79,11 @@ android {
 
 dependencies {
     implementation project(':CampfireSDK')
-    implementation 'com.appodeal.ads:sdk:2.6.4.1'
+    implementation ('com.appodeal.ads:sdk:2.11.1.+') {
+        exclude group: 'com.appodeal.ads.sdk.networks', module: 'adcolony'
+        exclude group: 'com.appodeal.ads.sdk.networks', module: 'unity_ads'
+        exclude group: 'com.appodeal.ads.sdk.networks', module: 'vungle'
+    }
 }
 
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {

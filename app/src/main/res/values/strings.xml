@@ -69,4 +69,8 @@
     <string name="notification_alarm_maps">New maps are available!</string>
 
 
+    <string name="info_message">The application collects some diagnostic data, including it can collect data about installed applications.</string>
+    <string name="info_button">Privacy policy.</string>
+    <string name="info_title">Information</string>
+
 </resources>

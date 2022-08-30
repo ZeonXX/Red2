@@ -26,8 +26,8 @@ class SDrafts(
     init {
         vFab.setImageResource(R.drawable.ic_add_white_24dp)
         (vFab as View).visibility = View.VISIBLE
-        vFab.setOnClickListener { ControllerGuides.toCreateScreen(fandomId, Navigator.SET) }
-        //vFab.setOnClickListener { ControllerGuides.toCreateScreen(Navigator.SET) }
+        //vFab.setOnClickListener { ControllerGuides.toCreateScreen(fandomId, Navigator.SET) }
+        vFab.setOnClickListener { ControllerGuides.toCreateScreen(Navigator.SET) }
         vRefresh!!.setBackgroundColor(0x0000000)
 
         setTextEmpty(R.string.post_drafts_empty_text)
@@ -44,8 +44,8 @@ class SDrafts(
                     .setAppKey(Constants.getAppKey())
                     .onComplete { r ->
                         onLoad.invoke(Array(r.publications.size) { UnitPostParsed(r.publications[it] as PublicationPost) })
-                        if (adapter.isEmpty && r.publications.isEmpty()) ControllerGuides.toCreateScreen(fandomId, Navigator.REPLACE)
-                        //if (adapter.isEmpty && r.publications.isEmpty()) ControllerGuides.toCreateScreen(Navigator.REPLACE)
+                        //if (adapter.isEmpty && r.publications.isEmpty()) ControllerGuides.toCreateScreen(fandomId, Navigator.REPLACE)
+                        if (adapter.isEmpty && r.publications.isEmpty()) ControllerGuides.toCreateScreen(Navigator.REPLACE)
                     }
                     .onNetworkError { onLoad.invoke(null) }
                     .send(api)

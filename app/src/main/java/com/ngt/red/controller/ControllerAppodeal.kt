@@ -15,8 +15,6 @@ object ControllerAppodeal {
     private var lastShow = System.currentTimeMillis()
 
     fun init(activity: Activity) {
-        Appodeal.disableLocationPermissionCheck()
-        Appodeal.disableWriteExternalStoragePermissionCheck()
         Appodeal.initialize(activity, ControllerGuides.appodialAppId, Appodeal.INTERSTITIAL, false)
 
         Appodeal.setInterstitialCallbacks(object : InterstitialCallbacks {

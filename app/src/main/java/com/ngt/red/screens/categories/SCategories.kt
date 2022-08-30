@@ -12,6 +12,7 @@ import com.ngt.red.controller.ControllerStorage
 import com.ngt.red.models.EventStyleChanged
 import com.ngt.red.models.Guide
 import com.ngt.red.screens.file_create.SCreateFile
+import com.ngt.red.screens.info.SInfo
 import com.ngt.red.screens.style.SStyles
 import com.sayzen.campfiresdk.controllers.ControllerApi
 import com.sup.dev.android.libs.screens.Screen
@@ -38,6 +39,11 @@ class SCategories constructor(parentCategory: Guide? = null) : Screen(R.layout.s
         val vStyles = findViewById<ViewIcon>(R.id.styles)
         vStyles.visibility = if (parentCategory == null) View.VISIBLE else View.GONE
         vStyles.setOnClickListener { v -> Navigator.to(SStyles()) }
+
+
+        val vInfo = findViewById<ViewIcon>(R.id.info)
+        vInfo.visibility = if (parentCategory == null) View.VISIBLE else View.GONE
+        vInfo.setOnClickListener { v -> Navigator.to(SInfo()) }
 
         val vRecycler = findViewById<RecyclerView>(R.id.vRecycler)
         vRecycler.layoutManager = LinearLayoutManager(context)

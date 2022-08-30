@@ -67,4 +67,8 @@
     <string name="notification_alarm_guides">Доступны новые гайды!</string>
     <string name="notification_alarm_maps">Доступны новые карты!</string>
 
+    <string name="info_message">Приложение собирает некоторые диагностические данные, в том числе может собирать данные об установленных приложениях.</string>
+    <string name="info_button">Политика конфиденциальности</string>
+    <string name="info_title">Информация</string>
+
 </resources>

@@ -1,16 +1,1 @@
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        google()
-        mavenCentral()
-    }
-}
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-rootProject.name = "Red2"
-include ':app'
+include ':app', ':DevSupJava', ':DevSupAndroid', ':CampfireApi', ':CampfireApiMedia', ':DevSupAndroidGoogle', ':CampfireSDK'
