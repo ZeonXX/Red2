@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Root.Content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout style="@style/AppBar">
+
+        <androidx.appcompat.widget.Toolbar
+            style="@style/Toolbar"
+            app:title="@string/app_draft" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+
+            <com.sup.dev.android.views.views.layouts.LayoutAspectRatio
+                android:id="@+id/vImageTouch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="?selectableItemBackground"
+                app:LayoutAspectRatio_h="1"
+                app:LayoutAspectRatio_w="2">
+
+                <ImageView
+                    android:id="@+id/vImageBack"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/draft_1" />
+
+                <ImageView
+                    android:id="@+id/vImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@color/focus_dark" />
+
+                <TextView
+                    android:id="@+id/vPlus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/app_choose_image" />
+
+            </com.sup.dev.android.views.views.layouts.LayoutAspectRatio>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout.Outlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp">
+
+                <EditText
+                    android:id="@+id/vTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/app_title"
+                    android:inputType="textAutoComplete|textAutoCorrect|textCapSentences" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout.Outlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp">
+
+                <EditText
+                    android:id="@+id/vDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:hint="@string/app_description"
+                    android:inputType="textAutoComplete|textAutoCorrect|textCapSentences|textImeMultiLine|text|textMultiLine"
+                    android:minHeight="102dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="24dp"
+                android:gravity="center"
+                android:text="@string/select_screens_hint" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@color/focus_dark">
+
+                    <ImageView
+                        android:id="@+id/vImage_1"
+                        android:layout_width="90dp"
+                        android:layout_height="45dp"
+                        android:scaleType="fitCenter" />
+
+                    <ImageView
+                        android:id="@+id/vImagePlus_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_add_white_24dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@color/focus_dark">
+
+                    <ImageView
+                        android:id="@+id/vImage_2"
+                        android:layout_width="90dp"
+                        android:layout_height="45dp"
+                        android:scaleType="fitCenter" />
+
+                    <ImageView
+                        android:id="@+id/vImagePlus_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_add_white_24dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@color/focus_dark">
+
+                    <ImageView
+                        android:id="@+id/vImage_3"
+                        android:layout_width="90dp"
+                        android:layout_height="45dp"
+                        android:scaleType="fitCenter" />
+
+                    <ImageView
+                        android:id="@+id/vImagePlus_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_add_white_24dp" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="24dp"
+                android:gravity="center"
+                android:text="@string/select_map_hint" />
+
+            <Button
+                android:id="@+id/vFile"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="24dp"
+                android:text="@string/select_file" />
+
+            <Button
+                android:id="@+id/vGenre"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="24dp"
+                android:text="@string/select_type" />
+
+            <Button
+                android:id="@+id/vFinish"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="@color/green_700"
+                android:text="@string/app_publish" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

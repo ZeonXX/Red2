@@ -1,0 +1,72 @@
+<resources>
+
+    <string name="app_cancel">Cancel</string>
+    <string name="post_drafts_empty_text">You don\'t have any drafts yet</string>
+    <string name="app_drafts">Drafts</string>
+    <string name="app_draft">Draft</string>
+    <string name="app_save">Save</string>
+    <string name="app_remove">Remove</string>
+    <string name="app_publish">Publish</string>
+    <string name="app_done">Done</string>
+    <string name="app_choose_image">Choose image</string>
+    <string name="app_title">Title</string>
+    <string name="app_description">Description</string>
+    <string name="app_change">Change</string>
+    <string name="app_open">Open</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_cant_load_image">Can\'t load image</string>
+    <string name="app_language">Language</string>
+    <string name="app_category">Category</string>
+    <string name="app_other">Other</string>
+    <string name="app_all">All</string>
+    <string name="app_copied">Copied</string>
+
+    <string name="name_red">Redstone</string>
+    <string name="name_build">Building</string>
+    <string name="name_chem">Chemistry</string>
+    <string name="name_cb">Command Block</string>
+    <string name="name_building">Buildings</string>
+
+    <string name="app_name_total">Guide for Minecraft</string>
+    <string name="app_name_total_desc">All my guides are combined in the new application. The app is better, faster and weighs less. Download, support the developer. :)  (Click)</string>
+    <string name="app_name_campfire_desc">Hi! I\'m developing a new app - Campfire, I don\'t know how to describe It to you, but it\'s awesome. Users guides are part of Campfire. Please take a look at this app. :)  (Click)</string>
+
+
+    <string name="name_all">All</string>
+    <string name="more_guides">User Guides</string>
+    <string name="copy_command">Copy command</string>
+    <string name="ad_alert">You want to leave the app and go to the Google Play page?</string>
+    <string name="guides">Guides</string>
+    <string name="maps">Maps</string>
+    <string name="remove_background_message">Background removed due to low memory</string>
+    <string name="network_empty">No guides in this language</string>
+    <string name="remove_alert">Are you sure you want to delete this draft?</string>
+    <string name="background">Background</string>
+    <string name="theme">Theme</string>
+    <string name="network_english">Search in English</string>
+    <string name="network_any">Search in any language</string>
+    <string name="no_maps_found">No maps found</string>
+    <string name="select_type">Select type</string>
+    <string name="select_file">Select file</string>
+    <string name="select_map_hint">It is possible to upload only those maps that are stored in the external storage of the game. (Settings -> Profile -> File Storage)</string>
+    <string name="select_screens_hint">Select 3 screenshots.</string>
+
+    <string name="create_page_text">Click to change the text</string>
+    <string name="create_page_text_hint">Input text</string>
+    <string name="create_remove">Remove this page?</string>
+    <string name="create_error_empty">Create at least one page</string>
+    <string name="create_error_image">The image must be in each page</string>
+    <string name="create_error_big">Reached maximum number of pages</string>
+    <string name="create_finish_guide">The guide will be published in main feed</string>
+    <string name="create_finish_map">The map will be published in main feed</string>
+
+    <string name="notification_like">New like on your guide</string>
+    <string name="notification_allowed">Your guide published</string>
+    <string name="notification_not_allowed">Your guide is rejected. Comment: %s</string>
+    <string name="notification_new_guide">New guide</string>
+
+    <string name="notification_alarm_guides">New guides are available!</string>
+    <string name="notification_alarm_maps">New maps are available!</string>
+
+
+</resources>

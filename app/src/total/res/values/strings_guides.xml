@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">Guide for Minecraft</string>
+
+
+    <string name="name_wood_city">Wooden city</string>
+    <string name="name_stone_city">Stone city</string>
+    <string name="name_stone_harbor">Stone harbor</string>
+    <string name="name_wooden_harbor">Wooden harbor</string>
+    <string name="name_stone_dungeon">Stone dungeon</string>
+    <string name="name_wooden_dungeon">Wooden dungeon</string>
+    <string name="name_farm">Farm</string>
+    <string name="name_houses">Houses</string>
+    <string name="name_furniture">Furniture</string>
+
+    <string name="name_tutorial">Tutorial</string>
+    <string name="name_basic">Basic</string>
+    <string name="name_advanced">Advanced</string>
+    <string name="name_execute">Command execute</string>
+
+    <string name="name_lab_table">Lab table</string>
+    <string name="name_crafts">Crafts</string>
+    <string name="name_natural">Natural compounds</string>
+
+    <string name="name_craft">Fundamentals and craft</string>
+    <string name="name_root">Basics</string>
+    <string name="name_door">Doors</string>
+    <string name="name_bridges">Bridges and stairs</string>
+    <string name="name_meh">Mechanisms</string>
+    <string name="name_trap">Traps and defense</string>
+    <string name="name_building">Buildings</string>
+    <string name="name_links">Wiring</string>
+
+</resources>
+

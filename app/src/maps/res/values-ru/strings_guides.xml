@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="name_all">Все</string>
+    <string name="name_adventure">Приключения</string>
+    <string name="name_creative">Креатив</string>
+    <string name="name_minigame">Миниигры</string>
+    <string name="name_parkour">Паркур</string>
+    <string name="name_redstone">Редстоун</string>
+    <string name="name_other">Другое</string>
+
+</resources>
+

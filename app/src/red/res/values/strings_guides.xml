@@ -1,0 +1,629 @@
+<resources>
+
+    <string translatable="false" name="app_name">RedStone Guide</string>
+
+    <string name="name_craft">Fundamentals and craft</string>
+    <string name="name_root">Basics</string>
+    <string name="name_farm">Farms</string>
+    <string name="name_door">Doors</string>
+    <string name="name_bridges">Bridges and stairs</string>
+    <string name="name_meh">Mechanisms</string>
+    <string name="name_trap">Traps and defense</string>
+    <string name="name_links">Wiring</string>
+    <string name="ad_app_guide">Building Guides. A similar app to this but with a modern construction. There are cities, dungeons, ports and more.</string>
+
+    <string name="i3s0"> Cactus farm </string>
+    <string name="i3s1"> Build an area 11x11 with sand blocks for cacti.</string>
+    <string name="i3s2"> Dig a little trench for a canal, which will automatically put the harvest in the chest.</string>
+    <string name="i3s3"> Hold the "Shift" button and set a serie of hoppers FROM the chest TO the farm.</string>
+    <string name="i3s4"> Close the canal with blocks and plant cacti.</string>
+    <string name="i3s5"> If you any block is very close to cactus, it will be crushed and droped. You should use that. When the second block grows, it will be cut with the serie of planks.</string>
+    <string name="i3s6"> Now you need to collect the droped harvest. Build a fence higher than the planks on the one block. You know, all blocks will be destroyed if they drop on a cactus. So, to prevent your harvest from destroying with cacti, you should move them a little upper.</string>
+    <string name="i3s7"> Cacti are slow plants. To get more profit, you can build extra floor to your farm. I used green blocks to make a border between the floors.</string>
+    <string name="i3s8"> Just repeat building next floors like the fisrt floor except threnches, because everything is collecting with the central spot. The most effective way to have profit is planting 16 cacti on the one floor. 8-10 floors with cacti are enough for everyone.</string>
+    <string name="i3s9"> Here comes the first harvest!</string>
+
+    <string name="i4s0"> Relay </string>
+    <string name="i4s1"> Relay can cover the redstone line with external signal.  </string>
+    <string name="i4s2"> Closed state. </string>
+
+    <string name="i5s0"> Random generator </string>
+    <string name="i5s1"> Hold the "Shift" button and set a hopper near to an extractor. </string>
+    <string name="i5s2"> Put one stackable thing and one unstackable thing in the extractor. </string>
+    <string name="i5s3"> Bring the signal from a button and set a comparator. Then push the button. The extractor chooses between two blocks which are in it. If there is a stackable thing in the hopper, then there will be a strong signal going through the comparator, so the lamp will be switched on.</string>
+    <string name="i5s4"> However, if the unstackable thing is chosen, then the signal will be very weak.</string>
+
+    <string name="i6s0"> Double piston</string>
+    <string name="i6s1"> First, set sticky pistons. </string>
+    <string name="i6s2"> Then bring repeaters to the pistons and set delay on the left repeater to 2 and 4 on the right one. </string>
+    <string name="i6s3"> Switched on, pistons hitch each other and the block. </string>
+
+    <string name="i7s0"> Arrow hit indicator </string>
+    <string name="i7s1"> Set a button on the block.</string>
+    <string name="i7s2"> Bring a redstone road and set a lamp for clarity.</string>
+    <string name="i7s3"> An arrow activates the button on the hit, so the lamp switches on and a signal goes on the redstone road. You can build a shooting gallery. ;) </string>
+
+    <string name="i8s0"> «NOT» </string>
+    <string name="i8s1"> «NOT» scheme includes a torch on th block. </string>
+    <string name="i8s2"> The scheme changes signal to the opposite. </string>
+
+    <string name="i13s0"> The button as a lever </string>
+    <string name="i13s1"> Set two pistons and a redstone block between them. </string>
+    <string name="i13s2"> Set the redstone road and red torches above this construction.</string>
+    <string name="i13s3"> Add a button and the redstone road for the output signal.</string>
+    <string name="i13s4"> Pushed button moves the redstone block a switch on/off the output line. </string>
+
+    <string name="i9s0"> «NOT-AND» </string>
+    <string name="i9s1"> Set two blocks and set two red torches on them.</string>
+    <string name="i9s2"> Provide the redstone and activate it with this construction. Model input signals with two levers. </string>
+    <string name="i9s3"> If only one line is active, there will be an output signal. </string>
+    <string name="i9s4"> There will be no signal with two active lines. </string>
+
+    <string name="i10s0"> «OR» </string>
+    <string name="i10s1"> This simple and useful scheme includes united redstone lines.</string>
+    <string name="i10s2"> If at least one line is active, there will be an output signal. </string>
+
+    <string name="i11s0"> «AND» </string>
+    <string name="i11s1"> «AND» scheme includes two blocks with red torches on them and redstone line between these two blocks. </string>
+    <string name="i11s2"> The redstone also goes to another red torch, which inverts the signal. </string>
+    <string name="i11s3"> To activate the output line, you have to activate both input lines.</string>
+    <string name="i11s4"> </string>
+
+    <string name="i12s0"> «NOT-OR» </string>
+    <string name="i12s1"> «NOT-OR» scheme includes two united input lines and an inventor.</string>
+    <string name="i12s2"> Any input signal activates the output line. </string>
+
+    <string name="z0s00"> Simple door 1x2</string>
+    <string name="z0s0"> It\'s very simple piston door.</string>
+    <string name="z0s1"> Build the door\'s basic.</string>
+    <string name="z0s2"> Add pistons and activate them with torches.</string>
+    <string name="z0s3"> Add a button on the block with the torch to the frontal side. Pushing the button will open the door.</string>
+
+    <string name="z1s00"> Double door 2x2</string>
+    <string name="z1s0"> Double piston door.</string>
+    <string name="z1s1"> Build the door\'s basic.</string>
+    <string name="z1s2"> Add pistons and activate them with torches. Add wiring above the construction and add repeaters above the pistons.</string>
+    <string name="z1s3"> Add a button on the block with the torch to the frontal side. Pushing the button will open the door.</string>
+    <string name="z1s4"> You can open the door from the other side. You just need to make another wiring and activate another button.</string>
+
+    <string name="z2s00"> Pullout ladder</string>
+    <string name="z2s0"> A ladder with two blocks in width. It pulls out from walls.</string>
+    <string name="z2s1"> Build the ladder\'s basic.</string>
+    <string name="z2s2"> Add pistons to both sides. Set rung near the pistons and make wiring above them.</string>
+    <string name="z2s3"> A signal pulls the ladder out.</string>
+
+    <string name="z3s00"> Simple bridge</string>
+    <string name="z3s0"> This bridge is good in narrow areas with two blocks in width.</string>
+    <string name="z3s1"> Dig a pit and pour lava out there. </string>
+    <string name="z3s2"> Add pistons to both sides and bridge blocks.</string>
+    <string name="z3s3"> Activated pistons pull the bridge so it closes the lava.</string>
+
+    <string name="z4s00"> Vertical bridge</string>
+    <string name="z4s0"> You can build this bridge everywhere, however, you can\'t make lava looks naturally.</string>
+    <string name="z4s1"> Dig a pit and set pistons.</string>
+    <string name="z4s2"> Add redstone.</string>
+    <string name="z4s3"> Activated pistons pull the bridge out.</string>
+    <string name="z4s4"> Close the construction with blocks to prevent it from sinking in lava.</string>
+    <string name="z4s5"> Flood it with lava/oil/water. You don\'t need to do it above the bridge, there is no sense.</string>
+    <string name="z4s6"> Done!</string>
+
+    <string name="z5s00"> Slab door</string>
+    <string name="z5s0"> This door activates with slabs.</string>
+    <string name="z5s1"> Dig a pit with two blocks in depth. Set redstone in it.</string>
+    <string name="z5s2"> Make two center exits.</string>
+    <string name="z5s3"> Set red torches on the last exit blocks. Set a block on these torches.</string>
+    <string name="z5s4"> Set pistons and slabs.</string>
+    <string name="z5s5"> Set door blocks.</string>
+
+    <string name="z6s00"> Hidden door</string>
+    <string name="z6s0"> The door looks like walls. It pulls out with pushing the button. </string>
+    <string name="z6s1"> Set four pistons, one on another.</string>
+    <string name="z6s2"> Set two pistons towards the entrance. Repeat this construction after two blocks.</string>
+    <string name="z6s3"> Set some blocks, two repeaters, a lever or a button, door blocks and provide a redstone line. Set 2 or 3 delay for repeaters.</string>
+    <string name="z6s4"> Activate the redstone to close the door.</string>
+    <string name="z6s5"> Finish the wall and set a red torch with a button. The door is closed until you push the button.</string>
+
+    <string name="z7s00"> Stash in lava</string>
+    <string name="z7s0"> It looks like a lava pit. However, you can safely jump in, in your stash.</string>
+    <string name="z7s1"> Dig a pit 2x2 and six blocks in depth. Set four signs in depth 2 and 4.</string>
+    <string name="z7s2"> Pour the water out on the depth 3.</string>
+    <string name="z7s3"> Pour the lava out on the water. Now your stash is hidden from others. ;)</string>
+    <string name="z7s4"> Jump in. You loose some health, but you\'re in your stash.</string>
+
+    <string name="z8s00"> Horizontal bridge</string>
+    <string name="z8s0"> This bridge pulls out for four blocks. A pit can have any depth.</string>
+    <string name="z8s1"> Dig a pit with four blocks in width. You can pour water or lava out there. :)</string>
+    <string name="z8s2"> Set four pistons and bridge blocks. Then dig a pit around the pistons. Two blocks in width, one block in depth.</string>
+    <string name="z8s3"> Set redstone and repeaters.</string>
+    <string name="z8s4"> Set 1 delay for the near repeater, and delay 3 for other.</string>
+    <string name="z8s5"> Repeat this process on the other side. Unite the schemes. Activated bridge pulls itself out, but if the signal lost, then pistons will go for two blocks away, so the bridge will be removed.</string>
+
+    <string name="z9s00"> Hidden ladder</string>
+    <string name="z9s0"> This ladder will look like wall, when not activated. You can build this ladder with one block size, or two blocks in a narrow passage.</string>
+    <string name="z9s1"> Set pistons, which number based on the ladder\'s size.</string>
+    <string name="z9s2"> Set ladder blocks.</string>
+    <string name="z9s3"> Set more ladder blocks in opposite direction side from other ones.</string>
+    <string name="z9s4"> Plug the pistons.</string>
+    <string name="z9s5"> Build the wall. The ladder is showed with light coloured blocks on the screenshot.</string>
+
+    <string name="z10s00"> Door 3x3</string>    <string name="z10s0"> It\'s a difficult scheme of a door with 3x3 size. I won\'t explain much, so just follow the screenshots. :)</string>
+    <string name="z10s1"> Delay for the repeater is 2.</string>
+    <string name="z10s2"> Delay for the repeater is 3.</string>
+    <string name="z10s3"> Just do the same thing.</string>
+    <string name="z10s4"> No delay.</string>
+    <string name="z10s5"> Delay for the repeater is 3.</string>
+    <string name="z10s6"> Just do the same thing.</string>
+    <string name="z10s7" >Just do the same thing.</string>
+    <string name="z10s8"> Just do the same thing.</string>
+    <string name="z10s9"> Don\'t forget about the red torch.</string>
+    <string name="z10s10"> Just do the same thing.</string>
+    <string name="z10s11"> No delay.</string>
+    <string name="z10s12"> Set the last block.</string>
+
+    <string name="z11s00"> Waterfall door</string>
+    <string name="z11s0"> Very simple door, hidden with falling fluid.</string>
+    <string name="z11s1"> Build a box, which will keep the fluid.</string>
+    <string name="z11s2"> Build another one on the door\'s height. Set pistons on the one side and provide redstone to them.</string>
+    <string name="z11s3"> Build another box for the fluid.</string>
+    <string name="z11s4"> Now build a vertical wiring to activate the redstone and the pistons.</string>
+    <string name="z11s5"> Pour out water/lava/oil.</string>
+    <string name="z11s6"> Switch off the pistons to close the door.</string>
+
+    <string name="z12s00"> Hidden crafting table</string>
+    <string name="z12s0"> The crafting table is hidden in the wall. It\'s not comfortable much, but it looks interesting. :)</string>
+    <string name="z12s1"> Set three pistons and set the crafting table in a middle.</string>
+    <string name="z12s2"> Set a red torch on two blocks above the crafting table.</string>
+    <string name="z12s3"> Build a platform with redstone.</string>
+    <string name="z12s4"> Set repeaters (no delay) and two red torches above the pistons.</string>
+    <string name="z12s5"> Build a wall and set a button on the block with the torch.</string>
+    <string name="z12s6"> Done. :)</string>
+
+    <string name="z13s00"> Fluid drops</string>
+    <string name="z13s0"> This mechanism allows you to create lava/water/oil drops. Ideally to create a beautyful room.</string>
+    <string name="z13s1"> Build a cross. Set a piston to one of the blocks.</string>
+    <string name="z13s2"> Build a box for the fluid above. Build a timer there.</string>
+    <string name="z13s3"> Make a timer (set any delay) and connect it to the red torch, which activates the piston.</string>
+    <string name="z13s4"> Add the fluid and activate the timer.</string>
+    <string name="z13s5"> Lava drops very slowly, so set a big delay for the timer, which activates the piston.</string>
+
+    <string name="z14s00"> Night lights</string>
+    <string name="z14s0"> The lights switch on in the dark time and switch off in the day.</string>
+    <string name="z14s1"> Build lamp posts.</string>
+    <string name="z14s2"> Provide redstone and connect it to a light detector.</string>
+    <string name="z14s3"> A little upgrade...</string>
+
+    <string name="z15s00"> Emergency lights</string>
+    <string name="z15s0"> It\'s a simple scheme with blinking red torch. The light is faint, so it makes a good atmosphere for bunkers and dungeons.</string>
+    <string name="z15s1"> Build a torch serie with a wiring.</string>
+    <string name="z15s2"> Now add a timer and activate it. Done.</string>
+
+    <string name="z16s00"> Music disc farm</string>
+    <string name="z16s0"> Music discs drops from creepers killed by skeletons. This is a trap to collect music disks.</string>
+    <string name="z16s1"> Set two pistons and a slab.</string>
+    <string name="z16s2"> Dig two blocks and set a red torch on the block with the slab.</string>
+    <string name="z16s3"> Set a block above this torch and set another torch on it. It should be extinguished.</string>
+    <string name="z16s4"> Build the second part of the trap. Dig two blocks, set two pistons on the edges. Set redstone in the middle.</string>
+    <string name="z16s5"> Close the pistons with blocks and set slabs.</string>
+    <string name="z16s6"> Lift the trap\'s edges for one block.</string>
+    <string name="z16s7"> Build a roof. Now you need to lure a skeleton in the first room and a creeper in the second one. Then you should go in the third room to make the skeleton shoot the creeper.</string>
+
+    <string name="z17s00"> Control panel</string>
+    <string name="z17s0"> You can use this panel to activate any mechanism. Each button has it\'s own signal.</string>
+    <string name="z17s1"> Build this fork with nine trenches for sugnals.</string>
+    <string name="z17s2"> Build a panel with buttons basing on the fork\'s wall\'s height.</string>
+    <string name="z17s3"> Withdraw signals from lower buttons.</string>
+    <string name="z17s4"> Make a platform to withdraw signals from middle buttons.</string>
+    <string name="z17s5"> Withdraw signals with many repeaters. Your wiring shouldn\'t cross.</string>
+    <string name="z17s6"> Withdraw a signal from the last upper button.</string>
+    <string name="z17s7"> Withdraw signals from other buttons with a little platform.</string>
+    <string name="z17s8"> Down signals to the fork. Add blocks to prevents signals from crossing.</string>
+    <string name="z17s9"> Output signals numbering.</string>
+
+    <string name="z18s00"> Coded door</string>
+    <string name="z18s0"> It uses the mechanism from the control panel\'s guide. The door will open only if the code is correct. The coded door is a very good thing on the quest maps. Notice: it\'s the guide for people, who knows schemes on advansed level.</string>
+    <string name="z18s1"> First, build a control panel and find a plce for a door.</string>
+    <string name="z18s2"> Activate the pistons with a red torch.</string>
+    <string name="z18s3"> Withdraw redstone (red torch for clarity).</string>
+    <string name="z18s4"> Make a code [3,5]. Withdraw appropriate signals. </string>
+    <string name="z18s5"> Build an «AND» scheme.</string>
+    <string name="z18s6"> Use a signal extension scheme to withdraw the signal to the pistons. Upper repeaters should have no delay, lower ones — maximum delay.</string>
+    <string name="z18s7"> Block the scheme with other signals to prevent a random push.</string>
+
+    <string name="z19s00"> Tunnel trap</string>
+    <string name="z19s0"> The trap is around the corner. If somebody falls, the trap will close and there will be no way to escape. :)</string>
+    <string name="z19s1"> Dig a pit 2x3 with two blocks in width. Set a slab in the corner.</string>
+    <string name="z19s2"> Set a red torch on a block with the slab. Set redstone and antother block with a red torch near to it.</string>
+    <string name="z19s3"> Set blocks on both torches and on the upper piston.</string>
+    <string name="z19s4"> Cover your scheme with a box. Leave a spot above the slab.</string>
+    <string name="z19s5"> Build a tunnel. Done. :)</string>
+
+    <string name="z20s00"> Door trap</string>
+    <string name="z20s0"> It\'s very simple trap, which will close the door whe somebody stands on a slab.</string>
+    <string name="z20s1"> Set a slab.</string>
+    <string name="z20s2"> Set the doors so they close to the inside.</string>
+
+    <string name="z21s00"> Chest trap</string>
+    <string name="z21s0"> When somebody opens the chest, the trap will throw him in lava.</string>
+    <string name="z21s1"> Set a chest like on the screenshot.</string>
+    <string name="z21s2"> Dig a pit with two blocks in width before the chest and pour out lava here.</string>
+    <string name="z21s3"> Build a scheme as on the screenshot after the chest. </string>
+    <string name="z21s4"> Add pistons and connect them to the scheme before the chest.</string>
+    <string name="z21s5"> Build a room. Done.:)</string>
+
+    <string name="z22s00"> Cactus trap</string>
+    <string name="z22s0"> If somebody get in it, water will lead him to cacti, which will kill him.</string>
+    <string name="z22s1"> Build a water box and set sand blocks diagonally.</string>
+    <string name="z22s2"> Set cacti</string>
+    <string name="z22s3"> Pour out water.</string>
+
+    <string name="z23s00"> Torture room</string>
+    <string name="z23s0"> It\'s a difficult enough scheme for ones, who knows schemes on advansed level. You can kill a player, who get here, with many ways: using arrows or potions, stoke him in lava or water... You have no need to repeat all quitely, just understand the main things.</string>
+    <string name="z23s1"> Set dispensers, which will shoot arrows and potions.</string>
+    <string name="z23s2"> Set torches under the dispensers to activate them.</string>
+    <string name="z23s3"> Provide redstone for few blocks aside from dispensers and make columns with buttons. Push a button to activate the dispensers.</string>
+    <string name="z23s4"> Put in arrows/potions.</string>
+    <string name="z23s5"> Dig a pit under the center of the room. Set a piston to the farthest block. These will help you to kick a victim in lava.</string>
+    <string name="z23s6"> Withdraw a signal from the piston to the column.</string>
+    <string name="z23s7"> Set two pistons before the dispensers to close them.</string>
+    <string name="z23s8"> Withdraw redstone. Set levers. The pistons should be defaultly activated.</string>
+    <string name="z23s9"> Add pistons to close the dispensers from the room\'s side.</string>
+    <string name="z23s10"> Withdraw a signal. Set levers. The pistons should be defaultly activated.</string>
+    <string name="z23s11"> Now make a possibility to stoke your victim. Set a piston as you did building a lava trap. Connect it from above.</string>
+    <string name="z23s12"> Add water.</string>
+    <string name="z23s13"> The activation from behind. Activated scheme blocks the lava hatch to prevent creating obsidian.</string>
+    <string name="z23s14"> That\'s how is should looks like.</string>
+    <string name="z23s15"> Build a conveyor which will put a victim in the room.</string>
+    <string name="z23s16"> Dig a pit above the conveyor. You can lure a victim here so he will fall to the room.</string>
+    <string name="z23s17"> Refine the room.</string>
+    <string name="z23s18"> Add a lever to activate the conveyor.</string>
+    <string name="z23s19"> There could be your advertisment :)</string>
+    <string name="z23s20"> Don\'t forget about the delay. The second serie should activates after the first one.</string>
+    <string name="z23s21"> View from the inside.</string>
+
+
+    <string name="i14s0"> 7-segment indicator </string>
+    <string name="i14s1"> Set lamps as on the screenshot.</string>
+    <string name="i14s2"> Provide redstone to them. It will switch on a segment with three lamps.</string>
+    <string name="i14s3"> Down the redstone roads.</string>
+    <string name="i14s4"></string>
+    <string name="i14s5"></string>
+    <string name="i14s6"> Switching on correct segments, you\'ll get needed number.</string>
+
+    <string name="i15s0"> TNT cannon</string>
+    <string name="i15s1"> Build a cannon platform. </string>
+    <string name="i15s2"> Make a fence for TNT. Provide redstone to it.</string>
+    <string name="i15s3"> Set a maximum delay for seven repeaters. The eighth one needs for ingition. </string>
+    <string name="i15s4"> Set TNT in the place with the orange mark.</string>
+
+    <string name="i16s0"> Siren </string>
+    <string name="i16s1"> Make an extrafast timer.</string>
+    <string name="i16s2"> Switch the comparator on and provide extra redstone for two blocks.</string>
+    <string name="i16s3"> A note block sounds correctly only on the ground block. Set a 3 delay.</string>
+    <string name="i16s4"> The note block will pereodically sounds when the timer is activated. </string>
+
+    <string name="i17s0"> Autorepairing floor</string>
+    <string name="i17s1"> Build a capacity for a cobblestone generator.</string>
+    <string name="i17s2"> Pour out lava and water. Set a piston and provide redstone near it.</string>
+    <string name="i17s3"> Set a serie of eleven pistons and connect it with cobblestone generator road using redstone.</string>
+    <string name="i17s4"> Make a deactivating timer. There should be at least three redstone blocks between the comparator and the main chain.</string>
+    <string name="i17s5"> Switched on, the floor will build itself.</string>
+    <string name="i17s6"> Reached the maximum size, it will repair itself after taking damage.</string>
+
+    <string name="i18s0"> Simple timer</string>
+    <string name="i18s1"> Build a closed scheme with four repeaters, having the same delay. The bigger delay is, the bigger is the interval between switching on and off.</string>
+    <string name="i18s2"> Activste any part of redstone with a red torch or a lever quickly. You can deactivate the timer on any its part. </string>
+
+    <string name="i19s0"> Fast timer</string>
+    <string name="i19s1"> Set blocks. </string>
+    <string name="i19s2"> Set red torches and withdraw a signal.</string>
+
+    <string name="i20s0"> Upgoing wiring</string>
+    <string name="i20s1"> This redstone line will be lifted up.</string>
+    <string name="i20s2"> Connect the line to blocks with red torches.</string>
+    <string name="i20s3"> Withdraw the line. </string>
+    <string name="i20s4"> It works! </string>
+
+    <string name="i21s0"> Downgoing wiring</string>
+    <string name="i21s1"> Build two block columns. </string>
+    <string name="i21s2"> Remove blocks in the chess pattern.</string>
+    <string name="i21s3"> Set torches and redstone.</string>
+    <string name="i21s4"> The upper signal goes to the lower line. </string>
+
+    <string name="i22s0"> Stretch mine </string>
+    <string name="i22s1"> Dig a pit for a trap. </string>
+    <string name="i22s2"> Provide redstone. </string>
+    <string name="i22s3"> Close the trap with blocks, excludung the TNT places. </string>
+    <string name="i22s4"> Cover the redstone. There will be a hook in this groove.</string>
+    <string name="i22s5"> Set hooks one opposite another. There is no need to provide a thread now, you\'ll do it later.</string>
+    <string name="i22s6"> Disguise the hooks with leaves or lianas. </string>
+    <string name="i22s7"> Set TNT.</string>
+    <string name="i22s8"> Provide the thread from one hook to another. Be careful and try not to step in your own trap.</string>
+
+    <string name="i23s0"> Extrafast timer</string>
+    <string name="i23s1"> Set a comparator and connect its output to one of the side inputs. A lever will switch on and off the timer.</string>
+    <string name="i23s2"> Activate the comparator (RMB). To change the signal, you need to withdraw redstone away at least for two blocks. </string>
+
+    <string name="i24s0"> Cobblestone generator</string>
+    <string name="i24s1"> Set basics blocks.</string>
+    <string name="i24s2"> Repeat this and set a separating block in the middle.</string>
+    <string name="i24s3"> Water and lava falls will create cobblestones. </string>
+
+    <string name="i26s0"> Reed farm</string>
+    <string name="i26s1"> Plant needed number of reed.</string>
+    <string name="i26s2"> Pistons will cut the upper part of the plant and don\'t touch the lower one.</string>
+    <string name="i26s3"> Connect the pistons and withdraw them to a lever.</string>
+
+    <string name="i27s0"> Upgoing wiring (2) </string>
+    <string name="i27s1"> Build two columns with needed heigth.</string>
+    <string name="i27s2"> Set any halfblocks in the chess pattern.</string>
+    <string name="i27s3"> You hfve no need in columns now. Put redstone on the halfblocks.</string>
+    <string name="i27s4"> Done! </string>
+
+    <string name="i28s0"> Door 5x4</string>
+    <string name="i28s1"> Mark the floor area with blocks. </string>
+    <string name="i28s2"> Dig a trench for redstone. The output in the right direction is for opening and closing the door. </string>
+    <string name="i28s3"> The repeater should be in the opposite side from the control output.</string>
+    <string name="i28s4"> Build an obsidian platform to move door\'s panels. Use obsidian because it can\'t be moved with pistons or slime blocks.</string>
+    <string name="i28s5"> Connect control to the pistons, which move the panels. Set delay 4 for the lower repeater, delay 2 for the middle one.</string>
+    <string name="i28s6"> Set pistons and make door\'s panels. You can use any blocks, which can be moved with panels. </string>
+    <string name="i28s7"> Make panel skeleton. </string>
+    <string name="i28s8"> Set a red torch to have a defaultly activated door. Set a button or a lever from the other side.</string>
+    <string name="i28s9"> The door sould fully close the passage. </string>
+    <string name="i28s10"> It opens! </string>
+
+    <string name="i29s0"> Indicator controller</string>
+    <string name="i29s1"> Remember the 7-segment indicator guide? Well, ok. Withdraw lines from every segment. I used 21 blocks to do it. </string>
+    <string name="i29s2"> Set blocks above the line. You\'ll use it to switch on the numbers.</string>
+    <string name="i29s3"> Activate the line with a red torch and set a lever. </string>
+    <string name="i29s4"> A number on the indicator is a combination of the switched on segments. Set red torches above the appropriate the segments lines.  </string>
+    <string name="i29s5"> Number «1».</string>
+    <string name="i29s6"> Next make the other numbers.</string>
+
+    <string name="z24s00"> Crafts</string>
+    <string name="z24s0"> It\'s a list of the main resources and craft formulas.</string>
+    <string name="z24s1"> Redstone. It drops from redstone ore blocks, when lava appears.</string>
+    <string name="z24s2"> Slimeballs. Drops from slimes, who lives in swamps (can find them in the night) or in dungeons (very rarely).</string>
+    <string name="z24s3"> Nether Quartz Ore. Can be found in The Nether.</string>
+    <string name="z24s4"> Glowstone dust. Can be extracted from glowstone blocks in The Nether. Also drops from witches.</string>
+    <string name="z24s5"> Red torch. Can be crafted with redstone(x1) and a stick.</string>
+    <string name="z24s6"> Repeater. Can be crafted with 3 stone blocks, 2 red torches and redstone(x1).</string>
+    <string name="z24s7"> Piston. Can be crafted with an iron ingot, redstone(x1), 3 planks (any type) and 4 cobblestone blocks.</string>
+    <string name="z24s8"> Sticky piston. Can be crafted with a piston and a slimeball.</string>
+    <string name="z24s9"> Comparator. Can be crafted with 3 stone blocks, 3 red torches and quartz(x1).</string>
+    <string name="z24s10"> Slime block. Can be craftes with 9 slimeballs.</string>
+    <string name="z24s11"> Daylight sensor. Can be crafted with 3 glass blocks, quartz(x3) and 3 wooden slabs (any type).</string>
+    <string name="z24s12"> Quartz. Can be crafted with handling quartz ore in a furnace.</string>
+    <string name="z24s13"> Glowstone block. Can be crafted with glowstone dust(x4).</string>
+    <string name="z24s14"> Lamp. Can be crafted with a glowstone block and redstone(x4).</string>
+    <string name="z24s15"> Redstone block. Can be crafted with redstone dust(x9).</string>
+    <string name="z24s16"> TNT. Can be crafted with 4 sand blocks (any type) and gunpowder(x5).</string>
+    <string name="z24s17"> Hopper. Can be crafted with 5 iron ingots and a chest.</string>
+
+    <string name="z25s00">Redstone</string>
+    <string name="z25s0"> Redstone drops from redstone ore blocks, when lava appears.</string>
+    <string name="z25s1"> You can set redstone only on the upper edge of th block.</string>
+    <string name="z25s2"> Redstone on one tile will make a line with redstone on the nearby tile.</string>
+    <string name="z25s3"> Redstone can go up and down for 1 block. Blocked with any other block, the line will be crushed.</string>
+
+    <string name="z26s00">Buttons and slabs</string>
+    <string name="z26s0"> Buttons can be crafted with 1 stone or plank block.</string>
+    <string name="z26s1"> Slabs can be crafted with two stone or plank block, setted horizontally.</string>
+    <string name="z26s2"> There can be stone or wooden slab. You can set them only on the upper part of the block. Both gives a signal after steppinig on them. The wooden slab can be also activated with dropped thing.</string>
+    <string name="z26s3"> There can be stoone or wooden buttons. They have no big difference (the wooden one can be activated with an arrow). Give signal after RMB clicking and then switch off.</string>
+
+    <string name="z27s00">Lever</string>
+    <string name="z27s0"> Can be crafted with a cobblestone and a stick.</string>
+    <string name="z27s1"> A lever can be setted to any side of the block. It gives a constant signal.</string>
+
+    <string name="z28s00">Dispenser</string>
+    <string name="z28s0"> Can be crafted with a bow, redstone and 7 cobblestones.</string>
+    <string name="z28s1"> Put in things, which can be shooted. Activated with redstone, the dispenser will shoot this thing.</string>
+    <string name="z28s2"> If the thing can\'t be shooted, it just will be droped. Dispensers have 3x3 area and drop things randomly. Empty cases are ignored.</string>
+
+    <string name="z29s00">Dropper</string>
+    <string name="z29s0"> It can be like a dispenser, but a bow is not needed.</string>
+    <string name="z29s1"> A dropper works like a dispenser, but it doesn\'t shoot, only drops.</string>
+    <string name="z29s2"> It activates with redstone.</string>
+
+    <string name="z30s00">Note block</string>
+    <string name="z30s0"> Can be crafted with any 7 planks and redstone.</string>
+    <string name="z30s1"> Activated witd redstone or RMB clocking it makes a sound. The sound depends on the block under the onte block and numbers of activatings.</string>
+
+    <string name="z31s00">Redstone block</string>
+    <string name="z31s0"> Can be crafted with redstone(x9).</string>
+    <string name="z31s1"> Gives a constant signal. It\'s a regulary block.</string>
+    <string name="z31s2"> It can\'t activate a piston with setting near.</string>
+    <string name="z31s3"> Redstone block can be moved with pistons. This fact makes big opportunities to build logical schemes.</string>
+
+    <string name="z32s00">Red torch</string>
+    <string name="z32s0"> Can be crafted with a stick and redstone.</string>
+    <string name="z32s1"> Gives a constant signal. Can be setted to the upper or side edge of the block.</string>
+    <string name="z32s2"> Activated block with a red torch will make it extinguished, so there will be no signal.</string>
+    <string name="z32s3"> It activates a block above.</string>
+
+    <string name="i1s0"> Wheat farm</string>
+    <string name="i1s1"> Build a trench which will provide water to plants.</string>
+    <string name="i1s2"> Pour out water there. </string>
+    <string name="i1s3"> Make garden beds. Close the trench and edges with blocks.</string>
+    <string name="i1s4"> Set dispensers and connect them using redstone. Put a bucket with water in.</string>
+    <string name="i1s5"> Set hoppers from the chest to both sides.</string>
+    <string name="i1s6"> Withdraw redstone from the chest and set repeaters. Set a button above the chest.</string>
+    <string name="i1s7"> You can set a plank serie across the garden beds.</string>
+    <string name="i1s8"> Water moves your harvest to the hoppers, which will collect it in the chest.</string>
+
+    <string name="i25s0"> Cocoa farm</string>
+    <string name="i25s1"> Make a platform with 8 blocks in length.</string>
+    <string name="i25s2"> Set dispensers and put buckets with water in (1 in 1 dispenser).</string>
+    <string name="i25s3"> Set hoppers from the chest.</string>
+    <string name="i25s4"> Provide redstone and set a button above the chest.</string>
+
+    <string name="i30s0"> Comparator</string>
+    <string name="i30s1"> Comparator is difficult enough scheme element. It has 2 inputs: back (A) and side (B). It doesn\'t make a signal stronger. It has two modes. Using the first mode it will compare A and B signals, if a red torch is not burning. The singal strength can be founded with formula: Strength = 15 - redstone line\'s length. If A >= B, then the signal goes through the comparator. In other case the signal shall not pass! A formula for the second mode: Output strength = A - B. Let\'s look at the examples.</string>
+    <string name="i30s2"> Signal A = 12 (15 - 3 blocks), B = 12. So the the signal goes through the comparator and switches on both lamps.</string>
+    <string name="i30s3"> Make B = 13. Now B > A, so the signal doesn\'t pass.</string>
+    <string name="i30s4"> The second mode. A = 14, B = 12. The output signal is 14 - 12 = 2, so only the first lamp is switched on.</string>
+
+    <string name="i2s0"> Reed farm</string>
+    <string name="i2s1"> Plant reed.</string>
+    <string name="i2s2"> Set pistons on the heigth 2 and connect them with redstone. Pushing the button will make them cut plants\' upper parts.</string>
+
+    <string name="i31s0"> Slime block</string>
+    <string name="i31s1"> Slime blocks catch the nearest blocks. Pushed with a piston, all blocks (maximum = 12) will be moved at the same time.</string>
+    <string name="i31s2"> One block wasn\'t moved back, because it had no contact with slime.</string>
+    <string name="i31s3"> You can fall on slimeblocks without damage for you. Also, you run slower on them.</string>
+
+    <string name="i32s0"> Repeater</string>
+    <string name="i32s1"> A repeater makes a signal stronger.</string>
+    <string name="i32s2"> Lamp is switched on.</string>
+    <string name="i32s3"> You can set delay from 0.1 to 0.4 sec.</string>
+    <string name="i32s4"> After switching off the signal, the repeater will withdraw it for 0,4 sec.</string>
+
+    <string name="i33s0"> Piston</string>
+    <string name="i33s1"> Pistons are used to push block before them. Things with additional info can\'t be moved (chests, furnaces etc.), as obsidian blocks, bedrocks and portl block can\'t.</string>
+    <string name="i33s2"> Can be activated with an activted block.</string>
+    <string name="i33s3"> A deactivated sticky piston moves a block back.</string>
+
+    <string name="i34s0">TNT</string>
+    <string name="i34s1"> TNT block can setted as other blocks.</string>
+    <string name="i34s2"> Activated, it will fall down.</string>
+    <string name="i34s3"> There is not a big crater after the explosion (9-12 blocks in diameter). Some blocks will be destroyed with the explosion, some will be dropped.</string>
+    <string name="i34s4"> Some blocks like obsidian can stay after an explosion.</string>
+    <string name="i34s5"> See? Obsidian absorbed all damage.</string>
+
+    <string name="i35s0"> Hopper</string>
+    <string name="i35s1"> A hopper takes things above it. Things can be in a dispenser, a chest etc. or just dropped.</string>
+    <string name="i35s2"> If a minecart with chest stops above a hopper, it will slowly take things from the minecart with chest and put them in the near chest. It also has own 5 slots. To give it a direction, hold "Shift" button and click RMB on the chest\'s side edge.</string>
+    <string name="i35s3"> If a minecart with chest stops under a hopper, it will put things in this chest.</string>
+    <string name="i35s4"> This minecart disembarked part of stone blocks. Now it embarks wool blocks. </string>
+
+    <string name="z33s00"> minecart distribution</string>
+    <string name="z33s0"> It helps to distribute minecarts to different ways.</string>
+    <string name="z33s1"> Build an entry and 2 exits for minecarts. Add activator rails before the fork.</string>
+    <string name="z33s2"> Make a switcher. Set 2 pistons and a redstone block.</string>
+    <string name="z33s3"> Set 2 blocks with red torches and redstone on them above.</string>
+    <string name="z33s4"> Connect the switcher to activator rails and make a wiring from the switcher to the fork.</string>
+    <string name="z33s5"> The first minecart goes to the right and switches the fork.</string>
+    <string name="z33s6"> The second one goes to the left and switches the fork again.</string>
+
+    <string name="z34s00">Starter</string>
+    <string name="z34s0"> Launches a minecart with pushing a button.</string>
+    <string name="z34s1"> Make a hill with powered rails.</string>
+    <string name="z34s2"> Add a button on the last hill\'s block and set a minecart there.</string>
+    <string name="z34s3"> Pushing the button activates the powered rails and launches the minecart.</string>
+
+    <string name = "i36s0"> Farm watermelons and pumpkins </string>
+    <string name = "i36s1"> Put the pistons vertically and connect them repeaters. </string>
+    <string name = "i36s2"> Set a blocks of dirt. </string>
+    <string name = "i36s3"> Amplifies the signal going to the pistons. </string>
+    <string name = "i36s4"> Derive control. Power button is located directly above the Redstone. </string>
+    <string name = "i36s5"> This works for pumpkins and watermelons. Do not forget to add water. </string>
+    <string name = "i36s6"> When you press they will fall in the form of blocks. </string>
+
+    <string name="i40s0"> Minecart autounload</string>
+    <string name="i40s1"> Set two blocks and red torches on them.</string>
+    <string name="i40s2"> Provide hoppers to the chest.</string>
+    <string name="i40s3"> Set rails on the hoppers. Hold the "Shift" button.</string>
+    <string name="i40s4"> Set a red torch under powered rails to activate them.</string>
+    <string name="i40s5"> Move the rails down. </string>
+    <string name="i40s6"> Set a comparator and a repeater.</string>
+    <string name="i40s7"> You need to set the repeater close to the rails and connect it with redstone to the comparator\'s output.</string>
+    <string name="i40s8"> This lamp serie will show the unload process. The repeaters before the lamps have maximum delay.</string>
+    <string name="i40s9"> Withdraw the rails.</string>
+
+    <string name="i41s0"> Automoving bridge </string>
+    <string name="i41s1"> Set two series of sticky pistons (any number of them).</string>
+    <string name="i41s2"> Cover it with blocks. Provide redstone ib wavy line.</string>
+    <string name="i41s3"> Set slabs and dig a pit. </string>
+    <string name="i41s4"> Isolate upper part of redstone from the lower one.</string>
+    <string name="i41s5"> You can fill the pit with lava. Don\'t worry, you can\'t fall in it. Set hooks above the pistons and connect one with another using thread.</string>
+    <string name="i41s6"> It works! </string>
+
+    <string name="i42s0"> Glowing door </string>
+    <string name="i42s1"> Set two beacons on the platform (iron blocks).</string>
+    <string name="i42s2"> Set pistons, green and red glass, set delay 2 for the repeater. </string>
+    <string name="i42s3"> Set a piston with a redstone block vertically. Then provide redstone to the red torch. </string>
+    <string name="i42s4"> Add 2 red torches and repeaters.</string>
+    <string name="i42s5"> Build a platform. Make the upper part of arch using glass. </string>
+    <string name="i42s6"> Set gates. </string>
+    <string name="i42s7"> Cover with a carpet. </string>
+    <string name="i42s8"> Now you can go through the door. </string>
+
+    <string name="i43s0"> Hidden wardrobe </string>
+    <string name="i43s1"> Dig a pit with depth 3 and set sticky pistons. </string>
+    <string name="i43s2"> Set and connect pistons on the surface. Set 2 delay.</string>
+    <string name="i43s3"> Provide redstone to the underground and set an inventor (a red torch) on the side of the block.</string>
+    <string name="i43s4"> Connect the underground pistons.</string>
+    <string name="i43s5"> Connect it with the red torch.</string>
+    <string name="i43s6"> Set blocks to the sticky pistons. Also set dummies and a button.</string>
+    <string name="i43s7"> Make "button as a lever" scheme from the other side.</string>
+    <string name="i43s8"> Push the button to hide dummies in the wall.</string>
+
+    <string name="i44s0"> Elevator </string>
+    <string name="i44s1"> Make a stool... No, I mean a platform 9x10x5!</string>
+    <string name="i44s2"> Remove blocks to make an elevator mine. Set pistons and 4 blocks between them in the down.</string>
+    <string name="i44s3"> Set any block on the piston. Set 11 redstone blocks on this block.</string>
+    <string name="i44s4"> Set 2 pistons above each redstone "column". Connect them using redstone and repeaters.</string>
+    <string name="i44s5"> The button.</string>
+    <string name="i44s6"> Set redstone under the button.</string>
+    <string name="i44s7"> Provide it to the down. </string>
+    <string name="i44s8"> Make this cnstruction. Hoppers are one against another. Put 15 stackable things in one of them.</string>
+    <string name="i44s9"> Redstone and repeaters.</string>
+    <string name="i44s10"> Down the signal through 2 pistons. Set a comparator. Delay 2.</string>
+    <string name="i44s11"> Activated with redstone, the scheme click with pistons and go to the opening state.</string>
+    <string name="i44s12"> Don the signal from the upper pistons to the lower button.</string>
+    <string name="i44s13"> Build the second floor. Set a button.</string>
+    <string name="i44s14"> Now make elevator moving pistons. First set pistons to the second redstone block, then to the first one. Set gravel on the top.</string>
+    <string name="i44s15"> You can cover the elevator mine with glass.</string>
+
+    <string name="z35s00">Animal sorter</string>
+    <string name="z35s0"> This mechanism sorts animals, based on their height. The best way to use it is being above it and luring animals inside.</string>
+    <string name="z35s1"> Dig two pits, where animals will fall.</string>
+    <string name="z35s2"> Make an automatic cap for each pit.</string>
+    <string name="z35s3"> Use redstone to activate the first cap.</string>
+    <string name="z35s4"> Make a stretch on the heigth 2 so animals higher than 1 block will activate it. </string>
+    <string name="z35s5"> Close the mechanism with walls.</string>
+    <string name="z35s6"> Now do the same thing with the second cap, but put a stretch on the ground.</string>
+    <string name="z35s7"> High animals (horses, sheeps etc) will fall in the first pit.</string>
+    <string name="z35s8"> Other animals will fall in the second pit.</string>
+
+    <string name="z36s00">Chicken lottery</string>
+    <string name="z36s0"> Push a button to activate a dispenser and make it shoot an egg in the mechanism. You\'ll get a prize if a chicken born.</string>
+    <string name="z36s1"> Build a target. A fence in the center will not allow the chicken to run.</string>
+    <string name="z36s2"> Set a slab and withdraw a signal.</string>
+    <string name="z36s3"> Connect the slab to the dispenser with a prize inside with redstone.</string>
+    <string name="z36s4"> Make an eggs-shooter mechanism 3-5 blocks away from the wall.</string>
+    <string name="z36s5"> Put eggs in the first dispenser.</string>
+    <string name="z36s6"> Put diamonds in the second dispenser as the prize.</string>
+    <string name="z36s7"> Shoot. Borned chicken will activate the scheme, so...</string>
+    <string name="z36s8"> ...you\'ll get the reward.</string>
+
+    <string name="z37s00">House with lighting</string>
+    <string name="z37s0"> It\'s a house, where you can switch the light in rooms.</string>
+    <string name="z37s1"> Build a base. Better to have 2-3 blocks under the floor to build some mechanisms. :)</string>
+    <string name="z37s2"> Now build a floor and parts of walls. You\'ll use the corner room to withdraw a signal.</string>
+    <string name="z37s3"> Finish building walls. Set glass.</string>
+    <string name="z37s4"> Build a roof. Make lamps for each room. Connect them with detached wiring.</string>
+    <string name="z37s5"> Now make a lever on the roof, which will switch the light off. :)</string>
+    <string name="z37s6"> Cover the scheme.</string>
+    <string name="z37s7"> Build the second floor.</string>
+    <string name="z37s8"> Make the same lighting. Next guide will tell how to withdraw a signal from the second floor to control gate and light a garden.</string>
+
+    <string name="z38s00">Control room</string>
+    <string name="z38s0"> Basing on the house fron the previous guide, build a room. You can control the light and gate from this room.</string>
+    <string name="z38s1"> Dig a trench for wiring.</string>
+    <string name="z38s2"> Build a gate. The 2x2 door is used here.</string>
+    <string name="z38s3"> Dig a trench for wiring.</string>
+    <string name="z38s4"> Connect the lamps using repeaters.</string>
+    <string name="z38s5"> Do it with all lamps.</string>
+    <string name="z38s6"> Withdraw lamps\' and gate\'s signal under the corner room from the previous guide.</string>
+    <string name="z38s7"> Make two levers on the second floor. Use slabs before the levers to prevent the chain from circuit.</string>
+    <string name="z38s8"> Make vertical wiring from each lever.</string>
+    <string name="z38s9"> Connect them to the scheme.</string>
+    <string name="z38s10"> Done. Now you can control everything without leaving the house. :)</string>
+
+    <string name="z39s00"> Plane</string>
+    <string name="z39s0"> This mechanism flies endlessly in one direction. It will stop if it stumbles an obstacle.</string>
+    <string name="z39s1"> Set 3 pistons on the ground. One of them should be sticky.</string>
+    <string name="z39s2"> Set slime blocks with redstone blocks on them before the first and the second pistons. Take flint and steel. Click with RMB on the 2nd and the 3rd blocks until the mechanism moving. Done. :)</string>
+</resources>
+

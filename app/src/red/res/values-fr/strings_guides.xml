@@ -1,0 +1,628 @@
+<resources>
+
+    <string translatable="false" name="app_name">RedStone Guide</string>
+
+    <string name="name_craft">Les fondamentaux et les crafts</string>
+    <string name="name_root">les bases</string>
+    <string name="name_farm">Les fermes</string>
+    <string name="name_door">Les portes</string>
+    <string name="name_bridges">Les ponts et escaliers</string>
+    <string name="name_meh">Les méchanismes</string>
+    <string name="name_trap">Les pièges</string>
+    <string name="name_building">constructions</string>
+    <string name="name_links">Le câblage</string>
+    <string name="ad_app_guide">"Building Guides". C\'est une application similaire à celle-ci mais avec des constructions modernes. Il y a des villes, dongeons, ports et bien plus encore.</string>
+
+    <string name="i3s0"> Ferme à cactus </string>
+    <string name="i3s1"> Construis une zone de 11 par 11 avec des blocks de sable pour les cactus.</string>
+    <string name="i3s2"> Creuse une petite tranchée pour une coulée d\'eau, Pour que les cactus soit récoltés automatiquement et collectés dans le coffre.</string>
+    <string name="i3s3"> Avec la touche "shift" enfoncée place une série d\'entonnoirs DU coffre VERS la ferme.</string>
+    <string name="i3s4"> Ferme le dessus de la tranchée (sans couper l\'eau) et plante des cactus.</string>
+    <string name="i3s5"> Si tu mets un bloc à côté d\'un cactus il se détruit, il sera cassé et tombera au sol. C\'est pratique d\'utiliser cela. Quand le second bloc du cactus est poussé, Il sera coupé par une série de blocs.</string>
+    <string name="i3s6"> Maintenant tu as besoin de collecter les cactus au sol. Construis le pourtour de la ferme aussi au que les blocs pour couper les cactus. Tu sais, que les objets sont détruits s\'ils percutent un cactus. Pour éviter que t\'a récolte se fasse détruire par les cactus, tu dois les faire bouger dans l\'entonnoir au milieu.</string>
+    <string name="i3s7"> Les cactus poussent lentements. Pour faire plus de bénéfice, tu peux augmenter les étages dans ta ferme. J\'utilise des blocs verts pour délimiter le sol par rapport du mur.</string>
+    <string name="i3s8"> Il suffit de construire le même modèle pour chaque étages par rapport au premier, il ne faut pas faire la tranchée pour les prochains étages. Parce que tout les items vont au milieu grâce aux sources d\'eau. Le meilleur rendement est d\'avoir 16 cactus par étages. Avec 8 ou 10 étages il y a assez de cactus pour n\'importe qui.</string>
+    <string name="i3s9"> Ici viens la première récolte!</string>
+
+    <string name="i4s0"> Le relais </string>
+    <string name="i4s1"> Le relais peut couvrir une ligne de redstone par un piston activé par un signal externe.  </string>
+    <string name="i4s2"> La ligne de redstone est recouverte. </string>
+
+    <string name="i5s0"> Le générateur d\'aléatoire </string>
+    <string name="i5s1"> Appuis sur la touche "shift/maj" et place un entonnoir dirigé vers un droppeur. </string>
+    <string name="i5s2"> Mets un objet stackable et un objet non-stackable dans le droppeur. </string>
+    <string name="i5s3"> Emènne un signal d\'un bouton et place un comparateur.quand le boutton est pressé, le droppeur choisit entre les deux objets qui sont dedans.Si c\'est un objet stackable qui va dans l\'entonnoir, le bon (stackable) signal va aller au comparateur , donc la lampe s\'allume.</string>
+    <string name="i5s4"> Parcontre,si c\'est un item non-stackable c\'est le contraire, le signal sera très faible.</string>
+
+    <string name="i6s0"> Double pistons</string>
+    <string name="i6s1"> D\'abord, place deux piston collant placés l\'un devant l\'autre. </string>
+    <string name="i6s2"> Après place deux répéteurs sur le côté des pistons celui de gauche au second délais et celui de droite au quatrième, mettre la redstone comme sur l\'image. </string>
+    <string name="i6s3"> Allumé,le piston pousse l\'autre et l\'autre pousse le bloc. </string>
+
+    <string name="i7s0"> Indicateur de touche </string>
+    <string name="i7s1"> Place un bouton sur un bloc.</string>
+    <string name="i7s2"> Fais une ligne de redstone et ajoute une lampe pour y voir plus clair.</string>
+    <string name="i7s3"> Une flèche active le bouton, la lampe s\'allume et un signal va sur une ligne de redstone. Tu peux construire un stand de tir ;). </string>
+
+    <string name="i8s0"> «NOT» </string>
+    <string name="i8s1"> «NOT» ce schéma inclut une torche placée sur le côté d\'un bloc. </string>
+    <string name="i8s2"> Le schéma change le signal à son opposé. </string>
+
+    <string name="i13s0"> Le bouton comme un levier </string>
+    <string name="i13s1"> Place deux pistons et entre eux un bloc de redstone. </string>
+    <string name="i13s2"> Place une line de redstone et deux torches de redstone au dessus des pistons.</string>
+    <string name="i13s3"> Place un bouton et une ligne de redstone pour la sortie du signal.</string>
+    <string name="i13s4"> Le bouton appuyé, le bloc de redstone est poussé pour allumer ou éteindre la ligne de sortie. </string>
+
+    <string name="i9s0"> «NOT-AND» </string>
+    <string name="i9s1"> Place deux blocs et mets sur le côté de chaque bloc une torche de redstone.</string>
+    <string name="i9s2"> Continue la ligne de redstone et active le tout comme sur l\'image. Ce model est activé par un signal avec deux leviers. </string>
+    <string name="i9s3"> Si seulement, une ligne est activée, le signal peut sortir. </string>
+    <string name="i9s4"> Il n\'y aura pas de lignes allumées si les deux leviers sont allumés. </string>
+
+    <string name="i10s0"> «OR» </string>
+    <string name="i10s1"> C\'est simple et utile, ce schéma inclut une ligne de redstone.</string>
+    <string name="i10s2"> Si une ligne est active il y a une sortie du signal. </string>
+
+    <string name="i11s0"> «AND» </string>
+    <string name="i11s1"> «AND» Ce schéma inclut deux blocs avec une torche de redstone sur chacun d\'eux, entre les deux torches de redstone une ligne de redstone. </string>
+    <string name="i11s2"> La redstone alors va vers une autre torche de redstone une nouvelle fois contre un bloc, qui inverse le signal. </string>
+    <string name="i11s3"> Pour activer la ligne de sortie, tu as a activer l\'une des deux lignes d\'entrée.</string>
+    <string name="i11s4"> </string>
+
+    <string name="i12s0"> «NOT-OR» </string>
+    <string name="i12s1"> «NOT-OR» Ce schéma inclut deux unités d\'entrée de signal et un inverseur de signal.</string>
+    <string name="i12s2"> Pas d\'entrée de signal, en sortie la ligne de redstone sera allumée. </string>
+
+    <string name="z0s00"> Une simple porte 1x2</string>
+    <string name="z0s0"> C\'est une porte très simple.</string>
+    <string name="z0s1"> Construis une porte basique.</string>
+    <string name="z0s2"> Ajoute des pistons et active-les avec des torches de redstone.</string>
+    <string name="z0s3"> Ajoute un bouton au bloc du haut où se trouve de l\'autre côté la torche de redstone qui active les pistons. Appuyer sur le bouton ouvre la porte.</string>
+
+    <string name="z1s00"> La double porte 2x2</string>
+    <string name="z1s0"> Porte à double pistons.</string>
+    <string name="z1s1"> Contruis une porte basique.</string>
+    <string name="z1s2"> Ajoute des pistons et active-les avec des torches de redstone. Ajoute le câblage au-dessusde la construction et ajoute des répéteurs au-dessus des pistons.</string>
+    <string name="z1s3"> Ajoute un bouton au-dessus de la porte. Appuyer sur le bouton ouvre la porte.</string>
+    <string name="z1s4"> Tu peux ouvrir la porte de l\'autre côté. Tu dois juste faire le câblage de l\'autre côté et placer un autre bouton.</string>
+
+    <string name="z2s00"> Escaliers extensibles</string>
+    <string name="z2s0"> Un esclaier avec deux blocs de largeur. Ils sortent de chaque côté des murs.</string>
+    <string name="z2s1"> Construis un escalier basique..</string>
+    <string name="z2s2"> Ajoute des pistons de chaque côté. Place les escaliers et mets le câblage à côté des pîstons.</string>
+    <string name="z2s3"> Un signal de redstone fait sortir l\'ezscalier du mur.</string>
+
+    <string name="z3s00"> Un simple pont </string>
+    <string name="z3s0"> Ce pont est parfait pour les zones étroites avec deux blocs de large.</string>
+    <string name="z3s1"> Creuse une fosse et mets-y de la lave dedans. </string>
+    <string name="z3s2"> Ajoute des pistons de chaque côté et construis le pont.</string>
+    <string name="z3s3"> Les pistons activés le pont sort du mur et ferme la fosse de lave.</string>
+
+    <string name="z4s00"> Le pont vertical</string>
+    <string name="z4s0"> Tu peux construire ce pont partout, parcontre, tu ne peux pas avoir une texture de lave naturelle.</string>
+    <string name="z4s1"> Construis une fosse et place des pistons.</string>
+    <string name="z4s2"> Ajoute de la redstone.</string>
+    <string name="z4s3"> Activer les pistons fait sortir le pont.</string>
+    <string name="z4s4"> Rebouche la construction avec des blocs pour éviter que la lave coule.</string>
+    <string name="z4s5"> Remplis le trou de lave/eau... Tu n\'as pas besoin de mettre de liquide au-dessus du pont fermé, ça ne sert à rien.</string>
+    <string name="z4s6"> Terminé!</string>
+
+    <string name="z5s00"> Porte à plaque de pression</string>
+    <string name="z5s0"> Cette porte est activée avec des plaques de pression </string>
+    <string name="z5s1"> Construis une fosse de deux blocs de profondeur. Place la redstone dedans.</string>
+    <string name="z5s2"> Fais deux principales sorties.</string>
+    <string name="z5s3"> Place des torches de redstone aux derniers blocs de sortie. Place un bloc au-dessus de chaque torche.</string>
+    <string name="z5s4"> Ajoute les pistons et les plaques de pression.</string>
+    <string name="z5s5"> Place les blocs de la porte.</string>
+
+    <string name="z6s00">Porte invisible</string>
+    <string name="z6s0"> Cette porte à l\'apparence d\'un mur. Elle s\'ouvre en appuyant sur un bouton. </string>
+    <string name="z6s1"> Place quatre pistons un à côté de l\'autre.</string>
+    <string name="z6s2"> Place deux pistons en colone en face de l\'entrée, fais la symétrie à deux blocs de l\'autre côté.</string>
+    <string name="z6s3"> Place ces blocs: deux répéteurs, un levier ou un bouton, les blocs de la porte et continue la ligne de redstone. Mets les répéteurs à un délais de 2 ou 3.</string>
+    <string name="z6s4"> Activer la redstone ferme la porte.</string>
+    <string name="z6s5"> Finis la décoration du mur et place une torche de redstone avec un bouton. Laa porte est fermée, tu dois appuyer sur le bouton pour l\'ouvrir.</string>
+
+    <string name="z7s00"> Cachette dans la lave</string>
+    <string name="z7s0"> C\'est joli un lac de lave, dans celui-là tu peux sauter dedans en toute sécurité.</string>
+    <string name="z7s1"> Construis une fosse de 2x2 et six blocs de profondeur, place quatre panneaux au hauteurs 2 et 4.</string>
+    <string name="z7s2"> Place de l\'eau à la couche 3.</string>
+    <string name="z7s3"> Place de la lave au dessus de l\'eau. Maintenant ta cachette est invisible des autres.;)</string>
+    <string name="z7s4"> Saute dedans. Tu perds un peu de vie mais tu es caché.</string>
+
+    <string name="z8s00">  Le pont horizontal</string>
+    <string name="z8s0"> Ce pont fais sortir quatre blocs. La profondeur de la fosse ne change rien.</string>
+    <string name="z8s1"> Construis une fosse de quatre blocs de largeur. Tu peux mettre de la lave ou de l\'eau dedans. :)</string>
+    <string name="z8s2"> Place quatre pistons et des blocs du pont. Creuse de deux blocs de largeur et un de profondeur autour des pistons.</string>
+    <string name="z8s3"> Place la redstone et les répéteurs.</string>
+    <string name="z8s4"> Le délais des premier répéteurs sont de un, ceux du fond sont de 3.</string>
+    <string name="z8s5"> Répète le processus de l\'autre coté. unit les deux schémas/parties. Activer les pistons, fait sortir le pont, mais si le signal est perdu en cours, les pistons ne vont que sortir de deux blocs, le pont peut-être enlevé.</string>
+
+    <string name="z9s00"> Escalier invisible</string>
+    <string name="z9s0"> Cet escalier ressemble à un mur quand il n\'est pas activé. Tu peux construire cet escalier peut faire un ou deux bloc(s).</string>
+    <string name="z9s1"> Place des pisotons, dont le nombre est déffinit par la taille de l\'escalier.</string>
+    <string name="z9s2"> Place les blocs d\'escalier.</string>
+    <string name="z9s3"> Place encore des escalier dans la dirrection opposée des autres.</string>
+    <string name="z9s4"> Relis les pistons par une ligne de redstone.</string>
+    <string name="z9s5"> Construis le mur. L\'escalier est représenté par les blocs de couleur clair.</string>
+
+    <string name="z10s00"> Porte 3x3</string>    <string name="z10s0"> Ce schéma de cette porte 3x3 est compliqué. C\'est compliqué de d\'expliquer donc suis les screenshots. :)</string>
+    <string name="z10s1"> Le délais du répéteur est deux.</string>
+    <string name="z10s2"> Le délais du répéteur est trois.</string>
+    <string name="z10s3"> Fais juste la même chose.</string>
+    <string name="z10s4"> Aucun délais.</string>
+    <string name="z10s5"> Le délais du répéteur est trois.</string>
+    <string name="z10s6"> Fais juste la même chose.</string>
+    <string name="z10s7" >Fais juste la même chose.</string>
+    <string name="z10s8"> Fais juste la même chose.</string>
+    <string name="z10s9"> Ne pas oublier la torche de redstone.</string>
+    <string name="z10s10"> Fais juste la même chose.</string>
+    <string name="z10s11"> Aucun délais.</string>
+    <string name="z10s12"> Place le dernier bloc.</string>
+
+    <string name="z11s00"> Porte à chutes de liquide</string>
+    <string name="z11s0"> C\'est une porte très simple, elle est invisible grâce aux chutes de liquide.</string>
+    <string name="z11s1"> Construis une boîte, elle va garder le liquide.</string>
+    <string name="z11s2">Construis-en encore une à la hauteur de ta porte. Place des pistons d\'un côté de la boîte, relie-les par derrière avec de la redstone.</string>
+    <string name="z11s3"> Prolonge la boîte d\'en haut de un bloc de hauteur (vers le haut).</string>
+    <string name="z11s4"> Maintenant, construis le câblage vertical pour activer la redstone et donc les pistons.</string>
+    <string name="z11s5"> Mets le liquide (la porte dois être ouverte).</string>
+    <string name="z11s6"> Activer la redstone, ferme la porte.</string>
+
+    <string name="z12s00"> Table de craft invisible</string>
+    <string name="z12s0"> La table de craft et invisible dans le mur. Ce n\'est pas forcément pratique mais ça peut-être classe. :)</string>
+    <string name="z12s1"> Place trois pistons et place la table de craft au milieu d\'eux.</string>
+    <string name="z12s2"> Place une torche de redstone deux blocs au-dessus de la table de craft.</string>
+    <string name="z12s3"> Construis une petite plate-forme pour y mettre de la redstone .</string>
+    <string name="z12s4"> Place deux répéteurs (aucun délais) et deux torches de redstone au-dessus des pistons.</string>
+    <string name="z12s5"> Construis le mur et place un bouton sur le bloc ou se trouve, derrière, la torche de redstone.</string>
+    <string name="z12s6"> Terminé. :)</string>
+
+    <string name="z13s00"> Chutes de liquide(s)</string>
+    <string name="z13s0"> Ce méchanisme sert à faire des chutes de liquide(s). Idealement utile pour créer de belles salles.</string>
+    <string name="z13s1"> Construis une croix (vide au milieu), place un piston sur l\'un des côtés de la croix.</string>
+    <string name="z13s2"> Construis une boîte au-dessus pour y mettre le liquide.</string>
+    <string name="z13s3"> Mets un minuteur (aucun délais), connecte le vers le piston avec une torche de redstone, qui active le piston.</string>
+    <string name="z13s4"> Ajoute le liquide et active le minuteur.</string>
+    <string name="z13s5"> La chute de la lave est lente, donc ajoute plus de répéteurs pour faire du délais, qui activent le piston.</string>
+
+    <string name="z14s00"> Eclairage de nuit</string>
+    <string name="z14s0"> Le detecteur de lumière allume les lumières la nuit et les éteignent le jour.</string>
+    <string name="z14s1"> Construis des colones avec des lampes dessus.</string>
+    <string name="z14s2"> Fais une ligne de redstone qui connecte le lampes à un détecteur de lumière.</string>
+    <string name="z14s3"> Une petite amélioration...</string>
+
+    <string name="z15s00"> Lumières de secours</string>
+    <string name="z15s0"> C\'est un schéma simple avec des torches de redstone clignotantes. La lumière est sombre, cela fait une atmosphère intéréssente pour des bunkers ou des dongeons.</string>
+    <string name="z15s1"> Fais une lignée de torche reliées avec un fil de redstone.</string>
+    <string name="z15s2"> Maintenant, ajoute un minuteur (rapide) et active-le. Terminé.</string>
+
+    <string name="z16s00"> Ferme à disques de musiques</string>
+    <string name="z16s0"> Les disques de musique sont créer quand un creeper est tué par un squelette . C\'est un piège pour récuperer les disques de musique.</string>
+    <string name="z16s1"> Place deux pistons et une plaque de pression.</string>
+    <string name="z16s2"> Creuse deux blocs et place une torche de redstone au bloc où est placée la plaque de pression.</string>
+    <string name="z16s3"> Place un bloc au-dessus de cette torche de redstone derrière ce bloc mettre encore une torche de redstone and set another torch on it. Elle devrait être éteinte.</string>
+    <string name="z16s4"> Construis la seconde partie du piège. Creuse deux bloc, place deux pistons au fond du trou, de chaque côté. Place une redstone au milieu.</string>
+    <string name="z16s5"> Rebouche au-dessus des pistons et de la poudre de redstone et mets une plaque de pression au-dessus de cette poudre.</string>
+    <string name="z16s6"> Lève les paroies de un bloc.</string>
+    <string name="z16s7"> Construis un toit. Maintenant, tu as besoin de chance pour mettre un squelette dans la première salle et mettre un creeper dans la deuxième salle. Quand tu as fais tout cela, tu vas dans la troisième salle pour que le squelette tue le creeper.</string>
+
+    <string name="z17s00"> Panneau de contrôle</string>
+    <string name="z17s0"> Tu peux utiliser ce panneaux pour activer des méchanisme. Chaque bouton has une utilité différente.</string>
+    <string name="z17s1"> Construis une "fourche" à neuf broches pour les lignes de redstone.</string>
+    <string name="z17s2"> Construis un panneau avec des boutons, il repose à hauteur de la "fourche".</string>
+    <string name="z17s3"> Place la redstone des trois boutons d\'en bas.</string>
+    <string name="z17s4"> construis une plate-forme pour les lignes de redstone des boutons du milieu  .</string>
+    <string name="z17s5"> Continue les lignes de redstone en mettant des répéteurs, pour que les lignes ne se connectent pas.</string>
+    <string name="z17s6"> Place la redstone du bouton en haut-droit.</string>
+    <string name="z17s7"> Place la redstone des deux derniers boutons, construis une petite plate-forme.</string>
+    <string name="z17s8"> Continue les lignes de redstone, jusqu\'à les mettre dans les tranchées. Ajoute des blocs à certain endroit pour éviter que les différentes lignes se connectent entre elles.</string>
+    <string name="z17s9"> Numéros de sortie des signaux.</string>
+
+    <string name="z18s00"> Porte codée</string>
+    <string name="z18s0"> La porte s\'ouvre seulement s\'il le bon code est tapé. La porte codée peut être une excellente énigme pour une carte aventure.C\'est un schéma plutôt technique, pour les gens qui s\'y connaissent déjà pas mal.</string>
+    <string name="z18s1"> D\'abord, construis le panneau ou seront les boutons et trouve un endrois pour placer la porte.</string>
+    <string name="z18s2"> Active le piston à l\'aide d\'une torche de redstone.</string>
+    <string name="z18s3"> Continue la ligne avec de la redstone (la torche de redstone est pour mieux voir).</string>
+    <string name="z18s4"> Fais un code [3,5]. Continue les lignes avec les signaux qui leurs corresponds. </string>
+    <string name="z18s5"> fais un schéma «AND (ET)».</string>
+    <string name="z18s6"> étend la ligne de redstone jusqu\'à atteindre les pistons. Le répéteur d\'au dessus n\'a aucun délais, suis d\'en dessous est à un délais maximum.</string>
+    <string name="z18s7"> Sépare les différentes lignes et schémas pour éviter les interférences entre les lignes.</string>
+
+    <string name="z19s00"> Tunnel piégé</string>
+    <string name="z19s0"> Le piège est dans un cul-de-sac. Si quelqu\'un tombe, le piège se referme au-dessus de lui et ne lui laisse aucunes sorties pour s\'échapper. :)</string>
+    <string name="z19s1"> Creuse une fosse de 2 par 3 blocs avec une profondeur de deux blocs. Place une dalle dans le coin.</string>
+    <string name="z19s2"> Place un torche de redstone au bloc qui a la dalle. Place de la redstone  et mets un bloc avec une torche de redstone dessus.</string>
+    <string name="z19s3"> Place des blocs sur les deux torches des torches et au-dessus du piston.</string>
+    <string name="z19s4"> Couvre ton circuit avec une boîte. Partir de la dalle.</string>
+    <string name="z19s5"> Construis un tunnel autour. Terminé. :)</string>
+
+    <string name="z20s00"> Piège aux portes</string>
+    <string name="z20s0"> C\'est un piège très simple, les portes se ferment quand quelqu\'un est sur la plaque de pression.</string>
+    <string name="z20s1"> Place une plaque de pression.</string>
+    <string name="z20s2"> Place les portes, de telles sortes que quand on rentre les portes se ferment.</string>
+
+    <string name="z21s00"> Coffre piègé</string>
+    <string name="z21s0"> Quand quelqu\'un ouvre ce coffre, le piège s\'ouvre et il tombe dans la lave.</string>
+    <string name="z21s1"> Place le coffre comme sur le screenshot.</string>
+    <string name="z21s2"> Creuse une fosse deux blocs de largeur avant le coffre et place la lave dedans.</string>
+    <string name="z21s3"> Construis le schéma comme sur le screenshot derrière le coffre. </string>
+    <string name="z21s4"> Ajoute les pistons et connecte-les au circuit du coffre.</string>
+    <string name="z21s5"> Construis une salle. Terminé.:)</string>
+
+    <string name="z22s00"> Cactus piègés</string>
+    <string name="z22s0"> Si quelqu\'un tombe dedans, le courant d\'eau va la pousser vers les cactus, jusqu\'à ce quelle meure.</string>
+    <string name="z22s1"> Fais une boîte pour mettre l\'eau, place les blocs de sable en diagonale .</string>
+    <string name="z22s2"> Place les cactus</string>
+    <string name="z22s3"> Mets l\'eau.</string>
+
+    <string name="z23s00"> Salle de tortures</string>
+    <string name="z23s0"> C\'est un schéma difficile pour certain, pour les personnes plus avancées. Tu peux tuer des gens avec, il y a plusieurs voies: utiliser des flèches ou des potions, Noie-là dans de l\'eau ou de la lave.. Tu n\'as pas besoin de répéter le schéma à la lettre, juste comprendre les principales choses.</string>
+    <string name="z23s1"> Place des distributeurs, ils envoient les potions et les flèches.</string>
+    <string name="z23s2"> Place une torche de redstone sous chaque distributeurs, pour les activer.</string>
+    <string name="z23s3"> pose la redstone sur quelque blocs des distributeurs jusqu\'à des boutons placés sur des colones. Pour les activer, appuis sur l\'un des deux boutons.</string>
+    <string name="z23s4"> Ajoute les potions/flèches.</string>
+    <string name="z23s5"> Creuse un trou au milieu de la salle. Mets un piston sur le bloc le plus éloigné. Cela mettera votre future victime directement dans la lave.</string>
+    <string name="z23s6"> Continue le signal du piston jusqu\'à la colone.</string>
+    <string name="z23s7"> Place deuxpistons devant les distributeurs afins de les boucher .</string>
+    <string name="z23s8"> Etendre la ligne de redstone. Place des leviers. Les pistons doivent être constament allumés.</string>
+    <string name="z23s9"> Ajoute des pistons, pour boucher les distributeurs du côté de la salle.</string>
+    <string name="z23s10"> Pose de la redstone. Place des leviers. Les pistons doivent être activés pas défaut.</string>
+    <string name="z23s11"> Maintenant, faire une possibilté de coincer votre victime. Place un piston comme tu as fait ton piège à lave. Connecte-le d\'en haut</string>
+    <string name="z23s12"> Ajoute de l\'eau.</string>
+    <string name="z23s13"> L\'activation du mécanisme par derrière, ça pose des blocs pour éviter que la lave se transforme en obsdienne.</string>
+    <string name="z23s14"> Voilà à quoi elle devrait ressembler.</string>
+    <string name="z23s15"> Construis un convoyeur, pour faire tomber les victimes dans la salle.</string>
+    <string name="z23s16"> Construis une fosse pour un convoyeur. Tu peux attirer une victime, pour quelle tombe dans la pièce.</string>
+    <string name="z23s17"> Décorer/affiner la pièce.</string>
+    <string name="z23s18"> Ajoute un levier pour activer le convoyeur.</string>
+    <string name="z23s19"> C\'est un avertissement :)</string>
+    <string name="z23s20"> Ne pas oublier le delais. La seconde ligne doit être activée après la première.</string>
+    <string name="z23s21"> Une vue de l\'intérieur.</string>
+
+    <string name="i14s0"> Indicateur à 7-segments </string>
+    <string name="i14s1"> Place les lampes comme sur le screenshot.</string>
+    <string name="i14s2"> relie-les avec de la redstone. Chaque segment contient trois lampes.</string>
+    <string name="i14s3"> Fais descendre les lignes de redstone.</string>
+    <string name="i14s4"></string>
+    <string name="i14s5"></string>
+    <string name="i14s6"> Allume les bon segments, tu obtiens le bon numéro.</string>
+
+    <string name="i15s0"> Cannon à TNT</string>
+    <string name="i15s1"> Construis une plate-forme pour le cannon. </string>
+    <string name="i15s2"> Place une barrière. Continue la redstone à partir d\'elle.</string>
+    <string name="i15s3"> Pour les sept répéteurs, tu les mets au délais maximum. Le huitième est pour l\'allumage de la TNT. </string>
+    <string name="i15s4"> Place la TNT, là où se trouve les marques orange.</string>
+
+    <string name="i16s0"> Une sirène </string>
+    <string name="i16s1"> Fais un minuteur ultra rapide.</string>
+    <string name="i16s2"> Allume le comparateur et continue la ligne de redstone de deux blocs.</string>
+    <string name="i16s3"> Un son correct du bloc de musique vient du bloc du dessous de lui. Le délais est trois.</string>
+    <string name="i16s4"> Le bloc de musique va émètre un son par période, quand le minuteur est activé. </string>
+
+    <string name="i17s0"> Sol qui se répare automatiquement</string>
+    <string name="i17s1"> Construis deux cuves pour un générateur à cailloux.</string>
+    <string name="i17s2"> Remplis-les d\'eau et de lave. Place un piston et place la redstone à côté de lui.</string>
+    <string name="i17s3"> Place une série de onze pistons et connecte-les au générateur à cailloux avec de la redstone.</string>
+    <string name="i17s4"> Fais un minuteur désactivable. There should be at least three redstone blocks between the comparator and the main chain.</string>
+    <string name="i17s5"> Allumé, le sol se construit automatiquement.</string>
+    <string name="i17s6"> Après que tout les blocs soient posés, si il y a de quelconques domages se sera réparé automatiquement.</string>
+
+    <string name="i18s0"> Minuteur simple</string>
+    <string name="i18s1"> Construis un circuit fermé avec quatre répéteurs en cercle, ils ont le même délais. Le plus grand délais détermine le délais entre quand il est allumé et éteint.</string>
+    <string name="i18s2"> Active l\'une des quatre redstone très rapidement en posant et cassant une torche de redstone ou activer et désactiver un levier. Tu peux désactiver le minuteur sur toutes ces côté. </string>
+
+    <string name="i19s0"> Minuteur rapide</string>
+    <string name="i19s1"> Place des blocs. </string>
+    <string name="i19s2"> Place des torches et mets une ligne de redstone.</string>
+
+    <string name="i20s0"> Câblage qui monte</string>
+    <string name="i20s1"> Cette ligne de redstone descend.</string>
+    <string name="i20s2"> Connecte la ligne à deux blocs avec des torches de redstone dessus.</string>
+    <string name="i20s3"> Continue la redstone. </string>
+    <string name="i20s4"> C\'est fait! </string>
+
+    <string name="i21s0"> Câblage qui descend</string>
+    <string name="i21s1"> Construis des colones de deux blocs de haut. </string>
+    <string name="i21s2"> Enlève les blocs qui gênent.</string>
+    <string name="i21s3"> Place des torches de redstone.</string>
+    <string name="i21s4"> Le signal d\'en haut se retrouve en bas. </string>
+
+    <string name="i22s0"> Allée piégée </string>
+    <string name="i22s1"> Creuse une fosse pour le piège. </string>
+    <string name="i22s2"> Pose la redstone. </string>
+    <string name="i22s3"> Rebouche le piège avec des blocs, ne pose pas le TNT. </string>
+    <string name="i22s4"> Cache la redstone. Il y aura un crochet dans ce creux.</string>
+    <string name="i22s5"> Place deux crochets un opposé à l\'autre. On mettera un fil plus tard.</string>
+    <string name="i22s6"> Déguise les crochets avec des buissons et lianes autour. </string>
+    <string name="i22s7"> Place la TNT.</string>
+    <string name="i22s8"> Place le fil entre les deux crochets. Attention de ne pas tomber dans son propre piège.</string>
+
+    <string name="i23s0"> Minuteur extra-rapide</string>
+    <string name="i23s1"> Place un comparateur et connecte la sortie à une entrée sur le côté. Un levier, servira à éteindre et allumer le minuteur.</string>
+    <string name="i23s2"> Active le comparateur (clic droit). Pour changer le signal, tu dois continuer la redstone après deux blocs. </string>
+
+    <string name="i24s0"> Générateur à cobblestone</string>
+    <string name="i24s1"> Place des blocs basics.</string>
+    <string name="i24s2"> Fais la même chose et un mets un blocs de séparation au centre.</string>
+    <string name="i24s3"> L\'eau et la lave tombent ce qui fabrique de la cobblestone. </string>
+
+    <string name="i26s0"> Ferme à cannes à sucre</string>
+    <string name="i26s1"> Plante un nombre de cannes à sucre</string>
+    <string name="i26s2"> Les pistons cassent la canne à sucre de deux de hauteur, sans toucher à ceux d\'en dessous.</string>
+    <string name="i26s3"> Connecte les pistons à un levier.</string>
+
+    <string name="i27s0"> Câblage qui monte (2) </string>
+    <string name="i27s1"> Construis deux colones assez haute.</string>
+    <string name="i27s2"> Pose des dalles comme sur l\'image.</string>
+    <string name="i27s3"> Tu n\'as plus besoin des colones maintenant. Pose de la redstone sur chaque dalle.</string>
+    <string name="i27s4"> Terminé! </string>
+
+    <string name="i28s0"> Porte 5x4</string>
+    <string name="i28s1"> Pose des blocs au sol. </string>
+    <string name="i28s2"> Creuse une tranchée pour la redstone. La sortie est du coté droit, c\'est pour ouvrir et fermer la porte. </string>
+    <string name="i28s3"> Le répéteur doit être au côté opposé de la sortie du contrôle de la porte.</string>
+    <string name="i28s4"> Rebouche la tranchée avec de l\'obsidienne. Utiliser de l\'obtidienne permet, que ces derniers ne peuvent pas être poussés par les pistons, et slime blocs.</string>
+    <string name="i28s5"> Connecte les lignes de redstone jusqu\'au pistons (ajoutés après), Qui déplacent les blocs. Mets le délais du répéteur (le plus bas) à 4 , et 2 pour celui haut-dessus.</string>
+    <string name="i28s6"> Pose les pistons et les blocs de porte. Tu peux utiliser n\'importe quel bloc, si il peut être poussé par les pistons, le slime ne peut pas être remplacé. </string>
+    <string name="i28s7"> Reproduis le skelette du schéma. </string>
+    <string name="i28s8"> Pose une torche de redstone pour que les pistons soit activés, donc la porte fermée. Pose un levier ou un bouton, de l\'autre côté du mur, par rapport à cette torche .</string>
+    <string name="i28s9"> La porte ferme entièrement le passage. </string>
+    <string name="i28s10"> C\'est ouvert! </string>
+
+    <string name="i29s0"> </string>
+    <string name="i29s1"> Tu te rappelles de l\'indicateur 7-segments ? Bien, fais des lignes à la sortie de chaque ligne venues de l\'indicateur, pose la redstone. J\'ai utilisé 21 blocs pour une longeur de ligne. </string>
+    <string name="i29s2"> Pose des blocs au-dessus des lignes. Elle servira à allumer les bons numéros.</string>
+    <string name="i29s3"> Active la ligne à l\'aide d\'une torche de restone, et place un levier derrière elle. </string>
+    <string name="i29s4"> Le nombre indiqué, est créé par plusieurs segments allumés. Place des torches de redstone aux lignes appropriées.  </string>
+    <string name="i29s5"> Nombre «1».</string>
+    <string name="i29s6"> Maintenant fais les autres numéros.</string>
+
+    <string name="z24s00"> Crafts</string>
+    <string name="z24s0"> C\'est une liste des principales ressources ainsi que des crafts .</string>
+    <string name="z24s1"> La poudre redstone. Elle découle du bloc de minerai de redstone. Elle se trouve entre les couches 5 et 15.</string>
+    <string name="z24s2"> Les boules collantes. Elle s\'obtiens grâce aux slimes, Il se trouve dans les biomes marais (la nuit) oû les chunks à slimes.</string>
+    <string name="z24s3"> Le minerai de quartz. Il se trouve abondement dans le nether.</string>
+    <string name="z24s4"> La glowstone (pierre lumineuse). Elle se trouve au plafond du nether. Elle s\'obtient en cassant le bloc.</string>
+    <string name="z24s5"> La torche de redstone. Elle se fabrique avec un bâton et une poudre de redstone.</string>
+    <string name="z24s6"> Le répéteur. Il se fabrique avec trois stone (pierre), deux torches de redstone et une poudre de redstone.</string>
+    <string name="z24s7"> Le piston. Il se fabrique avec un lingot de fer, une poudre de redstone, trois planches de bois (n\'importe lequel) et quatre cobblestones (pierre taillée).</string>
+    <string name="z24s8"> Le piston collant. Il se fabrique avec un piston et une boule de slime.</string>
+    <string name="z24s9"> Le comparateur. Il se fabrique avec trois stone (pierre), un fragment de quartz et trois torches de redstone.</string>
+    <string name="z24s10"> Le block de slime. Il se fabrique avec neuf boules de slime.</string>
+    <string name="z24s11"> Détecteur de lumière. Il se fabrique avec trois blocs de verre, trois fragments de quartz et trois dalles de bois..</string>
+    <string name="z24s12"> Quartz. Il se trouve dans le nether.</string>
+    <string name="z24s13"> Bloc de glowstone. Il se fabrique avec quatre glowstone (poudre lumineuse).</string>
+    <string name="z24s14"> Lampe de redstone. Elle se fabrique avec un bloc de glowstone (poudre lumineuse) et quatre poudres de redstone.</string>
+    <string name="z24s15"> Blocs de redstone. Il se fabrique avec neuf poudres de redstone.</string>
+    <string name="z24s16"> TNT. Elle peut être fabriqué avec quatre blocs de sable de n\'importe quel type et cinq poudre à canon.</string>
+    <string name="z24s17"> L\'entonnoir. Il peut être fabriqué avec cinq lingots de fer et un coffre.</string>
+
+    <string name="z25s00">La redstone</string>
+    <string name="z25s0"> Elle vient des minerais de redstone , la couche (environ) 15.</string>
+    <string name="z25s1"> Tu ne peux que la poser sur le haut d\'un bloc, tu peux en faire des blocs.</string>
+    <string name="z25s2"> La redstone sur le sol fera une ligne, elle peut être allumée avec un levier, bouton...</string>
+    <string name="z25s3"> La poudre de redstone peu monter d\'un seul bloc à chaque fois. Mais quand une ligne monte, si tu place un bloc dessus , la ligne sera coupée.</string>
+
+    <string name="z26s00">Bouton et plaques de pression</string>
+    <string name="z26s0"> Les bouton se fabrique avec un bloc de planche, ou un bloc de pierre.</string>
+    <string name="z26s1"> Les plaques de pression se fabriquent avec deux planches pour celle en bois et deux blocs de pierre pour celle en pierre, elle se placent uniquement horizontalement.</string>
+    <string name="z26s2"> Tu peux la mettre au-dessus d\'un bloc. Les deux donnent un signal de redstone quand on marche dessus. Celle en bois peut être activée avec des items.</string>
+    <string name="z26s3"> Il y a des boutons en bois ou en pierre. Il n\'y a pas une grande différence entre les deux (Celui en bois peut être activé à l\'aide d\'une flèche). Pour activer le bouton, clic droit.</string>
+
+    <string name="z27s00">Le levier</string>
+    <string name="z27s0"> Il se fabrique avec une bâton et une pierre taillée.</string>
+    <string name="z27s1"> Le levier peut se mettre sur n\'importe quel côté d\'un bloc. Il produit un signal constant.</string>
+
+    <string name="z28s00">Le distributeur</string>
+    <string name="z28s0"> Il se fabrique avec un arc, une poudre de redstone et 7 pierres taillées.</string>
+    <string name="z28s1"> Mets des choses qui peuvent être tirées. Quand il est activé par de la redstone, le distributeur lance des choses.</string>
+    <string name="z28s2"> Si tu mets des choses qui ne peuvent pas être tirées, les items tombent au sol. Les distributeurs ont un espace de 9 cases et jette les items aléatoirement. Les cases vides sont ignorées.</string>
+
+    <string name="z29s00">Le droppeur</string>
+    <string name="z29s0"> C\'est comme le distributeur, sauf qu\'il se fabrique sans arc.</string>
+    <string name="z29s1"> Le droppeur est comme le distributeur, sauf qu\'il ne lance pas, il jette les items.</string>
+    <string name="z29s2"> Il s\'active avec de la redstone.</string>
+
+    <string name="z30s00">Bloc de musique</string>
+    <string name="z30s0"> Il se fabrique avec 8 planche et une redstone.</string>
+    <string name="z30s1"> Il peut s\'activer par de la redstone ou un clic gauche sur le bloc, cela émettera un son. Ce son dépend du bloc qui se trouve en dessous du blocs de musique et le nombre de clics sur le bloc, il change la tonnalité.</string>
+
+    <string name="z31s00">Le bloc de redstone</string>
+    <string name="z31s0"> Il se fabrique avec 9 poudres de redstone.</string>
+    <string name="z31s1"> Il donne un signal constant. C\'est d\'un bloc qui a ses 6 faces pareilles.</string>
+    <string name="z31s2"> Il ne peut pas activer un piston si le bloc de il doit être pousser (en même temps).</string>
+    <string name="z31s3"> Le bloc de redstone peut être poussé par un piston. Ce fait donne des opportunités pour des circuits logiques.</string>
+
+    <string name="z32s00">La torche de redstone</string>
+    <string name="z32s0"> Elle se fabrique avec un bâton et une poudre de redstone.</string>
+    <string name="z32s1"> Elle produit un signal constant. Elle peut être placée sur les côtés et au-dessus des blocs.</string>
+    <string name="z32s2"> Si une torche active un bloc avec une torche dessus, elle sera éteinte, il y aura aucun signal.</string>
+    <string name="z32s3"> Elle active le bloc au-dessus d\'elle.</string>
+
+    <string name="i1s0"> Ferme à blé</string>
+    <string name="i1s1"> Creuse une tranchée pour pour approvisionner en eau les plantes.</string>
+    <string name="i1s2"> Mets y de l\'eau. </string>
+    <string name="i1s3"> Fais les champs. Pose des blocs au-dessus de l\'eau et aux bords des champs.</string>
+    <string name="i1s4"> Place des distributeurs et connecte les avec de la redstone. Mets des sceaux d\'eau dans les distributeurs.</string>
+    <string name="i1s5"> Place des entonnoirs, du coffre jusqu\'aux bords.</string>
+    <string name="i1s6"> Fais une grande ligne de redstone, pose un répéteur au milieu de la ligne, jusqu\'au coffre. Pose un bouton au-dessus du coffre.</string>
+    <string name="i1s7"> Tu peux placer des dalles au dessus du champs pour pouvoir semer.</string>
+    <string name="i1s8"> L\'eau détruit la récolte et l\'emmène jusqu\'aux entonnoirs, le coffre collecte les ressources.</string>
+
+    <string name="i25s0"> Ferme à cacao </string>
+    <string name="i25s1"> Fais une plateforme de 8 par 8.</string>
+    <string name="i25s2"> Place des distributeur et mets des sceaux d\'eau dedans.</string>
+    <string name="i25s3"> Place des entonnoirs jusqu\'au coffre.</string>
+    <string name="i25s4"> Fais une ligne de redstone et mets un bouton au-dessus du coffre.</string>
+
+    <string name="i30s0"> Le comparateur</string>
+    <string name="i30s1"> Le comparateur est l\'un des composants de redstone le plus compliqué. Il y a deux entrée: à l\'arrière (A) et sur le côté (B). Il n\'amplifie pas le signal. Il y a deux modes. Utiliser le premier mode sert à comparer les signaux A et B, si la petite torche de redstone (sur le comparateur) n\'est pas allumée. La force du signal est déterminée par la formule: puissance = 15 - longueur de la ligne de redstone. Si A supérieur à B, quand le signal traverse le comparateur. Dans l\'autre cas le signal ne doit pas passer! La formule du second mode: puissance de sortie = A - B. Maintenant regarde les exemples.</string>
+    <string name="i30s2"> Signal A = 12 (15 - 3 blocs), B = 12. Donc le signal traverse le comparateur et allume les deux lampes.</string>
+    <string name="i30s3"> B = 13. maintenant B > A, donc le signal ne passe pas.</string>
+    <string name="i30s4"> Avec le second mode. A = 14, B = 12. Le signal de sortie est de 14 - 12 = 2, Donc uniquement la première lampe est allumée.</string>
+
+    <string name="i2s0"> Ferme à canne à sucre  </string>
+    <string name="i2s1"> Plante de la canne à sucre.</string>
+    <string name="i2s2"> Place des pistons à la hauteur 2 et connecte-les avec de la redstone. Appuyer sur le bouton/levier coupe la canne à sucre de deux et trois blocs de haut.</string>
+
+    <string name="i31s0"> Bloc de slime</string>
+    <string name="i31s1"> Slime blocks catch the nearest blocks. Il peut être poussé par les pistons, tous le blocs (maximum = 12) seront poussés en même temps.</string>
+    <string name="i31s2"> Ce bloc n\'a pas pu être poussé, car il n\'a pas de contact direct avec le bloc de slime.</string>
+    <string name="i31s3"> Tu peux tomber sur les blocs de slime, sans prendre de dégats, tu rebondis. Mais, tu marches moins vite dessus.</string>
+
+    <string name="i32s0"> Le répéteur</string>
+    <string name="i32s1"> Un répéteur prend un signal existant et l\'amplifie .</string>
+    <string name="i32s2"> La lampe est allumée.</string>
+    <string name="i32s3"> Tu peux mettre du délais de 0.1 seconde à 0.4.</string>
+    <string name="i32s4"> Après l\'arrêt du signal, le répéteur va alimenter la lampe pendant 0.4 seconde.</string>
+
+    <string name="i33s0"> Piston</string>
+    <string name="i33s1"> Les pistons servent a pousser des blocs. Quelques informations sur les pistons, il ne peut pas pousser; (les coffres, les fours, les distributeurs,...), aussi les blocs de bedrock, d\'obsidienne ou blocs de portail.</string>
+    <string name="i33s2"> Il peut être activé par n\'importe quel signal.</string>
+    <string name="i33s3"> Un piston colant, quand il est éteind, tire les blocs vers lui.</string>
+
+    <string name="i34s0">TNT</string>
+    <string name="i34s1"> Le bloc de TNT se place comme n\'importe quel autre bloc.</string>
+    <string name="i34s2"> Quand elle est activé, elle tombe.</string>
+    <string name="i34s3"> Elle ne fait pas un cratère immense après l\'explosion (9-12 blocs de diamètre). Une partie des blocs vont être détruits durant l\'explosion, mais quelques un seront au sol.</string>
+    <string name="i34s4"> Certains blocs comme l\'obtidienne ne sera pas détruit après l\'explosion.</string>
+    <string name="i34s5"> Tu as vu ? L\'obtidienne a absorbée l\'explosion.</string>
+
+    <string name="i35s0"> L\'entonnoir</string>
+    <string name="i35s1"> Il peut aspirer des items, au-dessus de lui. Ces chose peuvent aller dans un coffre, distributeur ou droppeur.</string>
+    <string name="i35s2"> Quand un wagon-coffre s\'arrête au-dessus de lui, c\'est plus long de prendre les items dans une wagon que dans un coffre. Il n\'a que 5 places différentes. Pour lui donner une direction (pour le poser), presse le bouton "Shift" et clique sur le clic droit sur l\'un des côtés du coffre.</string>
+    <string name="i35s3"> Quand un wagon-coffre s\'arrête en-dessous de lui, l\'entonnoir mettera ses items dans le coffre.</string>
+    <string name="i35s4"> Ce wagon, transporte des blocs de pierre. Maintenant, il embarque des blocs de laine. </string>
+
+    <string name="z33s00"> Distribution de wagons</string>
+    <string name="z33s0"> Il sert à diriger les wagons sur différentes voies.</string>
+    <string name="z33s1"> Construis une entrée et deux sortie, en forme de fourche. Ajoute un rail activateur avec un rail de propulsion avant la fourche.</string>
+    <string name="z33s2"> Fais un switch. Deux pistons et un bloc de redstone.</string>
+    <string name="z33s3"> Place deux blocs avec de la redstone dessus et des torches sur les deux côté.</string>
+    <string name="z33s4"> Connecte le switch au rail activateur et un autre câblage du bloc de redstone vers le rail.</string>
+    <string name="z33s5"> Le premier wagon va à droite, il change le switch, donc la direction du rail.</string>
+    <string name="z33s6"> Le second wagon va à gauche et change de nouveau le sens du rail.</string>
+
+    <string name="z34s00">Le lanceur</string>
+    <string name="z34s0"> Lance un wagon en appuyant sur un bouton.</string>
+    <string name="z34s1"> Fais une pente avec des rails propulseurs.</string>
+    <string name="z34s2"> Ajoute un bouton sur le premier bloc de la pente et place un wagon ici.</string>
+    <string name="z34s3"> Active le bouton, le rail est alimenté, le wagon est lancé.</string>
+
+    <string name = "i36s0"> Ferme à pastèques et citrouilles </string>
+    <string name = "i36s1"> Mets des pistons collants à la verticale et connecte les avec des répéteurs. </string>
+    <string name = "i36s2"> Mets des blocs de terre. </string>
+    <string name = "i36s3"> Amplifie le signal pour les pistons, à l\'aide de répéteurs. </string>
+    <string name = "i36s4"> Le bouton de récolte est situé juste au-dessus de la redstone. </string>
+    <string name = "i36s5"> Ca marche uniquement pour les citrouilles et les pastèques. Pas besoin d\'ajouter de l\'eau pour récolter. </string>
+    <string name = "i36s6"> Quand tu presses le bouton, les pistons vont se lever et casser les pastèques et citrouilles. </string>
+
+    <string name="i40s0"> Déchargement automatique à wagons</string>
+    <string name="i40s1"> Place de blocs superposés et une torche dessus.</string>
+    <string name="i40s2"> Place en un cercle des entonnoirs, il y en a un qui converge vers le coffre.</string>
+    <string name="i40s3"> Place des rails sur les entonnoirs. Presse la touche "Shift".</string>
+    <string name="i40s4"> Place une torche de redstone sous un rail propulseur, pour l\'activer.</string>
+    <string name="i40s5"> Dirige les rails vers le bas. </string>
+    <string name="i40s6"> Place un comparateur et un répéteur.</string>
+    <string name="i40s7"> Tu as besoin de placer un autre répéteur pour changer la position du rail, connecte le à la sortie du comparateur.</string>
+    <string name="i40s8"> Cette série de lampes est un indicateur du stade du déchargement. Les répéteurs avant les lampes ont le délais maximum.</string>
+    <string name="i40s9"> Allonge les rails.</string>
+
+    <string name="i41s0"> Le pont qui s\'ouvre </string>
+    <string name="i41s1"> Place une série de pistons collants (autant que tu veux).</string>
+    <string name="i41s2"> Couvre-les avec des blocs. Pose y la redstone comme sur l\'image.</string>
+    <string name="i41s3"> Place des dalles et creuse une fosse. </string>
+    <string name="i41s4"> Isole les deux hauteurs de redstone avec des blocs.</string>
+    <string name="i41s5"> Tu peux mettre de la lave dans la fosse. N\'oublie pas que tu peux tomber dedans. Place des crochets au-dessus des pistons et connecte-les avec de la ficelle.</string>
+    <string name="i41s6"> C\'est fait! </string>
+
+    <string name="i42s0"> Porte lumineuse </string>
+    <string name="i42s1"> Place deux beacons sur la même plate-forme (blocs de fer).</string>
+    <string name="i42s2"> Place des pistons, d\'un côté,du verre vert et de l\'autre du verre rouge et des répéteurs avec un délais de 2. </string>
+    <string name="i42s3"> Place un piston avec un bloc de redstone à la verticale. Continue la ligne de redstone vers une torche de redstone . </string>
+    <string name="i42s4"> Ajoute deux torches et répéteurs.</string>
+    <string name="i42s5"> Construis une plate-forme. Fais une arche, les blocs parallèles au sol doivent être en verre. </string>
+    <string name="i42s6"> Place des portillons. </string>
+    <string name="i42s7"> Couvre-les avec des tapis. </string>
+    <string name="i42s8"> Maintenant, tu peux traverser la porte. </string>
+
+    <string name="i43s0"> Garde robe invisible </string>
+    <string name="i43s1"> Creuse une fosse d\'une profondeur de 3 et place des pistons collants. </string>
+    <string name="i43s2"> Place et connecte les pistons à la surface. Mais des répéteur un délais de 2.</string>
+    <string name="i43s3"> Continue la redstone vers en dessous, et fais un inverseur (une torche de redstone) sur le côté du bloc.</string>
+    <string name="i43s4"> Connecte les pistons d\'en dessous.</string>
+    <string name="i43s5"> Connecte-les avec la torche de redstone placée tantôt.</string>
+    <string name="i43s6"> Place des blocs sur les pistons collants. Pose des porte armure et un bouton.</string>
+    <string name="i43s7"> Fais le schéma "un bouton comme un levier" il sera fait de l\'autre côté.</string>
+    <string name="i43s8"> Appuie sur le bouton, les porte-armure laisseront place à un mur.</string>
+
+    <string name="i44s0"> L\'ascensseur </string>
+    <string name="i44s1"> Fais un tabouret... Non, je pensais à une plate-forme de 9x10x5!</string>
+    <string name="i44s2"> Enlève les blocs pour pouvoir faire le puit de l\'ascensseur. En bas, place des pistons et quatre blocs entre-eux.</string>
+    <string name="i44s3"> Place un bloc sur chaque piston. Place 11 blocs de redstone sur chaque piston.</string>
+    <string name="i44s4"> Place un piston au-dessus de chaque colone. Connecte-les avec de la redstone et des répéteurs.</string>
+    <string name="i44s5"> Place le bouton.</string>
+    <string name="i44s6"> Place de la redstone en-dessous du bouton.</string>
+    <string name="i44s7"> Fais la descendre. </string>
+    <string name="i44s8"> Fais ce schéma. Les entonnoirs sont l\'un vers l\'autre. Mets 15 items stackable dans un entonnoir, n\'importe lequel.</string>
+    <string name="i44s9"> Place la redstone et les répéteurs.</string>
+    <string name="i44s10"> Fais descendre le signal sous les pistons, place un comparateur et un répéteur avec un délais de 2.</string>
+    <string name="i44s11"> Activé avec la redstone, le schéma intéragie avec les pistons pour le mettre en état d\'ouverture .</string>
+    <string name="i44s12"> Fais descendre le signal d\'en hautvers le bouton.</string>
+    <string name="i44s13"> Consrtuis un deuxième étage. Place un bouton.</string>
+    <string name="i44s14"> Maintenant, il faut faire l\'ascensseur. D\'abord place des pistons aux deuxièmes blocs de redstone, puis au premier bloc (le bloc de bois, ici). Place du gravier au-dessus.</string>
+    <string name="i44s15"> Tu peux mettre du verre autour de la cage d\'ascensseur.</string>
+
+    <string name="z35s00">Trieur à animaux </string>
+    <string name="z35s0"> Ce mécanisme trie les animaux, il est basé sur la hauteur des animaux. Le meilleur choix est, vu que les animaux sont au-dessus, il faut faire un leurre pour les attirer dedans.</string>
+    <string name="z35s1"> Creuse deux fosses, c\'est ici que les animaux vont tomber.</string>
+    <string name="z35s2"> Fais des portes automatiques au sol.</string>
+    <string name="z35s3"> Utilise de la redstone pour pouvoir activer la première porte.</string>
+    <string name="z35s4"> Fais deux piliers de deux de hauteur, que les animaux supérieur à un de hauteur, pourront activer la première porte. </string>
+    <string name="z35s5"> Pose des murs autour du chemin.</string>
+    <string name="z35s6"> Fais la même chose sur la deuxième porte, mais les piliers doivent faire un de haut, et mettre donc les crochets à un de hauteur.</string>
+    <string name="z35s7"> Les grands animaux (chevaux, moutons, etc) tombent dans la première fosse.</string>
+    <string name="z35s8"> Les autres animaux tomberont dans le seconde.</string>
+
+    <string name="z36s00">La lotterie du poulet</string>
+    <string name="z36s0"> Appuies sur un bouton pour activer un distributeur, il lance un oeuf. Tu reçois un prix, si un poulet apparaît.</string>
+    <string name="z36s1"> Construis une cible. Place des barrières autour du centre pour éviter que le poulet s\'échappe.</string>
+    <string name="z36s2"> Place une plaque de pression et connecte de la redstone à elle.</string>
+    <string name="z36s3"> Connecte la plaque de pression à un droppeur avec un prix à l\'intérieur.</string>
+    <string name="z36s4"> Fais le canon à oeufs à environ 3-5 blocs de la cible.</string>
+    <string name="z36s5"> Place des oeufs dans le distributeur.</string>
+    <string name="z36s6"> Place des diamants dans le dropper, ils font office de prix.</string>
+    <string name="z36s7"> Tire. Un poulet est né, le circuit est activé, donc...</string>
+    <string name="z36s8"> ...tu reçois une récompense.</string>
+
+    <string name="z37s00">Eclairage intérieur</string>
+    <string name="z37s0"> C\'est une maison, où on peut y allumer des lumières. </string>
+    <string name="z37s1"> Construis une maison. Il est mieux d\'avoir une épaisseur de sol de 2 ou 3 blocs, pour y mettre la redstone. :)</string>
+    <string name="z37s2"> Construis les murs et le sol. Utilise un coin d\'une pièce pour pouvoir allumer les lampes de dehors (salle de contrôle).</string>
+    <string name="z37s3"> Termine de conctruire les murs. Pose du verre.</string>
+    <string name="z37s4"> Construis l\'étage. Pose des lampes à dans chaque salle. Connecte-les avec des circuits séparés.</string>
+    <string name="z37s5"> Place des leviers au plafond, pour commander les lampes dans chaque pièces. :)</string>
+    <string name="z37s6"> Recouvre le câblage.</string>
+    <string name="z37s7"> Construis le second étage.</string>
+    <string name="z37s8"> Reproduis le schéma d\'en dessous. Le prochain guide va vous montrer comment le signal du deuxième étage peut contrôler le portail et l\'éclairage extérieur.</string>
+
+    <string name="z38s00">Salle de contrôle</string>
+    <string name="z38s0"> Ce schéma est basé sur le guide précédent. Tu peut contrôler les lumières et le portail depuis une salle</string>
+    <string name="z38s1"> Creuse différentes tranchées pour le câblage des différentes lampes et du portail</string>
+    <string name="z38s2"> Contruis le portail: la porte 2x2 est utilisée.</string>
+    <string name="z38s3"> Creuse une autre tranchée pour la câblage du portail .</string>
+    <string name="z38s4"> Connecte les lampes avec de répéteurs, comme indiqué sur l\'image.</string>
+    <string name="z38s5"> Reproduis ça avec toute les lampes .</string>
+    <string name="z38s6"> Rejoins le signal des lampes et du portail, en-dessous du coin laissé dans le précédent guide.</string>
+    <string name="z38s7"> Place deux leviers au deuxième étage. Utilise des dalles en dessous des leviers pour pouvoir faire la suite du circuit.</string>
+    <string name="z38s8"> Fais un câblage vertical pour chaque levier.</string>
+    <string name="z38s9"> Connecte-les à chaque ligne de redstone en bas .</string>
+    <string name="z38s10"> Terminé. Tu peux contrôler qui peut et ne peut pas entrer dans ta maison . :)</string>
+
+    <string name="z39s00"> L\'avion</string>
+    <string name="z39s0"> Ce méchanisme ne peux que voler dans une seule dirrection. Il s\'arrête si l\'avion rencontre un obstacle.</string>
+    <string name="z39s1"> Place 3 pistons par-terre. L\'un d\'entre eux doit être collant.</string>
+    <string name="z39s2"> Place des blocs de slime et de redstone sur ces pistons: le premier et le deuxième. Prends un briquet. Clique avec le clic droit sur le deuxième ou troisième bloc pour faire bouger le mécanisme. Terminé :)</string>
+</resources>

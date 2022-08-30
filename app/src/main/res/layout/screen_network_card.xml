@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="?attr/colorPrimary"
+        app:cardCornerRadius="4dp">
+
+        <FrameLayout
+            android:id="@+id/touch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Fundamentals and craft" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true" />
+
+                    <com.sup.dev.android.views.views.layouts.LayoutCorned
+                        android:id="@+id/vAvatarContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|left"
+                        android:layout_margin="4dp"
+                        android:background="@color/focus"
+                        app:LayoutCorned_chipMode="true">
+
+                        <com.sup.dev.android.views.views.ViewAvatarTitle
+                            android:id="@+id/vAvatar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                    </com.sup.dev.android.views.views.layouts.LayoutCorned>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_margin="4dp"
+                        android:orientation="vertical">
+
+                        <com.sup.dev.android.views.views.layouts.LayoutCorned
+                            android:id="@+id/vCommentsContainer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginBottom="4dp"
+                            android:padding="8dp"
+                            android:background="@color/grey_800"
+                            app:LayoutCorned_chipMode="true">
+
+                            <TextView
+                                android:id="@+id/vComments"
+                                style="@style/TextAppearance.AppCompat.Body1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/ic_mode_comment_white_18dp"
+                                android:drawablePadding="8dp" />
+
+                        </com.sup.dev.android.views.views.layouts.LayoutCorned>
+
+                        <com.sup.dev.android.views.views.layouts.LayoutCorned
+                            android:id="@+id/vKarmaContainer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/grey_800"
+                            app:LayoutCorned_chipMode="true">
+
+                            <com.sayzen.campfiresdk.views.ViewKarmaHorizontal
+                                android:id="@+id/vKarma"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+
+                        </com.sup.dev.android.views.views.layouts.LayoutCorned>
+
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <com.sup.dev.android.views.views.ViewIcon
+                android:id="@+id/vMore"
+                style="@style/Icon"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_more_vert_white_24dp" />
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

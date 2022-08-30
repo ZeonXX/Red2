@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.sup.dev.android.views.views.layouts.LayoutMaxSizes
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:LayoutMaxSizes_useScreenHeightAsParent="true"
+        app:LayoutMaxSizes_useScreenWidthAsParent="true"
+        app:LayoutMaxSizes_childAlwaysMaxW="true"
+        app:LayoutMaxSizes_childAlwaysMaxH="true">
+
+    <ImageView
+        android:id="@+id/vBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    </com.sup.dev.android.views.views.layouts.LayoutMaxSizes>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            style="@style/AppBar">
+
+            <androidx.appcompat.widget.Toolbar
+                style="@style/Toolbar"
+                app:title="@string/app_draft"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginRight="24dp"
+                        app:cardBackgroundColor="?attr/colorPrimary"
+                        app:cardCornerRadius="4dp">
+
+
+                        <com.sup.dev.android.views.views.layouts.LayoutAspectRatio
+                            android:id="@+id/vImageTouch"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:foreground="?selectableItemBackground"
+                            app:LayoutAspectRatio_h="1"
+                            app:LayoutAspectRatio_w="2">
+
+                            <ImageView
+                                android:id="@+id/vImageBack"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/draft_1"/>
+
+                            <ImageView
+                                android:id="@+id/vImage"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:adjustViewBounds="true"
+                                android:background="@color/focus_dark"/>
+
+                            <TextView
+                                android:id="@+id/vPlus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="@string/app_choose_image"/>
+
+                        </com.sup.dev.android.views.views.layouts.LayoutAspectRatio>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginRight="24dp"
+                        app:cardBackgroundColor="?attr/colorPrimary"
+                        app:cardCornerRadius="4dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginBottom="16dp">
+
+                            <EditText
+                                android:id="@+id/vTitle"
+                                android:inputType="textAutoComplete|textAutoCorrect|textCapSentences"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/app_title"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                style="@style/Fab"
+                android:src="@drawable/ic_done_white_24dp"/>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

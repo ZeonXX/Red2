@@ -1,0 +1,304 @@
+<resources>
+
+    <string name="cb_z1s0">Что такое командный блок</string>
+    <string name="cb_z1s1">Командный блок - это блок, в который можно записать консольные команды.</string>
+    <string name="cb_z1s2">Блок выполняет команду при получении редстоун сигнала.</string>
+    <string name="cb_z1s3">Этот блок значительно расширяет возможности для создания карт.</string>
+
+    <string name="cb_z2s0">Как получить командный блок</string>
+    <string name="cb_z2s1">Командный блок невозможно создать или найти, его можно получить только через консольную команду.</string>
+    <string name="cb_z2s2">Для того чтобы получить командный блок выполните команду (Player - ник игрока): /give Player command_block</string>
+
+
+    <string name="cb_z3s0">Выбор цели</string>
+    <string name="cb_z3s1">Указатели на игроков
+\n@p - ближайший игрок
+\n@a - все игроки
+\n@r - случайный игрок
+\n@e - все сущности</string>
+    <string name="cb_z3s2">Для многих команд нужно указывать координаты x,y,z (например 10, 20, 15) но можно указать текущие координаты используя символ ~, так-же можно смещать их (например ~5, ~, ~-10).</string>
+
+    <string name="cb_z4s0">Телепортация</string>
+    <string name="cb_z4s1">tp Player 10 20 30 - телепортирует игрока Player в точку с координатами x=10, y=20, z=30</string>
+
+    <string name="cb_z5s0">Отправить сообщение</string>
+    <string name="cb_z5s1">title @a title "Hello World" - отправляет всем пользователям сообщение "Hello World"</string>
+    <string name="cb_z5s2">Результат</string>
+
+    <string name="cb_z6s0">Погода</string>
+    <string name="cb_z6s1">weather rain - Включает дождь</string>
+    <string name="cb_z6s2">Результат</string>
+    <string name="cb_z6s3">weather thunder - Включает грозу</string>
+    <string name="cb_z6s4">Результат</string>
+    <string name="cb_z6s5">weather clear - Солнечная погода</string>
+    <string name="cb_z6s6">Результат</string>
+
+    <string name="cb_z7s0">Типы</string>
+    <string name="cb_z7s1">Импульсный (Impulse) - Обычный командный блок, ничего особенного, листай дальше.</string>
+    <string name="cb_z7s2">Цепь (Chain) - Используется для создание цепочек команд из нескольких командных блоков</string>
+    <string name="cb_z7s3">При подаче сигнала на первый блок, команды во всех трёх блоках выполняется. Стрелка на блоке указывает на блок который будет активирован дальше.</string>
+    <string name="cb_z7s4">Режим повторения (Repeat) - После активации начинает очень быстро, выполнять команду в цикле, пока не пропадет редстоун сигнал.</string>
+
+    <string name="cb_z8s0">Другие настройки</string>
+    <string name="cb_z8s1">Активность - используется для блоков в цепочке.
+\nВсегда активен (Always Active) - такому блоку не нужен редстоун сигнал чтобы выполнить команду.
+\nТребуется сигнал (Needs Redstone) - наоборот нуждается в сигнале.</string>
+    <string name="cb_z8s2">Условие - используется для блоков в цепочке.
+\nУсловная (Conditional) - команда в таком блоке выполниться только если команды в предыдущем блоке в цепочке выполнилась успешно. Важно: в любом случае продолжится выполнение команд следующих блоков.
+\nБезусловная (Unconditional)  - обычный блок, ничего особенного.</string>
+
+    <string name="cb_z9s0">Генератор дня</string>
+    <string name="cb_z9s1">Постройте такую схему. От длины провода до детектора света зависит момент срабатывания блока. Чем длиньше провод, тем раньше выполнится команда.</string>
+    <string name="cb_z9s2">Скопируйте команду в блок. /time set day</string>
+
+    <string name="cb_z10s0">Генератор железной дороги</string>
+    <string name="cb_z10s1">Ставим два командных блока с кнопками.</string>
+    <string name="cb_z10s2">Скопируйте команду в первый блок. fill ~1 ~ ~ ~1 ~ ~-100 minecraft:rail</string>
+    <string name="cb_z10s3">Скопируйте команду во второй блок. fill ~-1 ~ ~ ~-1 ~ ~-100 air</string>
+    <string name="cb_z10s4">Нажатие на первый блок активирует железную дорогу. Нажатие на второй удалит её.</string>
+
+    <string name="cb_z11s0">Проигрывание звука</string>
+    <string name="cb_z11s1">Ставим командный блок с кнопкой</string>
+    <string name="cb_z11s2">Скопируйте команду в блок: playsound minecraft:block.glass.break master @a</string>
+    <string name="cb_z11s3">Теперь при нажатии кнопки все игроки услышат звук разбитого стекла. Можно заменить параметр @a и выбрать кто должен услышать звук. Так-же можно добавить координаты в которых будет слышен этот звук.</string>
+
+    <string name="cb_z12s0">Очистка территории</string>
+    <string name="cb_z12s1">Помечаем зону которую будем чистить и ставим на её край командный блок с кнопкой.</string>
+    <string name="cb_z12s2">Скопируйте команду в блок и укажите нужную территорию: fill ~1 ~ ~ ~5 ~20 ~5 air</string>
+    <string name="cb_z12s3">Строим что нибудь</string>
+    <string name="cb_z12s4">Нажимаем кнопку - территория чистится</string>
+
+    <string name="cb_z13s0">Генератор хорошей погоды</string>
+    <string name="cb_z13s1">Строим такую схему. Везде максимальная задержка.</string>
+    <string name="cb_z13s2">Скопируйте команду в блок: weather clear</string>
+    <string name="cb_z13s3">Для активации схемы нужно поставить красный факел и быстро его убрать.</string>
+    <string name="cb_z13s4">Рабочая схема выглядит так.</string>
+
+    <string name="cb_z14s0">Огненные следы</string>
+    <string name="cb_z14s1">Ставим командный блок с рычагом. Делаем его повторяемым.</string>
+    <string name="cb_z14s2">Скопируйте команду в блок: execute at @a run particle minecraft:flame ~ ~ ~ 0.5 0.2 0.5 0.05 10</string>
+    <string name="cb_z14s3">Теперь вокруг вас появляется огонь.</string>
+
+    <string name="cb_z15s0">Что такое execute</string>
+    <string name="cb_z15s1">/execute - используется для создания сложной команды с условиями.</string>
+    <string name="cb_z15s2">Команда /execute разделена на подкоманды. Подкоманды делятся на три категории</string>
+    <string name="cb_z15s3">Модификатор: подкоманды, которые позволяют изменить способ выполнения команды. Например, изменить исполнителя и место исполнения команды.</string>
+    <string name="cb_z15s4">Условие: подкоманды, которые могут препятствовать выполнению команды. Например, команда выполнится, если существует определённая сущность.</string>
+    <string name="cb_z15s5">Запись: подкоманды, которые сохраняют результат или успешность исполнения команды.</string>
+    <string name="cb_z15s6">Команда /execute может содержать неограниченное число подкоманд, кроме подкоманды run [команда]. Эта подкоманда может быть записана лишь один раз в конце всей цепочки подкоманд. Обратите внимание, что нельзя использовать / в начале команды, записанной с run.</string>
+
+    <string name="cb_z16s0">Модификатор</string>
+    <string name="cb_z16s1">/execute align [оси]
+\nПодстраивает координаты места выполнения команды под сетку блоков (то есть происходит их округление).
+\nПример:
+\n/execute positioned -1.8 2.3 5.9 align x run particle flame: создаёт частицу пламени на координатах (-2, 2.3, 5.9)</string>
+    <string name="cb_z16s2">/execute anchored (feet|eyes)
+\nИзменяет точку привязки локальных координат исполнителя ~ ~ ~.
+\nПример:
+\n/execute at @p anchored eyes run setblock ~ ~ ~4 diamond_block: ставит алмазный блок в 4 блоках впереди от уровня глаз ближайшего игрока.</string>
+    <string name="cb_z16s3">/execute as [цели]
+\nИзменяет исполнителя команды (само место выполнения не изменяется). Если целей несколько, команда выполнится по разу с каждым исполнителем.
+\nПример:
+\n/execute as @a run say Привет!: выполняется так, будто каждый игрок выполнил команду say Привет! с правами оператора.</string>
+    <string name="cb_z16s4">/execute at [цели]
+\nИзменяет измерение, позицию и поворот выполнения команды на такие же, что у целей (сам исполнитель не изменяется). Если целей несколько, команда выполнится по разу с каждым местом выполнения.
+\nПример:
+\n/execute at @p run setblock ~ ~ ~2 diamond_block: ставит алмазный блок впереди ближайшего игрока.</string>
+    <string name="cb_z16s5">/execute facing entity [цели] (eyes|feet)
+\nВыполняет команду так, будто взгляд исполнителя направлен на указанную точку привязки целей. Если целей несколько, команда выполнится по разу с каждым поворотом исполнителя.
+\nПример:
+\n/execute as @p at @s anchored eyes facing entity @e[type=cow,limit=1,sort=nearest] eyes run setblock ~ ~ ~5 diamond_block: ставит алмазный блок между «глазами» ближайшего игрока и «глазами» ближайшей к нему коровой в 5 блоках от этого игрока.</string>
+    <string name="cb_z16s6">/execute facing [позиция]
+\nВыполняет команду так, будто взгляд исполнителя направлен на указанную позицию.
+\nПример:
+\n/execute as @p at @s facing 0 0 0 run setblock ~ ~ ~5 diamond_block: ставит алмазный блок между ближайшим игроком и позицией (0, 0, 0) в 5 блоках от этого игрока.</string>
+    <string name="cb_z16s7">/execute in (overworld|the_end|the_nether)
+\nИзменяет измерение, в котором выполняется команда.
+\nПример:
+\n/execute as @p in the_nether run teleport 0 64 0: телепортирует ближайшего игрока в Нижний мир на позицию (0, 64, 0).</string>
+    <string name="cb_z16s8">/execute positioned [позиция]
+\nИзменяет позицию выполнения команды на указанную позицию.
+\nПример:
+\n/execute positioned 0 64 0 run setblock ~ ~ ~ diamond_block: ставит алмазный блок на позицию (0, 64, 0), однако измерение, в котором выполняется команда, сохраняется.</string>
+    <string name="cb_z16s9">/execute positioned as [цели]
+\nИзменяет позицию выполнения команды на такую же, что у целей. Если целей несколько, команда выполнится по разу с позицией каждой цели.
+\nПример:
+\n/execute positioned as @p run setblock ~ ~ ~ diamond_block: ставит алмазный блок на позицию ближайшего игрока, однако измерение, в котором выполняется команда, сохраняется.</string>
+    <string name="cb_z16s10">/execute rotated [поворот]
+\nИзменяет поворот выполнения команды на указанный поворот.
+\nПример:
+\n/execute at @p rotated ~30 0 run setblock ~ ~ ~4 diamond_block: ставит алмазный блок впереди ближайшего игрока, будто его поворот головы повёрнут на 30 градусов вправо, а наклон равен 0 градусам.</string>
+    <string name="cb_z16s11">/execute rotated as [цели]
+\nИзменяет поворот выполнения команды на такой же, что у целей. Если целей несколько, команда выполнится по разу с поворотом каждой цели.
+\nПример:
+\n/execute at @p rotated as @e[type=cow,limit=1,sort=nearest] run setblock ~ ~ ~4 diamond_block: ставит алмазный блок впереди ближайшего игрока, будто его поворот головы такой же, что у ближайшей к нему коровы.</string>
+
+    <string name="cb_z17s0">Условие</string>
+    <string name="cb_z17s1">Все приведённые дальше подкоманды содержат аргумент (if|unless).
+\nif проверяет, является ли условие истинным. Если это так, цепь продолжается дальше.
+\nunless проверяет, является ли условие ложным. Если это так, цепь продолжается дальше.
+\nПомимо этого, подкоманды-условия можно использовать для получения возвращаемого значения.</string>
+    <string name="cb_z17s2">/execute (if|unless) block [позиция] [блок>]
+\nПроверяет соответствие блока на позиции указанному.
+\nПроверка:
+\nif: проверяет нахождение на указанной позиции указанного блока.
+\nunless: проверяет нахождение на указанной позиции любого блока, кроме указанного.
+\nПример:
+\n/execute if block 0 64 0 diamond_block run say Алмазный блок!: выводит в чат сообщение, если на координатах (0, 64, 0) найдет алмазный блок.</string>
+    <string name="cb_z17s3">/execute (if|unless) blocks [начало] [конец] [назначение] (all|masked)
+\nПроверяет соответствие области [начало > конец] и области-назначения.
+\nПроверка:
+\nif: проверяет полное соответсвие областей.
+\nunless: проверяет несоответсвие областей.
+\nПример:
+\n/execute if blocks 0 0 0 10 10 10 20 20 20 masked run say Полное соответствие!: выводит в чат сообщение, если область [(0, 0, 0) > (10, 10, 10)] полностью соответствует области [(20, 20, 20) > (30, 30, 30)].</string>
+    <string name="cb_z17s4">/execute (if|unless) entity [сущность]
+\nПроверяет существование сущности в прогруженных чанках.
+\nПроверка:
+\nif: проверяет существование хотя бы одной сущности из указанных.
+\nunless: проверяет несуществование ни одной сущности из указанных.
+\nПример:
+\n/execute if entity @e[type=cow] run say Корова!: выводит в чат сообщение, если в прогруженных чанках существует корова.</string>
+    <string name="cb_z17s5">/execute (if|unless) score [цель] [задача-цель] (\u003C|\u003C=|=|>=|>) [источник] [задача-источник]
+\nПроверяет истинность сравнения указанным образом счёта цели в задаче-цели и счёта источника в задаче-источнике.
+\nПроверка:
+\nif: проверяет соответсвие выражения истине.
+\nunless: проверяет соответсвие выражения лжи.
+\nПример:
+\n/execute if score Alex obj \u003C Steve obj run say Alex \u003C Steve: выводит в чат сообщение, если счёт Alex в задаче obj меньше, чем счёт Steve в той же задаче.</string>
+    <string name="cb_z17s6">/execute (if|unless) score [цель] [задача-цель] matches [диапазон]
+\nПроверяет вхождение в диапазон счёта цели в задаче-цели.
+\nПроверка:
+\nif: проверяет нахождение счёта в диапазоне.
+\nunless:проверяет нахождение счёта вне диапазона.
+\nПример:
+\n/execute if score Alex obj matches 1.. run say Натуральное число!: выводит в чат сообщение, если счёт Alex в задаче obj не меньше 1.</string>
+
+    <string name="cb_z18s0">Запись</string>
+    <string name="cb_z18s1">result: записывает результат выполнения команды.
+\nsuccess : записывает успешность выполнения команды.
+\nЕсли команда выполнена неуспешно (success равен 0), result тоже будет равным 0.
+\nЗначение будет записано, когда вся команда полностью закончит выполнение.</string>
+    <string name="cb_z18s2">/execute store (result|success) block [позиция] [путь] (byte|double|float|int|long|short) [множитель]
+\nЗаписывает значение по указанному пути в NBT-данные блока-сущности, располагающегося на указанной позиции, в качестве умноженного на множитель числа с указанным типом.
+\nПример:
+\n/execute store result block 0 65 0 RecordItem.Count byte 1.5 run scoreboard players get Alex obj: предполагая, что на (0, 65, 0) находится проигрыватель, изменяет количество вставленных в него предметов на значение счёта Alex в задаче obj, умноженное на 1,5.</string>
+    <string name="cb_z18s3">/execute store (result|success) bossbar [ID] (value|max)
+\nЗаписывает значение в текущее или максимальное значение боссбара с указанным ID.
+\nПример:
+\n/execute store result bossbar foo:bar value run data get entity Alex Health: Записывает значение NBT-тега Health игрока Alex в текущее значение боссбара foo:bar.</string>
+    <string name="cb_z18s4">/execute store (result|success) entity [цель] [путь] (byte|double|float|int|long|short) [множитель]
+\nЗаписывает значение по указанному пути в NBT-данные цели в качестве умноженного на множитель числа с указанным типом.
+\nЭта подкоманда не может изменять NBT-данные игроков. NBT-данные по пути «Inventory[индекс].tag» или «EnderItems[индекс].tag» являются исключением и могут быть изменены.
+\nПример:
+\n/execute as @e[type=pig] at @s store success entity @s Saddle byte 1 if entity @p[distance=..5]: если в радиусе пяти блоков вокруг свиньи есть игрок, на неё наденется седло.</string>
+    <string name="cb_z18s5">/execute store (result|success) score [цели] [задача]
+\nЗаписывает значение в счёт целей в задаче.
+\nПример:
+\n/execute store result score Свиней obj if entity @e[type=pig]: записывает в счёт «Свиней» задачи obj количество найденных свиней в прогруженных чанках.</string>
+
+    <string name="cb_z19s0">Превращение блоков в золото</string>
+    <string name="cb_z19s1">Ставим командный блок с рычагом и делаем его повторяемым.</string>
+    <string name="cb_z19s2">Скопируйте команду в блок: execute at @a run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:gold_block</string>
+    <string name="cb_z19s3">Активируйте блок и побегайте.</string>
+
+    <string name="cb_z20s0">Защита молниями</string>
+    <string name="cb_z20s1">Ставим командный блок с рычагом и делаем его повторяемым.</string>
+    <string name="cb_z20s2">Скопируйте команду в блок: execute at @a run execute at @e[type=minecraft:creeper,dx=5,dz=5,dy=5] run summon minecraft:lightning_bolt</string>
+    <string name="cb_z20s3">Активируйте блок и найдите крипера.</string>
+    <string name="cb_z20s4">Результат</string>
+
+    <string name="cb_s1s0">Получить предметы</string>
+    <string name="cb_s1s1">Например, чтобы выдать ближайшему игроку 10 слитков золота введите команду give @p gold_ingot 10</string>
+    <string name="cb_s1s2">После активации у меня в инвентаре появилось 10 слитков золота!</string>
+
+    <string name="cb_s2s0">Как запустить команду</string>
+    <string name="cb_s2s1">Создайте схему как на скрине. </string>
+    <string name="cb_s2s2">Нажмите правой кнопкой мыши чтобы зайти в блок.</string>
+    <string name="cb_s2s3">Скопируйте команду в верхнюю строку</string>
+    <string name="cb_s2s4">Нажмите на рычаг и команда выполнится.</string>
+
+    <string name="cb_s3s0">Наложение эффектов</string>
+    <string name="cb_s3s1">Чтобы наложить какие-либо эффекты на персонажа нужно использовать команду "effect"</string>
+    <string name="cb_s3s2">К примеру регенерация на 10 секунд с силой 1 сердце в секунду будет применено командой: effect give @p regeneration 10 1</string>
+    <string name="cb_s3s3">Персонаж излечился!</string>
+
+    <string name="cb_s4s0">Установка блоков</string>
+    <string name="cb_s4s1">Чтобы поставить какой-то блок нужно использовать команду setblock. Например команда "setblock ~ ~ ~ minecraft:bricks replace" выставит кирпичный блок</string>
+    <string name="cb_s4s2">Блок появился! Будьте аккуратны</string>
+
+    <string name="cb_s5s0">Смена режимов игры</string>
+    <string name="cb_s5s1">Изменить режим игры можно командой gamemode. Например чтобы войти в survival используйте команду  "gamemode survival @r"</string>
+    <string name="cb_s5s2">Вы вошли в режим выживания</string>
+
+    <string name="cb_s6s0">Повышение уровня</string>
+    <string name="cb_s6s1">Эта команда может выдавать определенное количество опыта или уровней. Например, команда "experience add @p 100 levels" поднимет ближайшего игрока до 100</string>
+    <string name="cb_s6s2">Вы получили 100 уровней</string>
+
+    <string name="cb_s7s0">Частицы</string>
+    <string name="cb_s7s1">Чтобы вызвать какие-то частицы типа всплохов огня или комьев грязи, когда вы бежите, нужно использовать команду "particle". Например для вызова искры от лавы нужно применить команду "particle minecraft:lava ~ ~ ~"</string>
+    <string name="cb_s7s2">Всполох огня!</string>
+
+    <string name="cb_s8s0">Призыв существ</string>
+    <string name="cb_s8s1">Чтобы призвать какое-то существо в точку, нужно использовать команду "summon". Пример для призыва свиньи "summon pig ~ ~1 ~ "</string>
+    <string name="cb_s8s2">Получилось!</string>
+
+    <string name="cb_s9s0">Заполнение пространства</string>
+    <string name="cb_s9s1">Эта команда будет полезна, если вам нужно быстро заполнить какое-то помещениями блоками. Например, мы можем быстро заполнить комнату водой</string>
+    <string name="cb_s9s2">Введем команду "fill ~-10 ~-1 ~-10 ~10 ~-1 ~10 minecraft:water keep".</string>
+    <string name="cb_s9s3">заполнилось водой</string>
+    <string name="cb_s9s4">Чтобы вернуть все как было, измените "сохранить" на "заменить" и добавьте "minecraft:air". fill ~-10 ~-1 ~-10 ~10 ~-1 ~10 minecraft:air replace minecraft:water"</string>
+
+    <string name="cb_s10s0">Шторм из молний!</string>
+    <string name="cb_s10s1">Чтобы вызвать молнию используйте команду "summon minecraft:lightning_bolt ~ ~ ~"</string>
+    <string name="cb_s10s2">Переставьте со значения "Impulse" на "Repeat" чтобы получить много молний</string>
+    <string name="cb_s10s3">Шторм!</string>
+
+    <string name="cb_s11s0">Засыпать игрока песком</string>
+    <string name="cb_s11s1">Чтобы разыграть друга можно воспользоваться командой "fill". Вместо PlayerName нужно написать ник игрока "execute at PlayerName run fill ~-2 ~10 ~-2 ~2 ~12 ~2 minecraft:sand"</string>
+    <string name="cb_s11s2">Песок упал с высоты!</string>
+
+    <string name="cb_s12s0">Как убить много мобов</string>
+    <string name="cb_s12s1">Нужно использовать команду "kill" и установить тип моба, например свиньи "kill @e[type= minecraft:pig]"</string>
+    <string name="cb_s12s2">Все свиньи в радиусе подгрузки погибли.</string>
+
+    <string name="cb_s13s0">Зачарование</string>
+    <string name="cb_s13s1">Чтобы зачаровать какой-то предмет, возьмите его в руки</string>
+    <string name="cb_s13s2">Примените команду "enchant PlayerName minecraft:sharpness 3" для остроты</string>
+    <string name="cb_s13s3">Оружие зачаровано</string>
+
+    <string name="cb_s14s0">Достижения</string>
+    <string name="cb_s14s1">Чтобы получить достижение, нужно воспользоваться командой "advancement" "advancement grant PlayerName only minecraft:end/kill_dragon"</string>
+    <string name="cb_s14s2">ФУС-РО-ДА!</string>
+
+    <string name="cb_s15s0">Загон для овец</string>
+    <string name="cb_s15s1">У вас есть загон, а все овцы разбежались?</string>
+    <string name="cb_s15s2">Можете собрать их командой "tp @e[type=minecraft:sheep] ~ ~ ~"</string>
+    <string name="cb_s15s3">На месте!</string>
+
+    <string name="cb_s16s0">Смена сложности</string>
+    <string name="cb_s16s1">Можно сделать два блока чтобы менять сложность одним нажатием. "difficulty hard" для сложного режима.</string>
+    <string name="cb_s16s2">"difficulty peaceful" для мирного</string>
+
+    <string name="cb_s17s0">Переключение игровых правил</string>
+    <string name="cb_s17s1">Чтобы менять суточные ритмы нужно воспользоваться командой gamerule. Соберите схему, чтобы переключать их. Для включения "gamerule doDaylightCycle true"</string>
+    <string name="cb_s17s2">Для выключения "gamerule doDaylightCycle false</string>
+
+    <string name="cb_s18s0">Переключение времени суток</string>
+    <string name="cb_s18s1">Постройте схему для переключения двух командных блоков</string>
+    <string name="cb_s18s2">В один поставьте команду для полдня "time set noon"</string>
+    <string name="cb_s18s3">Во второй команду для полуночи "time set midnight"</string>
+
+    <string name="cb_s19s0">Алтарь дождя</string>
+    <string name="cb_s19s1">Постройте алтарь как на скрине</string>
+    <string name="cb_s19s2">Поставьте золотую плиту рядом с командным блоком</string>
+    <string name="cb_s19s3">Запишите команду "weather rain 24000"</string>
+    <string name="cb_s19s4">Активируйте плиту подношением слитка золота</string>
+    <string name="cb_s19s5">Дождь</string>
+
+    <string name="cb_s20s0">Песчаный армагеддон</string>
+    <string name="cb_s20s1">Введите в командный блок команду "execute at @e run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:sand", чтобы все существа превращали блоки в песок</string>
+    <string name="cb_s20s2">Мир обречен</string>
+
+</resources>
+

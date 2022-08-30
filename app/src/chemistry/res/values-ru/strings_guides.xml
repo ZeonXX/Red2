@@ -1,0 +1,159 @@
+<resources>
+
+    <string name="name_tutorial">Обучение</string>
+    <string name="name_lab_table">Лабораторный стол</string>
+    <string name="name_crafts">Крафты</string>
+    <string name="name_natural">Природные соединения</string>
+
+    <string name="z1s0">Как включить химию</string>
+    <string name="z1s1">Начинаем игру</string>
+    <string name="z1s2">Создаем новый мир</string>
+    <string name="z1s3">Новый</string>
+    <string name="z1s4">Выбираем творческий режим</string>
+    <string name="z1s5">Обязательно включите все как на скриншоте</string>
+    <string name="z1s6">В игре вы должны увидeть блоки для химии</string>
+
+    <string name="z2s0">Конструктор элементов</string>
+    <string name="z2s1">В этом блоке мы можем создавать различные элементы из химической таблицы. при помощи ползунков слева</string>
+    <string name="z2s2">Чтобы создать элемент, нужно подобрать необходимое количество электронов, протонов и нейтронов</string>
+    <string name="z2s3">Водород. Подсказка: Смотрите на номер атома, обычно [p] и [e] соответствуют этому номеру, а [n] может быть таким-же или немного больше.</string>
+    <string name="z2s4">Гелий</string>
+    <string name="z2s5">Литий</string>
+    <string name="z2s6">Получить созданный элемент можно просто выбрав его и нажав на ячейку в инвентаре.</string>
+
+    <string name="z3s0">Создатель соединений</string>
+    <string name="z3s1">Этот блок очень похож на верстак. С помощью него можно соединять различные химические элементы.</string>
+    <string name="z3s2">Внутри блок выглядит как верстак. Создадим что нибудь для демонстрации...</string>
+    <string name="z3s3">Получаем 2 водорода</string>
+    <string name="z3s4">Получаем кислород</string>
+    <string name="z3s5">Объединим два атома водорода и атом кислорода - получаем воду</string>
+
+    <string name="z4s0">Лабораторный стол</string>
+    <string name="z4s1">Этот блок используется для создания некоторых предметов. Внимание! Неправильный рецепт приведет к взрыву.</string>
+    <string name="z4s2">Внутри блока есть несколько ячеек в которые нужно поместить ресурсы</string>
+    <string name="z4s3">Ресурсы размещаются в любом порядке и в любые клетки. Если рецепт правильный, появиться анимация.</string>
+    <string name="z4s4">Созданный предмет просто выбрасывается из блока</string>
+
+    <string name="z5s0">Рассоединитель</string>
+    <string name="z5s1">Это очень полезный блок. Он превращает некоторые блоки в химические элементы.</string>
+    <string name="z5s2">В верхнюю ячейку помещается блок, в остальных ячейках мы получим химические элементы</string>
+    <string name="z5s3">Для примера разберем блок травы</string>
+
+    <string name="z6s0">Ледяная бомба</string>
+    <string name="z6s1">2 атома углерода</string>
+    <string name="z6s2">3 атома водорода</string>
+    <string name="z6s3">Атом натрия</string>
+    <string name="z6s4">2 атома кислорода</string>
+    <string name="z6s5">Соединяем и берем 4 банки вещества</string>
+    <string name="z6s6">Выкладываем их на лабораторный стол и жмем кнопку</string>
+    <string name="z6s7">Получаем ледяную бомбу. Она замораживает то, во что попадает</string>
+
+    <string name="z7s0">Воздушеый шар</string>
+    <string name="z7s1">5 атома углерода</string>
+    <string name="z7s2">8 атома водорода</string>
+    <string name="z7s3">Соединяем и берем 6 банок вещества</string>
+    <string name="z7s4">Атом гелия</string>
+    <string name="z7s5">Объединяем на обычном верстаке. Краситель можно выбрать любой.</string>
+    <string name="z7s6">Шариком можно запустить мобов в космос.</string>
+
+    <string name="z8s0">Отбеливатель</string>
+    <string name="z8s1">2 атома водорода</string>
+    <string name="z8s2">2 атома кислорода</string>
+    <string name="z8s3">Атом натрия</string>
+    <string name="z8s4">Атом хлора</string>
+    <string name="z8s5">Делаем воду и берем 3 банки</string>
+    <string name="z8s6">Делаем вещество из натрия и хлора. Берем 3 банки.</string>
+    <string name="z8s7">Выкладываем их на лабораторный стол и жмем кнопку</string>
+    <string name="z8s8">Получаем отбеливатель который может красить вещи в белый цвет</string>
+
+    <string name="z9s0">Тепловой блок</string>
+    <string name="z9s1">Атом железа</string>
+    <string name="z9s2">2 атома водорода</string>
+    <string name="z9s3">Атом кислорода</string>
+    <string name="z9s4">Атом натрия</string>
+    <string name="z9s5">Атом хлора</string>
+    <string name="z9s6">Делаем воду и берем 1 банку</string>
+    <string name="z9s7">Делаем вещество из натрия и хлора</string>
+    <string name="z9s8">Выкладываем на лабораторный стол и жмем кнопку</string>
+    <string name="z9s9">Получаем тепловой блок</string>
+    <string name="z9s10">Он может растапливать лёд и снег</string>
+
+    <string name="z10s0">Удобрения</string>
+    <string name="z10s1">Атом азота</string>
+    <string name="z10s2">3 атома водорода</string>
+    <string name="z10s3">Атом фосфора</string>
+    <string name="z10s4">Делаем вещество из азота и водорода</string>
+    <string name="z10s5">Выкладываем на лабораторный стол, добавляем фосфор и жмем кнопку</string>
+    <string name="z10s6">Получаем удобрения. Принцип работы такой-же как у костной муки но они немного эффективнее</string>
+
+    <string name="z11s0">Светящаяся Палочка</string>
+    <string name="z11s1">20 атомов водорода</string>
+    <string name="z11s2">10 атомов углерода</string>
+    <string name="z11s3">Делаем вещество из водорода и углерода. Берем 6 штук.</string>
+    <string name="z11s4">7 атомов водорода</string>
+    <string name="z11s5">8 атомов углерода</string>
+    <string name="z11s6">3 атома азота</string>
+    <string name="z11s7">2 атома кислорода</string>
+    <string name="z11s8">Делаем вещество и берем 1 банку</string>
+    <string name="z11s9">2 атома кислорода</string>
+    <string name="z11s10">2 атома водорода</string>
+    <string name="z11s11">Делаем вещество и берем 1 банку</string>
+    <string name="z11s12">Крафтим. Банка снизу в центре это банка из 4 атомов. Цвет можно выбрать любой.</string>
+
+    <string name="z12s0">Закаленный стеклянный блок</string>
+    <string name="z12s1">2 атома алюминия</string>
+    <string name="z12s2">6 атомов кислорода</string>
+    <string name="z12s3">2 атома бора</string>
+    <string name="z12s4">Делаем вещество и берем 3 банки</string>
+    <string name="z12s5">Делаем вещество и берем 3 банки</string>
+    <string name="z12s6">Создаем используя обычный верстак</string>
+
+    <string name="z13s0">Закаленная стеклянная панель</string>
+    <string name="z13s1">2 атома алюминия</string>
+    <string name="z13s2">6 атомов кислорода</string>
+    <string name="z13s3">2 атома бора</string>
+    <string name="z13s4">Делаем вещество и берем 3 банки</string>
+    <string name="z13s5">Делаем вещество и берем 3 банки</string>
+    <string name="z13s6">Создаем используя обычный верстак</string>
+
+    <string name="z14s0">Цветной закаленный стеклянный блок</string>
+    <string name="z14s1">2 атома алюминия</string>
+    <string name="z14s2">6 атомов кислорода</string>
+    <string name="z14s3">2 атома бора</string>
+    <string name="z14s4">Делаем вещество и берем 3 банки</string>
+    <string name="z14s5">Делаем вещество и берем 3 банки</string>
+    <string name="z14s6">Создаем используя обычный верстак</string>
+
+    <string name="z15s0">Цветная закаленная стеклянная панель</string>
+    <string name="z15s1">2 атома алюминия</string>
+    <string name="z15s2">6 атомов кислорода</string>
+    <string name="z15s3">2 атома бора</string>
+    <string name="z15s4">Делаем вещество и берем 3 банки</string>
+    <string name="z15s5">Делаем вещество и берем 3 банки</string>
+    <string name="z15s6">Создаем используя обычный верстак</string>
+
+    <string name="z16s0">Уголь</string>
+    <string name="z16s1">7 атомов углерода</string>
+    <string name="z16s2">4 атома водорода</string>
+    <string name="z16s3">Атом кислорода</string>
+    <string name="z16s4">Крафтим</string>
+
+    <string name="z17s0">Чернила</string>
+    <string name="z17s1">Атом железа</string>
+    <string name="z17s2">Атом серы</string>
+    <string name="z17s3">4 атома кислорода</string>
+    <string name="z17s4">Крафтим</string>
+
+    <string name="z18s0">Сахар</string>
+    <string name="z18s1">6 атомов углерода</string>
+    <string name="z18s2">12 атомов водорода</string>
+    <string name="z18s3">6 атомов кислорода</string>
+    <string name="z18s4">Крафтим</string>
+
+    <string name="z19s0">Вода</string>
+    <string name="z19s1">2 атома водорода</string>
+    <string name="z19s2">Атом кислорода</string>
+    <string name="z19s3">Крафтим</string>
+
+</resources>
+

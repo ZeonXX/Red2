@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Гайд для Minecraft</string>
+
+    <string name="name_wood_city">Деревянный город</string>
+    <string name="name_stone_city">Каменный город</string>
+    <string name="name_stone_harbor">Каменный порт</string>
+    <string name="name_wooden_harbor">Деревянный порт</string>
+    <string name="name_stone_dungeon">Каменное подземелье</string>
+    <string name="name_wooden_dungeon">Деревянное подземелье</string>
+    <string name="name_farm">Ферма</string>
+    <string name="name_houses">Дома</string>
+    <string name="name_furniture">Мебель</string>
+
+    <string name="name_tutorial">Обучение</string>
+    <string name="name_basic">Базовые</string>
+    <string name="name_advanced">Продвинутые</string>
+    <string name="name_execute">Команда execute</string>
+
+    <string name="name_lab_table">Лабораторный стол</string>
+    <string name="name_crafts">Крафты</string>
+    <string name="name_natural">Природные соединения</string>
+
+    <string name="name_craft">Основы и крафты</string>
+    <string name="name_root">Основные</string>
+    <string name="name_door">Двери</string>
+    <string name="name_bridges">Мосты и Лестницы</string>
+    <string name="name_meh">Механизмы</string>
+    <string name="name_trap">Ловушки</string>
+    <string name="name_building">Строительство</string>
+    <string name="name_links">Проводка</string>
+
+</resources>
+

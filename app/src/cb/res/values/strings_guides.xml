@@ -1,0 +1,348 @@
+<resources>
+
+    <string name="app_name" translatable="false">` Guide</string>
+
+    <string name="name_tutorial">Tutorial</string>
+    <string name="name_basic">Basic</string>
+    <string name="name_advanced">Advanced</string>
+    <string name="name_execute">Command execute</string>
+
+    <string name="z1s0">What is the command block</string>
+    <string name="z1s1">A command block is a block which you can write console commands.</string>
+    <string name="z1s2">The block executes a command when it receives a redstone signal.</string>
+    <string name="z1s3">This block greatly expands the possibilities for creating maps.</string>
+
+    <string name="z2s0">How to get command block</string>
+    <string name="z2s1">The command block cannot be created or found, it can only be accessed through a console command.</string>
+    <string name="z2s2">To get a command block, type the command (Player - nickname of player): /give Player command_block</string>
+    <string name="z2s2x" translatable="false">/give Player command_block</string>
+
+    <string name="z3s0">Target selection</string>
+    <string name="z3s1">Pointers to players
+\n@p - nearest player
+\n@a - all players
+\n@r - random player
+\n@e - all entities</string>
+    <string name="z3s2">For many commands you need to specify the coordinates x,y,z (for example 10, 20, 15) but you can specify the current coordinates using the symbol ~, so you can shift them (for example ~5, ~, ~-10).</string>
+
+    <string name="z4s0">Teleport</string>
+    <string name="z4s1">tp Player 10 20 30 - teleports player "Player" to a point with x=10, y=20, z=30 coordinates</string>
+    <string name="z4s1x" translatable="false">tp Player 10 20 30</string>
+
+    <string name="z5s0">Send message</string>
+    <string name="z5s1">title @a title "Hello World" - sends a message to all users "Hello World"</string>
+    <string name="z5s1x" translatable="false">title @a title "Hello World"</string>
+    <string name="z5s2">Result</string>
+
+    <string name="z6s0">Weather</string>
+    <string name="z6s1">weather rain - It starts raining</string>
+    <string name="z6s1x" translatable="false">weather rain</string>
+    <string name="z6s2">Result</string>
+    <string name="z6s3">weather thunder - The storm begins</string>
+    <string name="z6s3x" translatable="false">weather thunder</string>
+    <string name="z6s4">Result</string>
+    <string name="z6s5">weather clear - Sunny weather</string>
+    <string name="z6s5x" translatable="false">weather clear</string>
+    <string name="z6s6">Result</string>
+
+    <string name="z7s0">Types</string>
+    <string name="z7s1">Impulse - The usual command block, nothing special, scroll to next.</string>
+    <string name="z7s2">Chain - Used to create command chains from multiple command blocks</string>
+    <string name="z7s3">When a signal is given to the first block, the commands in all three blocks are executed. An arrow on the unit indicates the unit that will be activated on.</string>
+    <string name="z7s4">Repeat - After activation starts very quickly, execute the command in the loop until the Redstone signal disappears.</string>
+
+    <string name="z8s0">Other settings</string>
+    <string name="z8s1">Activity-used for blocks in a chain.
+\nAlways Active - the block doesn\'t need a Redstone signal to execute a command.
+\nNeeds Redstone - vice versa needs a signal.</string>
+    <string name="z8s2">Condition - used for blocks in the chain.
+\nConditional - a command in such a block will only execute if the commands in the previous block in the chain succeed. Important: in any case, the following block commands will continue to run.
+\nUnconditional - the usual block, nothing special.</string>
+
+    <string name="z9s0">Day generator</string>
+    <string name="z9s1">Build this scheme. By the length of the wire to the light detector depends time of executing block command. Longer the wire - sooner the command is executed.</string>
+    <string name="z9s2">Copy the command to the block. /time set day</string>
+    <string name="z9s2x" translatable="false">time set day</string>
+
+    <string name="z10s0">Railway generator</string>
+    <string name="z10s1">Put two command blocks with buttons.</string>
+    <string name="z10s2">Copy the command to the first block. fill ~1 ~ ~ ~1 ~ ~-100 minecraft:rail</string>
+    <string name="z10s2x" translatable="false">fill ~1 ~ ~ ~1 ~ ~-100 minecraft:rail</string>
+    <string name="z10s3">Copy the command to the second block. fill ~-1 ~ ~ ~-1 ~ ~-100 air</string>
+    <string name="z10s3x" translatable="false">fill ~-1 ~ ~ ~-1 ~ ~-100 air</string>
+    <string name="z10s4">Clicking on the first block activates the railway. Clicking on the second will remove it.</string>
+
+    <string name="z11s0">Sound playback</string>
+    <string name="z11s1">Put the command block with the button</string>
+    <string name="z11s2">Copy the command to the block. playsound minecraft:block.glass.break master @a</string>
+    <string name="z11s2x" translatable="false">playsound minecraft:block.glass.break master @a</string>
+    <string name="z11s3">Now, when you press the button, all players will hear the sound of broken glass. You can replace the @a parameter and choose who should hear the sound. Also, you can add the coordinates in which this sound will be heard</string>
+
+    <string name="z12s0">Cleaning the area</string>
+    <string name="z12s1">Mark the area that will be cleaned and put it on the edge of the command block with a button.</string>
+    <string name="z12s2">Copy the command to the block and specify the desired territory: fill ~1 ~ ~ ~5 ~20 ~5 air</string>
+    <string name="z12s2x" translatable="false">fill ~1 ~ ~ ~5 ~20 ~5 air</string>
+    <string name="z12s3">Build something</string>
+    <string name="z12s4">Press the button - the area is cleaned</string>
+
+    <string name="z13s0">Good weather generator</string>
+    <string name="z13s1">Building such a scheme. Everywhere maximum delay.</string>
+    <string name="z13s2">Copy the command to the block: weather clear</string>
+    <string name="z13s2x" translatable="false">weather clear</string>
+    <string name="z13s3">To activate the scheme you need to put a red torch and quickly remove it.</string>
+    <string name="z13s4">The working scheme looks like this.</string>
+
+    <string name="z14s0">Trail of fire</string>
+    <string name="z14s1">Put the command block with the lever. Make it repeatable.</string>
+    <string name="z14s2">Copy the command to the block: execute at @a run particle minecraft:flame ~ ~ ~ 0.5 0.2 0.5 0.05 10</string>
+    <string name="z14s2x" translatable="false">execute at @a run particle minecraft:flame ~ ~ ~ 0.5 0.2 0.5 0.05 10</string>
+    <string name="z14s3">Now around you there is a fire.</string>
+
+    <string name="z15s0">What is command execute</string>
+    <string name="z15s1">/execute - used to create a complex command with conditions.</string>
+    <string name="z15s2">The /execute command is divided into subcommands. The subcommands fall into three categories:</string>
+    <string name="z15s3">Modifier: subcommands that allow you to change the way the command is executed. For example, change the executor and the place of the command execution.</string>
+    <string name="z15s4">Condition: subcommands that can prevent the command from running. For example, the command will run if a specific entity exists.</string>
+    <string name="z15s5">Record: subcommands that preserve the result or success of the command.</string>
+    <string name="z15s6">The /execute command can contain an unlimited number of subcommands, except the run [command]subcommand. This subcommand can be recorded only once at the end of the chain of subcommands. Note that you cannot use / at the beginning of a command written with run.</string>
+
+    <string name="z16s0">Modifier</string>
+    <string name="z16s1">/ execute align [axis]
+\nAdjusts the coordinates of the command execution location under the grid of blocks (that is, they are rounded off).
+\nExample:
+\n/execute positioned -1.8 2.3 5.9 align x run particle flame: creates a flame particle at coordinates (-2, 2.3, 5.9)</string>
+    <string name="z16s2">/ execute anchored (feet | eyes)
+\nChanges the anchor point of the local coordinates of the artist ~ ~ ~.
+\nExample:
+\n/execute at @p anchored eyes run setblock ~ ~ ~ 4 diamond_block: puts the diamond block 4 blocks ahead of the level of the eyes of the nearest player.</string>
+    <string name="z16s3">/ execute as [targets]
+\nChanges the executor of the command (the execution location itself does not change). If there are several goals, the team will be executed once with each performer.
+\nExample:
+\n/execute as @a run say Hello !: performed as if each player executed the command say Hi! with operator rights.</string>
+    <string name="z16s4">/ execute at [targets]
+\nChanges the measurement, position and rotation of the command to the same as the goals (the performer does not change). If there are several goals, the command will be executed once with each execution point.
+\nExample:
+\n/execute at @p run setblock ~ ~ ~ 2 diamond_block: puts the diamond block ahead of the nearest player.</string>
+    <string name="z16s5">/ execute facing entity [targets] (eyes | feet)
+\nExecutes the command as if the performer’s gaze is directed at the specified target anchor. If there are several goals, the team will be executed once with each turn of the performer.
+\nExample:
+\n/execute as @p at @s anchored eyes facing entity @e [type = cow, limit = 1, sort = nearest] eyes run setblock ~ ~ ~ 5 diamond_block: puts a diamond block between the "eyes" of the nearest player and the "eyes" of the nearest to him a cow in 5 blocks from this player.</string>
+    <string name="z16s6">/ execute facing [position]
+\nExecutes the command as if the performer’s gaze is directed to the specified position.
+\nExample:
+\n/execute as @p at @s facing 0 0 0 run setblock ~ ~ ~ 5 diamond_block: puts a diamond block between the nearest player and the position (0, 0, 0) in 5 blocks from this player.</string>
+    <string name="z16s7">/ execute in (overworld | the_end | the_nether)
+\nChanges the dimension in which the command is executed.
+\nExample:
+\n/execute as @p in the_nether run teleport 0 64 0: teleports the closest player to the Lower World to the position (0, 64, 0).</string>
+    <string name="z16s8">/ execute positioned [position]
+\nChanges the position of the command to the specified position.
+\nExample:
+\n/execute positioned 0 64 0 run setblock ~ ~ ~ diamond_block: puts the diamond block to the position (0, 64, 0), but the measurement in which the command is executed is saved.</string>
+    <string name="z16s9">/ execute positioned as [targets]
+\nChanges the position of the command to the same as the goals. If there are several goals, the team will be executed once with the position of each goal.
+\nExample:
+\n/execute positioned as @p run setblock ~ ~ ~ diamond_block: puts the diamond block at the position of the nearest player, but the measurement in which the command is executed is saved.</string>
+    <string name="z16s10">/ execute rotated [turn]
+\nChanges the turn of a command to the specified turn.
+\nExample:
+\n/execute at @p rotated ~ 30 0 run setblock ~ ~ ~ 4 diamond_block: puts the diamond block in front of the nearest player, as if its head turn is 30 degrees to the right, and the slope is 0 degrees.</string>
+    <string name="z16s11">/ execute rotated as [targets]
+\nChanges the turn of the command to the same as the goals. If there are several goals, the team will be executed once with the turning of each goal.
+\nExample:
+\n/execute at @p rotated as @e [type = cow, limit = 1, sort = nearest] run setblock ~ ~ ~ 4 diamond_block: puts the diamond block in front of the nearest player, as if its head turn is the same as that of the nearest cow .</string>
+
+    <string name="z17s0">Condition</string>
+    <string name="z17s1">All subcommands listed below contain an argument (if | unless).
+\nif checks whether the condition is true. If so, the chain continues on.
+\nunless checks to see if the condition is false. If so, the chain continues on.
+\nIn addition, condition subcommands can be used to get the return value.</string>
+    <string name="z17s2">/ execute (if | unless) block [position] [block]
+\nChecks the compliance of the block at the position specified
+\nCheck:
+\nif: checks the location of the specified block at the specified position.
+\nunless: checks the location of any block other than the specified position.
+\nExample:
+\n/execute if block 0 64 0 diamond_block run say The diamond block !: displays a chat message if it finds a diamond block at the coordinates (0, 64, 0).</string>
+    <string name="z17s3">/ execute (if | unless) blocks [start] [end] [assignment] (all | masked)
+\nChecks the consistency of the [start > end] area and the destination area.
+\nCheck:
+\nif: checks the complete matching of the areas.
+\nunless: check for mismatch of areas.
+\nExample:
+\n/execute if blocks 0 0 0 10 10 10 20 20 20 masked run say Full match !: Displays a chat message if the area [(0, 0, 0) > (10, 10, 10)] fully matches the area [(20 , 20, 20) > (30, 30, 30)].</string>
+    <string name="z17s4">/ execute (if | unless) entity [entity]
+\nChecks the existence of an entity in loaded chunks.
+\nCheck:
+\nif: checks the existence of at least one of the listed entities.
+\nunless: checks for the existence of any of the entities listed.
+\nExample:
+\n/execute if entity @e [type = cow] run say Cow !: Displays a chat message if there is a cow in the loaded chunks.</string>
+    <string name="z17s5">/execute (if | unless) score [goal] [task-goal] (\u003C| \u003C= | = |> = |>) [source] [task-source]
+\nChecks the truth of the comparison in the specified way of counting the target in the target problem and the source counting in the source task.
+\nCheck:
+\nif: checks if the expression is true.
+\nunless: checks for a lie expression.
+\nExample:
+\n/execute if score Alex obj \u003C Steve obj run say Alex \u003C Steve: displays a chat message if Alex\'s score in the obj task is less than Steve\'s score in the same task.</string>
+    <string name="z17s6">/execute (if | unless) score [goal] [task-goal] matches [range]
+\nChecks whether the target range of the target task is entered.
+\nCheck:
+\nif: checks if the account is in the range.
+\nunless: check if the account is out of range.
+\nExample:
+\n/execute if score Alex obj matches 1 .. run say Natural number !: displays a chat message if Alex’s score in the obj task is at least 1.</string>
+
+    <string name="z18s0">Record</string>
+    <string name="z18s1">result: records the result of the command.
+\nsuccess: records the success of the command.
+\nIf the command fails (success is 0), the result will also be 0.
+\nThe value will be recorded when the entire command has completed completely.</string>
+    <string name="z18s2">/ execute store (result | success) block [position] [path] (byte | double | float | int | long | short) [multiplier]
+\nWrites the value at the specified path to the NBT data of the entity block located at the specified position as a multiplied number with the specified type.
+\nExample:
+\nresult block 0 65 0 RecordItem.Count byte 1.5 run scoreboard players get Alex obj: assuming the player is on (0, 65, 0), changes the number of items inserted into it by the value of the Alex account in the obj task multiplied by 1.5.</string>
+    <string name="z18s3">/ execute store (result | success) bossbar [ID] (value | max)
+\nWrites the value to the current or maximum value of the bossbar with the specified ID.
+\nExample:
+\nfoo: bar value run get get entity Alex Health: Writes the value of the NBT tag Health of the player Alex to the current value of the boss bar foo: bar.</string>
+    <string name="z18s4">/ execute store (result | success) entity [target] [path] (byte | double | float | int | long | short) [multiplier]
+\nWrites the value at the specified path to the NBT data of the target as a multiplied number with the specified type.
+\nThis subcommand cannot modify player NBT data. NBT data along the path “Inventory [index] .tag” or “EnderItems [index] .tag” is an exception and can be changed.
+\nExample:
+\n/execute as @e [type = pig] at @s store entity @s saddle byte 1 if entity @p [distance = .. 5]: if there is a player within a radius of five blocks around the pig, a saddle will be put on her.</string>
+    <string name="z18s5">/ execute store (result | success) score [goals] [task]
+\nWrites a value to the goals in the task.
+\nExample:
+\n/execute store result score Pigs obj if entity @e [type = pig]: writes the number of pigs found in the loaded chunks to the “Pigs” task of the obj task.</string>
+
+    <string name="z19s0">Turning blocks into gold</string>
+    <string name="z19s1">We put the command block with the lever and make it repeatable.</string>
+    <string name="z19s2">Copy the command to the block. execute at @a run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:gold_block</string>
+    <string name="z19s2x" translatable="false">execute at @a run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:gold_block</string>
+    <string name="z19s3">Activate the block and run.</string>
+
+    <string name="z20s0">Lightning protection</string>
+    <string name="z20s1">We put the command block with the lever and make it repeatable.</string>
+    <string name="z20s2">Copy the command to the block. execute at @a run execute at @e[type=minecraft:creeper,dx=5,dz=5,dy=5] run summon minecraft:lightning_bolt</string>
+    <string name="z20s2x" translatable="false">execute at @a run execute at @e[type=minecraft:creeper,dx=5,dz=5,dy=5] run summon minecraft:lightning_bolt</string>
+    <string name="z20s3">Activate the block and find the creeper.</string>
+    <string name="z20s4">Result</string>
+
+    <string name="s1s0">To get items</string>
+    <string name="s1s1">In example you can give to near player a gold ingots by command give @p gold_ingot 10</string>
+    <string name="s1s1x" translatable="false">give  @p gold_ingot 10</string>
+    <string name="s1s2">After activation, I have 10 gold ingots in my inventory!</string>
+
+    <string name="s2s0">How to use commands</string>
+    <string name="s2s1">Create scheme as on the screenshot.</string>
+    <string name="s2s2">Right click to enter the block.</string>
+    <string name="s2s3">Copy the command to the top line</string>
+    <string name="s2s4">Press the lever and the command will be executed.</string>
+
+    <string name="s3s0">Applying effects</string>
+    <string name="s3s1">To impose any effects on the character you need to use the command " effect"</string>
+    <string name="s3s2">For example, regeneration for 10 seconds with a force of 1 heart per second will be applied by the command: effect give @p regeneration 10 1</string>
+    <string name="s3s2x" translatable="false">effect give @p regeneration 10 1</string>
+    <string name="s3s3">Character healed!</string>
+
+    <string name="s4s0">Installing blocks</string>
+    <string name="s4s1">To put a block you need to use the setblock command. For example, the command "setblock ~ ~ ~ minecraft:bricks replace" will put a brick block in the world coordinates.</string>
+    <string name="s4s1x" translatable="false">setblock ~ ~ ~ minecraft:bricks replace</string>
+    <string name="s4s2">Block appeared! Be careful</string>
+
+    <string name="s5s0">Changing game modes</string>
+    <string name="s5s1">You can change the game mode with the gamemode command. For example, to log on to survival, use the command "gamemode survival @r"</string>
+    <string name="s5s1x" translatable="false">gamemode survival @r</string>
+    <string name="s5s2">You have entered survival mode</string>
+
+    <string name="s6s0">Raising the level</string>
+    <string name="s6s1">To give experience, you need the experience team. This team can give out a certain amount of experience or levels. For example, the "experience add @p 100 levels" command will raise the nearest player to 100</string>
+    <string name="s6s1x" translatable="false">experience add @p 100 levels</string>
+    <string name="s6s2">You got 100 levels</string>
+
+    <string name="s7s0">Particles</string>
+    <string name="s7s1">To cause some kind of particles like fire bursts or clods of dirt when you run, you need to use the "particle"command. For example, to call a spark from lava you need to use the command "particle minecraft:lava ~ ~ ~"</string>
+    <string name="s7s1x" translatable="false">particle minecraft:lava ~ ~ ~</string>
+    <string name="s7s2">Fire broke out!</string>
+
+    <string name="s8s0">Summoning creatures</string>
+    <string name="s8s1">To call some creature to the point, you need to use the command "summon". Example for call pigs "summon pig ~ ~1 ~"</string>
+    <string name="s8s1x" translatable="false">summon pig ~ ~1 ~</string>
+    <string name="s8s2">It works!</string>
+
+    <string name="s9s0">Space-filling</string>
+    <string name="s9s1">This command will be useful if you need to quickly fill some rooms with blocks. For example, we can quickly fill a room with water</string>
+    <string name="s9s2">Type the command: fill ~-10 ~-1 ~-10 ~10 ~-1 ~10 minecraft:water keep</string>
+    <string name="s9s2x" translatable="false">fill ~-10 ~-1 ~-10 ~10 ~-1 ~10 minecraft:water keep</string>
+    <string name="s9s3">filled with water</string>
+    <string name="s9s4">To get everything back, change "keep" to "replace" and add "minecraft:air". "fill ~-10 ~-1 ~-10 ~10 ~-1 ~10 minecraft:air replace minecraft:water"</string>
+    <string name="s9s4x" translatable="false">fill ~-10 ~-1 ~-10 ~10 ~-1 ~10 minecraft:air replace minecraft:water</string>
+
+    <string name="s10s0">Lightning storm!</string>
+    <string name="s10s1">To invoke lightning, use the command " summon minecraft: lightning_bolt ~ ~ ~"</string>
+    <string name="s10s1x" translatable="false">summon minecraft:lightning_bolt ~ ~ ~</string>
+    <string name="s10s2">Move from "Impulse" to "Repeat" to get a lot of lightning</string>
+    <string name="s10s3">Storm!</string>
+
+    <string name="s11s0">Fill the player with sand</string>
+    <string name="s11s1">To play a friend, you can use the command "fill". Instead of PlayerName you need to write player\'s nickname "execute at PlayerName run fill ~-2 ~10 ~-2 ~2 ~12 ~2 minecraft:sand"</string>
+    <string name="s11s1x" translatable="false">execute at PlayerName run fill ~-2 ~10 ~-2 ~2 ~12 ~2 minecraft:sand</string>
+    <string name="s11s2">The sand is dropped from a height!</string>
+
+    <string name="s12s0">How to kill a lot of mobs</string>
+    <string name="s12s1">You need to use the "kill" command, and set the type of mob, for example pigs "kill @e[type= minecraft:pig]"</string>
+    <string name="s12s1x" translatable="false">kill @e[type= minecraft:pig]</string>
+    <string name="s12s2">All pigs in the radius of the load was lost.</string>
+
+    <string name="s13s0">Enchantment</string>
+    <string name="s13s1">To enchant an object, take it in hand</string>
+    <string name="s13s2">Apply command "enchant PlayerName minecraft: sharpness 3" for sharpness</string>
+    <string name="s13s2x" translatable="false">enchant PlayerName minecraft:sharpness 3</string>
+    <string name="s13s3">Weapon enchanted.</string>
+
+    <string name="s14s0">Advancement</string>
+    <string name="s14s1">To get an achievement, you need to use the command "advance" advance grant zeon only minecraft: end/kill_dragon"</string>
+    <string name="s14s1x" translatable="false">advancement grant PlayerName only minecraft:end/kill_dragon</string>
+    <string name="s14s2">FUS-RO-DAH!</string>
+
+    <string name="s15s0">The sheep pen</string>
+    <string name="s15s1">Do you have a pen and all the sheep have run away?</string>
+    <string name="s15s2">You can build them with "tp @e[type=minecraft:sheep] ~ ~ ~"</string>
+    <string name="s15s2x" translatable="false">tp @e[type=minecraft:sheep] ~ ~ ~</string>
+    <string name="s15s3">In place!</string>
+
+    <string name="s16s0">Change of difficulty</string>
+    <string name="s16s1">You can make two blocks to change the difficulty with one click. "difficulty hard" for hard mode.</string>
+    <string name="s16s1x" translatable="false">difficulty hard</string>
+    <string name="s16s2">"difficult peaceful" for peaceful</string>
+    <string name="s16s2x" translatable="false">difficult peaceful</string>
+
+    <string name="s17s0">Switching game rules</string>
+    <string name="s17s1">To change the daily rhythms you need to use the team gamerule. Assemble the circuit to switch them. To enable "gamerule doDaylightCycle true"</string>
+    <string name="s17s1x" translatable="false">gamerule doDaylightCycle true</string>
+    <string name="s17s2">To turn off "gamerule doDaylightCycle false"</string>
+    <string name="s17s2x" translatable="false">gamerule doDaylightCycle false</string>
+
+    <string name="s18s0">Switching the time of day</string>
+    <string name="s18s1">Build a scheme to switch the two command blocks</string>
+    <string name="s18s2">In one put the command for half a day "time set noon"</string>
+    <string name="s18s2x" translatable="false">time set noon</string>
+    <string name="s18s3">The second command for midnight. "time set midnight"</string>
+    <string name="s18s3x" translatable="false">time set midnight</string>
+
+    <string name="s19s0">The altar of rain</string>
+    <string name="s19s1">Build an altar as on the screen</string>
+    <string name="s19s2">Put the gold plate next to the command block</string>
+    <string name="s19s3">Write the command "weather rain 24000"</string>
+    <string name="s19s3x" translatable="false">weather rain 24000</string>
+    <string name="s19s4">Activate the plate by offering a bar of gold</string>
+    <string name="s19s5">Rain</string>
+
+    <string name="s20s0">Sandy armageddon</string>
+    <string name="s20s1">Enter the command "execute at @e run fill ~ ~-1 ~ ~ -1 ~-1 ~ minecraft:sand" into the command block to make all creatures turn blocks into sand</string>
+    <string name="s20s1x" translatable="false">execute at @e run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:sand</string>
+    <string name="s20s2">The world is doomed</string>
+
+</resources>
+

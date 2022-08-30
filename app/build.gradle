@@ -1,0 +1,92 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.ngt.red"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1902
+        versionName "1.902"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    flavorDimensions "version"
+    productFlavors {
+        red {
+            applicationId 'com.dzen.redstone'
+            manifestPlaceholders = [ theme:"@style/AppTheme.Theme_red" ]
+            resValue "string", "admob_ad_1_key", "ca-app-pub-7517990147567313/2722444024"
+            resValue "string", "admob_app_key", "ca-app-pub-7517990147567313~5098676992"
+            resValue "string", "fandom_id", "1924"
+            resValue "string", "app_key", "RegGuides:1"
+        }
+        building {
+            applicationId 'com.dzen.building'
+            manifestPlaceholders = [ theme:"@style/AppTheme.Theme_brown" ]
+            resValue "string", "admob_ad_1_key", "ca-app-pub-7517990147567313/8908223205"
+            resValue "string", "admob_app_key", "ca-app-pub-7517990147567313~3847468218"
+            resValue "string", "fandom_id", "1925"
+            resValue "string", "app_key", "RegGuides:2"
+        }
+        cb {
+            applicationId 'com.dzen.cb'
+            manifestPlaceholders = [ theme:"@style/AppTheme.Theme_orange" ]
+            resValue "string", "admob_ad_1_key", "ca-app-pub-7517990147567313/9967860295"
+            resValue "string", "admob_app_key", "ca-app-pub-7517990147567313~5763185115"
+            resValue "string", "fandom_id", "1926"
+            resValue "string", "app_key", "RegGuides:3"
+        }
+        chemistry {
+            applicationId 'com.dzen.chemistry'
+            manifestPlaceholders = [ theme:"@style/AppTheme.Theme_blue" ]
+            resValue "string", "admob_ad_1_key", "ca-app-pub-7517990147567313/7591627324"
+            resValue "string", "admob_app_key", "ca-app-pub-7517990147567313~1845827697"
+            resValue "string", "fandom_id", "1927"
+            resValue "string", "app_key", "RegGuides:4"
+        }
+        maps {
+            applicationId 'com.dzen.maps'
+            manifestPlaceholders = [ theme:"@style/AppTheme.Theme_green" ]
+            resValue "string", "admob_ad_1_key", "ca-app-pub-7517990147567313/3272753147"
+            resValue "string", "admob_app_key", "ca-app-pub-7517990147567313~5898916487"
+            resValue "string", "fandom_id", "2006"
+            resValue "string", "app_key", "RegGuides:5"
+        }
+        total {
+            applicationId 'com.dzen.total'
+            manifestPlaceholders = [ theme:"@style/AppTheme.Theme_light_blue" ]
+            resValue "string", "admob_ad_1_key", "ca-app-pub-7517990147567313/1883649855"
+            resValue "string", "admob_app_key", "ca-app-pub-7517990147567313~7561188800"
+            resValue "string", "fandom_id", "2870"
+            resValue "string", "app_key", "RegGuides:6"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation project(':CampfireSDK')
+    implementation 'com.appodeal.ads:sdk:2.6.4.1'
+}
+
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'com.google.gms.google-services'

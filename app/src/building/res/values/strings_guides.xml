@@ -1,0 +1,112 @@
+﻿<resources>
+
+    <string translatable="false" name="app_name">Build Guide</string>
+
+    <string name="name_wood_city">Wooden city</string>
+    <string name="name_stone_city">Stone city</string>
+    <string name="name_stone_harbor">Stone harbor</string>
+    <string name="name_wooden_harbor">Wooden harbor</string>
+    <string name="name_stone_dungeon">Stone dungeon</string>
+    <string name="name_wooden_dungeon">Wooden dungeon</string>
+    <string name="name_farm">Farm</string>
+    <string name="name_houses">Houses</string>
+    <string name="name_furniture">Furniture</string>
+    <string name="ad_app_guide">Redstone Guides. A similar app to this but with a redstone guides. There are doors, farms, traps and more.</string>
+
+
+    <string name="z0s00">Small house</string>
+    <string name="z0s0">Very simple wooden house with a roof corner and a small courtyard.</string>
+    <string name="z1s00">Large house</string>
+    <string name="z1s0">Difficult, but a very large house. It has two residential floors and a loft. I specifically did not do inside the walls. You can rasplonirovat rooms as you like.</string>
+    <string name="z2s00">Marketplace</string>
+    <string name="z2s0">The central area of the city with shops, blacksmiths and a fountain. :)</string>
+    <string name="z3s00">Town Hall</string>
+    <string name="z3s0">The main building of the city. Here you can place useful information for residents and more. Construction difficult enough, try not to get confused. :)</string>
+    <string name="z4s00">City Wall</string>
+    <string name="z4s0">Each city needs protection. This is a high wall with gates and towers. Very simple construction.</string>
+    <string name="z5s00">Coast</string>
+    <string name="z5s0">Wooden Beach. In the future it will be built on the entire harbor. :)</string>
+    <string name="z6s00">Shipyard</string>
+    <string name="z6s0">There are built ships. Large building construction and mechanism for launching the ship into the water.</string>
+    <string name="z7s00">Pier</string>
+    <string name="z7s0">Here are all the ships coming into the harbor and preparing to sail.</string>
+    <string name="z8s00">Stock</string>
+    <string name="z8s0">It stores all the resources passing through the harbor.</string>
+    <string name="z9s00">Crane</string>
+    <string name="z9s0">Large mechanism for the transfer of cargo from ship to shore and vice versa.</string>
+    <string name="z10s00">Coast</string>
+    <string name="z10s0">Stone Beach. In the future it will be built on the entire harbor. :)</string>
+    <string name="z11s00">Shipyard</string>
+    <string name="z11s0">There are built ships. Large building construction and mechanism for launching the ship into the water.</string>
+    <string name="z12s00">Pier</string>
+    <string name="z12s0">Here are all the ships coming into the harbor and preparing to sail.</string>
+    <string name="z13s00">Stock</string>
+    <string name="z13s0">It stores all the resources passing through the harbor.</string>
+    <string name="z14s00">Crane</string>
+    <string name="z14s0">Large mechanism for the transfer of cargo from ship to shore and vice versa.</string>
+    <string name="z15s00">Entrance</string>
+    <string name="z15s0">This is the entrance to the dungeon. There must be a troll.</string>
+    <string name="z17s00">Corridor</string>
+    <string name="z17s0">Tunnels in your dungeon. Put plenty of different traps. :)</string>
+    <string name="z18s00">Room</string>
+    <string name="z18s0">In these areas you can place your house or hide treasures.</string>
+    <string name="z19s00">Entrance</string>
+    <string name="z19s0">This is the entrance to the dungeon. There must be a troll.</string>
+    <string name="z20s00">Corridor</string>
+    <string name="z20s0">Tunnels in your dungeon. Put plenty of different traps. :)</string>
+    <string name="z21s00">Room</string>
+    <string name="z21s0">In these areas you can place your house or hide treasures.</string>
+
+    <string name="i1s00"> Small House </string>
+    <string name="i1s0"> A simple house made of stone bricks. </string>
+    <string name="i2s00"> City Hall</string>
+    <string name="i2s0"> Serves as a central building in the city.</string>
+    <string name="i3s00"> Large House</string>
+    <string name="i3s0"> Large house, which can live for several players.</string>
+    <string name="i4s0"> Defence Wall</string>
+    <string name="i4s1"> Defence Wall</string>
+    <string name="i4s3"> Tower.</string>
+    <string name="i4s10"> Corner tower.</string>
+    <string name="i4s15"> Wall. </string>
+    <string name="i4s18"> A diagonal wall. </string>
+    <string name="i4s22"> Gate.</string>
+    <string name="i4s23"> Deepening need for \"door 3x3\".</string>
+    <string name="i4s24"> A complete analysis of the mechanism can be found in our app \"Redstone schemes\".</string>
+    <string name="i5s00"> Main Square </string>
+    <string name="i5s0">Market Square with a fountain, shops and night lighting.</string>
+    <string name="i6s0"> Barn </string>
+    <string name="i6s1"> It is used for cattle and as a warehouse.</string>
+    <string name="i7s0">Living room</string>
+    <string name="i7s1">Room size 11x11.</string>
+    <string name="i7s3">Glowstone + Trapdoor.</string>
+    <string name="i7s6">Be careful. Fire can spread to the roof and surrounding wall. Replace them with non-combustible materials.</string>
+    <string name="i8s0"> Single room </string>
+    <string name="i8s1">Room size 5x5.</string>
+    <string name="i8s6">Stair + Signs.</string>
+    <string name="i9s0"> ...Box</string>
+    <string name="i9s1"> This structure will help you in the early stages of the game (destroy it later, please ^_^).</string>
+    <string name="i10s0">Kitchen</string>
+    <string name="i10s1">Any size of room.</string>
+    <string name="i10s2">Fences + Wood Pressure Plate.</string>
+    <string name="i10s3">Glowstone + Trapdoor.</string>
+    <string name="i10s4">Hopper + Lever.</string>
+    <string name="i10s5">Iron Blocks + Iron Door.</string>
+    <string name="i10s6">Furnace + Trapdoor.</string>
+    <string name="i11s0"> Mill </string>
+    <string name="i11s1"> Decorative building.</string>
+    <string name="i11s5">Height 5 blocks.</string>
+    <string name="i12s0"> House in the desert</string>
+    <string name="i12s1"> Firmly secure the premises.</string>
+    <string name="i13s0">Bathroom</string>
+    <string name="i13s1">Room size 5х5.</string>
+    <string name="i13s3">Hopper + Iron Block + Stair.</string>
+    <string name="i13s6">Hopper + Lever.</string>
+    <string name="i14s0">Farm</string>
+    <string name="i14s1">Before construction recommend that you read the same guide on our app \"Minecraft Redstone Guide\".</string>
+    <string name="i15s0">Church</string>
+    <string name="i15s1">True Norwegian.</string>
+    <string name="i15s3">Height 5.</string>
+    <string name="i15s5">Height 6.</string>
+
+</resources>
+

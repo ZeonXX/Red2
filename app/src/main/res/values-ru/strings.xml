@@ -1,0 +1,70 @@
+﻿<resources>
+
+    <string name="app_cancel">Отмена</string>
+    <string name="post_drafts_empty_text">У вас еще нет черновиков</string>
+    <string name="app_drafts">Черновики</string>
+    <string name="app_draft">Черновик</string>
+    <string name="app_save">Сохранить</string>
+    <string name="app_remove">Удалить</string>
+    <string name="app_publish">Опубликовать</string>
+    <string name="app_done">Готово</string>
+    <string name="app_choose_image">Выбрать изображение</string>
+    <string name="app_title">Заголовок</string>
+    <string name="app_description">Описание</string>
+    <string name="app_change">Изменить</string>
+    <string name="app_open">Открыть</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+    <string name="error_cant_load_image">Не удается загрузить изображение</string>
+    <string name="app_language">Язык</string>
+    <string name="app_category">Категория</string>
+    <string name="app_other">Другое</string>
+    <string name="app_all">Всё</string>
+    <string name="app_copied">Скопировано</string>
+
+    <string name="name_red">Красный камень</string>
+    <string name="name_build">Строительство</string>
+    <string name="name_chem">Химия</string>
+    <string name="name_cb">Командный блок</string>
+    <string name="name_building">Строительство</string>
+
+    <string name="app_name_total">Гайд для Minecraft</string>
+    <string name="app_name_total_desc">Все мои гайды объединены в новом приложении. Приложение стало лучше, быстрее и меньше весить. Скачайте, поддержите разработчика. :)  (Клик)</string>
+    <string name="app_name_campfire_desc">Привет! Я создаю новое приложение - Campfire, не знаю как вам его описать, но оно потрясающее. Пользовательские гайды это часть Campfire. Пожалуйста, посмотрите на это приложение. :)  (Клик)</string>
+
+    <string name="name_all">Все</string>
+    <string name="more_guides">Гайды пользователей</string>
+    <string name="copy_command">Копировать комманду</string>
+    <string name="ad_alert">Вы хотите покинуть приложение и перейти на страницу Google Play?</string>
+    <string name="guides">Гайды</string>
+    <string name="maps">Карта</string>
+    <string name="remove_background_message">Фон убран из-за нехватки памяти</string>
+    <string name="network_empty">Нет гайдов на этом языке</string>
+    <string name="remove_alert">Вы уверены что хотите удалить этот черновик?</string>
+    <string name="background">Фон</string>
+    <string name="theme">Тема</string>
+    <string name="network_english">Поиск на нглийском</string>
+    <string name="network_any">Поиск на всех языках</string>
+    <string name="no_maps_found">Карт не найдено</string>
+    <string name="select_type">Выбрать тип</string>
+    <string name="select_file">Выбрать файл</string>
+    <string name="select_map_hint">Возможно загрузить только те карты, которые сохранены во внешнем хранилище игры. (Настройки -> Профиль -> Хранилище файлов)</string>
+    <string name="select_screens_hint">Выберите 3 скриншота.</string>
+
+    <string name="create_page_text">Нажмите чтобы изменить текст</string>
+    <string name="create_page_text_hint">Введите текст</string>
+    <string name="create_remove">Удалить эту страницу?</string>
+    <string name="create_error_empty">Создайте хотя бы одну страницу</string>
+    <string name="create_error_image">Изображение должно быть в каждой странице</string>
+    <string name="create_error_big">Достигнут максимум количества страниц</string>
+    <string name="create_finish_guide">Гайд будет опубликован в общей ленте.</string>
+    <string name="create_finish_map">Карта будет опубликована в общей ленте.</string>
+
+    <string name="notification_like">Новый лайк на вашем гайде</string>
+    <string name="notification_allowed">Ваш гайд опубликован</string>
+    <string name="notification_not_allowed">Ваш гайд отклонен. Комментарий: %s</string>
+    <string name="notification_new_guide">Новый гайд</string>
+
+    <string name="notification_alarm_guides">Доступны новые гайды!</string>
+    <string name="notification_alarm_maps">Доступны новые карты!</string>
+
+</resources>

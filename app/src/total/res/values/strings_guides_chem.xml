@@ -1,0 +1,156 @@
+<resources>
+
+
+    <string name="chem_z1s0">How to enable chemistry</string>
+    <string name="chem_z1s1">Start the game</string>
+    <string name="chem_z1s2">Creating a new world</string>
+    <string name="chem_z1s3">New</string>
+    <string name="chem_z1s4">Choose creative mode</string>
+    <string name="chem_z1s5">Be sure to turn on everything as in the screenshot</string>
+    <string name="chem_z1s6">In the game you should see blocks for chemistry</string>
+
+    <string name="chem_z2s0">Element constructor</string>
+    <string name="chem_z2s1">In this block we can create different elements from the chemical table. using the sliders on the left</string>
+    <string name="chem_z2s2">To create an element, you need to choose the required number of electrons, protons and neutrons</string>
+    <string name="chem_z2s3">Hydrogen. Tip: Look at the number of the atom, usually [p] and [e] are equal to this number, and [n] can be the same or a little bigger.</string>
+    <string name="chem_z2s4">Helium</string>
+    <string name="chem_z2s5">Lithium</string>
+    <string name="chem_z2s6">You can get the created item by simply selecting it and clicking on the cell in the inventory</string>
+
+    <string name="chem_z3s0">Compound creator</string>
+    <string name="chem_z3s1">This block is very similar to a workbench. It can be used to connect various chemical elements.</string>
+    <string name="chem_z3s2">Inside the block looks like a workbench. Create something to demonstrate...</string>
+    <string name="chem_z3s3">Get 2 hydrogen</string>
+    <string name="chem_z3s4">Get oxygen</string>
+    <string name="chem_z3s5">Combine two hydrogen atoms and an oxygen atom - we get water</string>
+
+    <string name="chem_z4s0">Lab table</string>
+    <string name="chem_z4s1">This block is used to create some items. Attention! The wrong recipe will cause an explosion.</string>
+    <string name="chem_z4s2">Inside the block there are several cells in which you want to place resources</string>
+    <string name="chem_z4s3">Resources are placed in any order and in any cells. If the recipe is correct, animation will start.</string>
+    <string name="chem_z4s4">The created item is simply thrown out of the block</string>
+
+    <string name="chem_z5s0">Material reducer</string>
+    <string name="chem_z5s1">It is a very useful block. It turns some blocks into chemical elements.</string>
+    <string name="chem_z5s2">In the upper cell block is placed, in the remaining cells we get the chemical elements</string>
+    <string name="chem_z5s3">For example, reduce a block of grass</string>
+
+    <string name="chem_z6s0">Ice Bomb</string>
+    <string name="chem_z6s1">2 carbon atoms</string>
+    <string name="chem_z6s2">3 hydrogen atoms</string>
+    <string name="chem_z6s3">Sodium atom</string>
+    <string name="chem_z6s4">2 oxygen atoms</string>
+    <string name="chem_z6s5">Craft and take 4 cans of substance</string>
+    <string name="chem_z6s6">Put them on the laboratory table and press the button</string>
+    <string name="chem_z6s7">Get ice bomb. It freezes what it hits.</string>
+
+    <string name="chem_z7s0">Balloon</string>
+    <string name="chem_z7s1">5 carbon atoms</string>
+    <string name="chem_z7s2">8 hydrogen atoms</string>
+    <string name="chem_z7s3">Craft and take 6 cans of substance</string>
+    <string name="chem_z7s4">Helium atom</string>
+    <string name="chem_z7s5">Craft on a workbench. You can choose any paint.</string>
+    <string name="chem_z7s6">Ball can launch mobs into space.</string>
+
+    <string name="chem_z8s0">Bleach</string>
+    <string name="chem_z8s1">2 hydrogen atoms</string>
+    <string name="chem_z8s2">2 oxygen atoms</string>
+    <string name="chem_z8s3">Sodium atom</string>
+    <string name="chem_z8s4">Chlorine atom</string>
+    <string name="chem_z8s5">Make the water and take 3 cans</string>
+    <string name="chem_z8s6">Make a substance of sodium and chlorine. Take 3 cans.</string>
+    <string name="chem_z8s7">Put them on the laboratory table and press the button</string>
+    <string name="chem_z8s8">Get bleach that can paint things white</string>
+
+    <string name="chem_z9s0">Heat block</string>
+    <string name="chem_z9s1">Iron atom</string>
+    <string name="chem_z9s2">2 hydrogen atoms</string>
+    <string name="chem_z9s3">Oxygen atom</string>
+    <string name="chem_z9s4">Sodium atom</string>
+    <string name="chem_z9s5">Chlorine atom</string>
+    <string name="chem_z9s6">Make water and get 1 thing</string>
+    <string name="chem_z9s7">Make a substance from sodium and chlorine</string>
+    <string name="chem_z9s8">Put on the laboratory table and press the button</string>
+    <string name="chem_z9s9">Get the heat block</string>
+    <string name="chem_z9s10">It can melt ice and snow</string>
+
+    <string name="chem_z10s0">Super Fertilizer</string>
+    <string name="chem_z10s1">Nitrogen atom</string>
+    <string name="chem_z10s2">3 hydrogen atoms</string>
+    <string name="chem_z10s3">Phosphorus atom</string>
+    <string name="chem_z10s4">Make a substance from nitrogen and hydrogen</string>
+    <string name="chem_z10s5">Put on the laboratory table, add phosphorus and press the button</string>
+    <string name="chem_z10s6">Get fertilizer. The principle of operation is the same as bone meal but they are a little more effective</string>
+
+    <string name="chem_z11s0">Glow Stick</string>
+    <string name="chem_z11s1">20 hydrogen atoms</string>
+    <string name="chem_z11s2">10 carbon atoms</string>
+    <string name="chem_z11s3">Make a substance of hydrogen and carbon. Take 6 things.</string>
+    <string name="chem_z11s4">7 hydrogen atoms</string>
+    <string name="chem_z11s5">8 carbon atoms</string>
+    <string name="chem_z11s6">3 nitrogen atoms</string>
+    <string name="chem_z11s7">2 oxygen atoms</string>
+    <string name="chem_z11s8">Make the substance and take 1 thing</string>
+    <string name="chem_z11s9">2 oxygen atoms</string>
+    <string name="chem_z11s10">2 hydrogen atoms</string>
+    <string name="chem_z11s11">Make the substance and take 1 thing</string>
+    <string name="chem_z11s12">Crafting. Bottle from below in the center of the this bottle with 4 atoms. You can choose any color.</string>
+
+    <string name="chem_z12s0">Hardened Glass</string>
+    <string name="chem_z12s1">2 aluminum atoms</string>
+    <string name="chem_z12s2">6 oxygen atoms</string>
+    <string name="chem_z12s3">2 boron atoms</string>
+    <string name="chem_z12s4">Do a substance and take 3 things</string>
+    <string name="chem_z12s5">Do a substance and take 3 things</string>
+    <string name="chem_z12s6">Create using bench</string>
+
+    <string name="chem_z13s0">Hardened Glass Pane</string>
+    <string name="chem_z13s1">2 aluminum atoms</string>
+    <string name="chem_z13s2">6 oxygen atoms</string>
+    <string name="chem_z13s3">2 boron atoms</string>
+    <string name="chem_z13s4">Do a substance and take 3 things</string>
+    <string name="chem_z13s5">Do a substance and take 3 things</string>
+    <string name="chem_z13s6">Create using bench</string>
+
+    <string name="chem_z14s0">Colored Hardened Glass</string>
+    <string name="chem_z14s1">2 aluminum atoms</string>
+    <string name="chem_z14s2">6 oxygen atoms</string>
+    <string name="chem_z14s3">2 boron atoms</string>
+    <string name="chem_z14s4">Do a substance and take 3 things</string>
+    <string name="chem_z14s5">Do a substance and take 3 things</string>
+    <string name="chem_z14s6">Create using bench</string>
+
+    <string name="chem_z15s0">Colored Hardened Glass Pane</string>
+    <string name="chem_z15s1">2 aluminum atoms</string>
+    <string name="chem_z15s2">6 oxygen atoms</string>
+    <string name="chem_z15s3">2 boron atoms</string>
+    <string name="chem_z15s4">Do a substance and take 3 things</string>
+    <string name="chem_z15s5">Do a substance and take 3 things</string>
+    <string name="chem_z15s6">Create using bench</string>
+
+    <string name="chem_z16s0">Charcoal</string>
+    <string name="chem_z16s1">7 carbon atoms</string>
+    <string name="chem_z16s2">4 hydrogen atoms</string>
+    <string name="chem_z16s3">Oxygen atom</string>
+    <string name="chem_z16s4">Crafting</string>
+
+    <string name="chem_z17s0">Ink</string>
+    <string name="chem_z17s1">Iron atom</string>
+    <string name="chem_z17s2">Sulfur atom</string>
+    <string name="chem_z17s3">4 oxygen atoms</string>
+    <string name="chem_z17s4">Crafting</string>
+
+    <string name="chem_z18s0">Sugar</string>
+    <string name="chem_z18s1">6 carbon atoms</string>
+    <string name="chem_z18s2">12 hydrogen atoms</string>
+    <string name="chem_z18s3">6 oxygen atoms</string>
+    <string name="chem_z18s4">Crafting</string>
+
+    <string name="chem_z19s0">Water</string>
+    <string name="chem_z19s1">2 hydrogen atoms</string>
+    <string name="chem_z19s2">Oxygen atom</string>
+    <string name="chem_z19s3">Crafting</string>
+
+
+</resources>
+

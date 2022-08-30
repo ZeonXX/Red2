@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name" translatable="false">Maps for Minecraft</string>
+
+
+    <string name="name_all">All</string>
+    <string name="name_adventure">Adventure</string>
+    <string name="name_creative">Creative</string>
+    <string name="name_minigame">Миниигры</string>
+    <string name="name_parkour">Паркур</string>
+    <string name="name_redstone">Редстоун</string>
+    <string name="name_other">Другое</string>
+
+
+</resources>
+
